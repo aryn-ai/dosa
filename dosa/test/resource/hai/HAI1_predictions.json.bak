@@ -1,0 +1,788 @@
+[
+  {
+    "scores": [
+      0.8770497441291809,
+      0.8661050200462341,
+      0.7748793959617615,
+      0.6691704392433167,
+      0.634179949760437
+    ],
+    "labels": [
+      10,
+      5,
+      7,
+      8,
+      6
+    ],
+    "boxes": [
+      [
+        90.41668701171875,
+        280.07293701171875,
+        850.0742797851562,
+        414.28607177734375
+      ],
+      [
+        918.5353393554688,
+        968.0973510742188,
+        934.8258666992188,
+        979.6547241210938
+      ],
+      [
+        87.46765899658203,
+        67.56200408935547,
+        310.08953857421875,
+        110.35393524169922
+      ],
+      [
+        89.3487777709961,
+        206.41090393066406,
+        305.2770080566406,
+        249.4485321044922
+      ],
+      [
+        658.7103881835938,
+        84.514404296875,
+        931.8235473632812,
+        99.40824890136719
+      ]
+    ],
+    "fonts": [
+      166.59481515462687,
+      6.492265573863326,
+      0,
+      244.55365492806058,
+      65.60814439135814
+    ],
+    "contents": [
+      "A Text with content: This chapter captures trends in AI R&D. It begins by examining AI publications, \r\nincluding journal articles, conference papers, and repositories. Next it considers data \r\non signifcant machine learning systems, including large language and multimodal \r\nmodels. Finally, the chapter concludes by looking at AI conference attendance and \r\nopen-source AI research. Although the United States and China continue to dominate \r\nAI R&D, research eforts are becoming increasingly geographically dispersed.",
+      "A PageFooter with content: 22",
+      "A figure with content unknown",
+      "A SectionHeader with content: Overview",
+      "A PageHeader with content: Chapter 1: Research and Development"
+    ]
+  },
+  {
+    "scores": [
+      0.9396578073501587,
+      0.9276778101921082,
+      0.9200846552848816,
+      0.9199174642562866,
+      0.8629265427589417,
+      0.8306320309638977,
+      0.7681096792221069,
+      0.7646697163581848,
+      0.7323790192604065,
+      0.6491038799285889,
+      0.6200793981552124,
+      0.598422646522522
+    ],
+    "labels": [
+      10,
+      10,
+      10,
+      10,
+      5,
+      8,
+      8,
+      6,
+      8,
+      7,
+      10,
+      8
+    ],
+    "boxes": [
+      [
+        593.8175048828125,
+        305.0159606933594,
+        903.1104736328125,
+        532.5782470703125
+      ],
+      [
+        594.313232421875,
+        658.4476318359375,
+        898.052001953125,
+        904.4344482421875
+      ],
+      [
+        121.42204284667969,
+        814.085205078125,
+        520.1204833984375,
+        905.9576416015625
+      ],
+      [
+        121.65715026855469,
+        392.78875732421875,
+        514.4332275390625,
+        542.8646850585938
+      ],
+      [
+        918.2119750976562,
+        968.8648681640625,
+        934.2907104492188,
+        979.2890625
+      ],
+      [
+        593.850830078125,
+        259.22967529296875,
+        838.9373779296875,
+        300.04229736328125
+      ],
+      [
+        594.4603271484375,
+        590.0226440429688,
+        867.3988037109375,
+        653.4326782226562
+      ],
+      [
+        659.4810791015625,
+        86.41065979003906,
+        931.6571044921875,
+        98.98989868164062
+      ],
+      [
+        121.19778442382812,
+        172.80311584472656,
+        540.66943359375,
+        214.6024627685547
+      ],
+      [
+        88.15646362304688,
+        68.24668884277344,
+        309.89385986328125,
+        110.50961303710938
+      ],
+      [
+        121.00993347167969,
+        585.018310546875,
+        515.4570922851562,
+        702.7015380859375
+      ],
+      [
+        121.07518005371094,
+        744.8018798828125,
+        486.92138671875,
+        809.6590576171875
+      ]
+    ],
+    "fonts": [
+      101.12559644980676,
+      99.09248400019082,
+      104.65542049024253,
+      107.96013587589748,
+      5.7795814476136504,
+      96.1790831921479,
+      108.84929640113181,
+      55.22205232185942,
+      365.2841872575809,
+      0,
+      135.73045246427804,
+      123.58204400584025
+    ],
+    "contents": [
+      "A Text with content: Until 2014, most signifcant machine \r\nlearning models were released by \r\nacademia. Since then, industry has taken \r\nover. In 2022, there were 32 signifcant \r\nindustry-produced machine learning \r\nmodels compared to just three produced \r\nby academia. Building state-of-the-art \r\nAI systems increasingly requires large \r\namounts of data, computer power, and \r\nmoney\u2014resources that industry actors \r\ninherently possess in greater amounts \r\ncompared to nonprofts and academia.",
+      "A Text with content: GPT-2, released in 2019, considered \r\nby many to be the frst large language \r\nmodel, had 1.5 billion parameters and \r\ncost an estimated $50,000 USD to \r\ntrain. PaLM, one of the fagship large \r\nlanguage models launched in 2022, \r\nhad 540 billion parameters and cost an \r\nestimated $8 million USD\u2014PaLM was \r\naround 360 times larger than GPT-2 and \r\ncost 160 times more. It\u2019s not just PaLM: \r\nAcross the board, large language and \r\nmultimodal models are becoming larger \r\nand pricier.",
+      "A Text with content: The United States is still ahead in terms of AI \r\nconference and repository citations, but those leads \r\nare slowly eroding. Still, the majority of the world\u2019s \r\nlarge language and multimodal models (54% in 2022) \r\nare produced by American institutions.",
+      "A Text with content: The number of AI research collaborations between \r\nthe United States and China increased roughly 4 \r\ntimes since 2010, and was 2.5 times greater than the \r\ncollaboration totals of the next nearest country pair, \r\nthe United Kingdom and China. However, the total \r\nnumber of U.S.-China collaborations only increased \r\nby 2.1% from 2020 to 2021, the smallest year-over\u0002year growth rate since 2010.",
+      "A PageFooter with content: 23",
+      "A SectionHeader with content: Industry races ahead \r\nof academia. ",
+      "A SectionHeader with content: Large language models \r\nare getting bigger and \r\nmore expensive. ",
+      "A PageHeader with content: Chapter 1: Research and Development",
+      "A SectionHeader with content: Chapter Highlights",
+      "A figure with content unknown",
+      "A Text with content: AI research is on the rise, across \r\nthe board. The total number of AI publications \r\nhas more than doubled since 2010. The specifc AI \r\ntopics that continue to dominate research include \r\npattern recognition, machine learning, \r\nand computer vision.",
+      "A SectionHeader with content: China continues to lead in total \r\nAI journal, conference, and \r\nrepository publications. "
+    ]
+  },
+  {
+    "scores": [
+      0.945614755153656,
+      0.9437459707260132,
+      0.9288136959075928,
+      0.9038285613059998,
+      0.8728310465812683,
+      0.834387481212616,
+      0.8308854699134827,
+      0.7980475425720215,
+      0.7938733696937561,
+      0.7492778301239014,
+      0.7246693968772888,
+      0.5085150003433228
+    ],
+    "labels": [
+      10,
+      10,
+      10,
+      10,
+      5,
+      8,
+      8,
+      10,
+      7,
+      8,
+      7,
+      10
+    ],
+    "boxes": [
+      [
+        527.3302612304688,
+        377.0726318359375,
+        933.8086547851562,
+        410.0548095703125
+      ],
+      [
+        527.184814453125,
+        454.8190612792969,
+        903.097412109375,
+        529.1739501953125
+      ],
+      [
+        90.92008972167969,
+        413.22283935546875,
+        487.64471435546875,
+        508.17626953125
+      ],
+      [
+        88.48919677734375,
+        137.12535095214844,
+        948.5509643554688,
+        204.7698516845703
+      ],
+      [
+        918.3580932617188,
+        969.3458862304688,
+        934.0958862304688,
+        978.8004760742188
+      ],
+      [
+        89.5966796875,
+        321.2714538574219,
+        416.0320129394531,
+        358.5582580566406
+      ],
+      [
+        527.263671875,
+        433.0971984863281,
+        798.8173828125,
+        446.1640319824219
+      ],
+      [
+        89.07839965820312,
+        217.37913513183594,
+        936.4007568359375,
+        271.05322265625
+      ],
+      [
+        91.09500122070312,
+        582.8170776367188,
+        931.280517578125,
+        901.2888793945312
+      ],
+      [
+        90.14950561523438,
+        375.8982238769531,
+        218.33154296875,
+        397.6466979980469
+      ],
+      [
+        88.2735595703125,
+        68.85310363769531,
+        309.982666015625,
+        110.20484924316406
+      ],
+      [
+        90.07232666015625,
+        922.5884399414062,
+        893.5106811523438,
+        940.2792358398438
+      ]
+    ],
+    "fonts": [
+      87.055471567558,
+      94.4288494623694,
+      91.43292219460562,
+      54.47420305886379,
+      5.130840605702894,
+      264.60283379722387,
+      58.16962501748664,
+      68.08271610860861,
+      0,
+      73.36220321505282,
+      0,
+      35.3568754883029
+    ],
+    "contents": [
+      "A Text with content: publication and citation data by region for AI journal \r\narticles, conference papers, repositories, and patents.",
+      "A Text with content: Figure 1.1.1 shows the number of AI publications in \r\nthe world. From 2010 to 2021, the total number of \r\nAI publications more than doubled, growing from \r\n200,000 in 2010 to almost 500,000 in 2021.",
+      "A Text with content: The fgures below capture the total number \r\nof English-language and Chinese-language AI \r\npublications globally from 2010 to 2021\u2014by type, \r\nafliation, cross-country collaboration, and cross\u0002industry collaboration. The section also breaks down ",
+      "A Text with content: This section draws on data from the Center for Security and Emerging Technology (CSET) at Georgetown University. CSET maintains a \r\nmerged corpus of scholarly literature that includes Digital Science\u2019s Dimensions, Clarivate\u2019s Web of Science, Microsoft Academic Graph, \r\nChina National Knowledge Infrastructure, arXiv, and Papers With Code. In that corpus, CSET applied a classifer to identify English\u0002language publications related to the development or application of AI and ML since 2010. For this year\u2019s report, CSET also used select \r\nChinese AI keywords to identify Chinese-language AI papers; CSET did not deploy this method for previous iterations of the AI Index report.1",
+      "A PageFooter with content: 24",
+      "A SectionHeader with content: 1.1 Publications",
+      "A SectionHeader with content: Total Number of AI Publications",
+      "A Text with content: In last year\u2019s edition of the report, publication trends were reported up to the year 2021. However, given that there is a signifcant lag in the \r\ncollection of publication metadata, and that in some cases it takes until the middle of any given year to fully capture the previous year\u2019s \r\npublications, in this year\u2019s report, the AI Index team elected to examine publication trends only through 2021, which we, along with CSET, \r\nare confdent yields a more fully representative report.",
+      "A figure with content unknown",
+      "A SectionHeader with content: Overview",
+      "A figure with content unknown",
+      "A Text with content: 1 See the Appendix for more information on CSET\u2019s methodology. For more on the challenge of defning AI and correctly capturing relevant bibliometric data, see the AI Index team\u2019s \r\ndiscussion in the paper \u201cMeasurement in AI Policy: Opportunities and Challenges.\u201d"
+    ]
+  },
+  {
+    "scores": [
+      0.9194821715354919,
+      0.8621940016746521,
+      0.8608848452568054,
+      0.8551997542381287,
+      0.8039348125457764,
+      0.7826300263404846,
+      0.5012578964233398
+    ],
+    "labels": [
+      10,
+      5,
+      7,
+      10,
+      8,
+      7,
+      5
+    ],
+    "boxes": [
+      [
+        90.514404296875,
+        187.55792236328125,
+        496.4130859375,
+        264.25836181640625
+      ],
+      [
+        918.2940063476562,
+        968.8111572265625,
+        933.9835815429688,
+        979.5179443359375
+      ],
+      [
+        90.6759033203125,
+        327.34368896484375,
+        921.48828125,
+        653.66015625
+      ],
+      [
+        526.0383911132812,
+        167.50503540039062,
+        930.3445434570312,
+        263.6959228515625
+      ],
+      [
+        90.06830596923828,
+        165.87042236328125,
+        281.0738830566406,
+        181.83108520507812
+      ],
+      [
+        87.67096710205078,
+        67.99800109863281,
+        309.3338928222656,
+        110.3231201171875
+      ],
+      [
+        90.73405456542969,
+        967.9892578125,
+        385.84918212890625,
+        979.9598388671875
+      ]
+    ],
+    "fonts": [
+      98.52090903569626,
+      5.792584188025573,
+      0,
+      108.02935443309445,
+      58.62645416913213,
+      0,
+      56.0745961105244
+    ],
+    "contents": [
+      "A Text with content: Figure 1.1.2 shows the types of AI publications released \r\nglobally over time. In 2021, 60% of all published AI \r\ndocuments were journal articles, 17% were conference \r\npapers, and 13% were repository submissions. Books, ",
+      "A PageFooter with content: 25",
+      "A figure with content unknown",
+      "A Text with content: book chapters, theses, and unknown document types \r\nmade up the remaining 10% of publications. While \r\njournal and repository publications have grown 3 \r\nand 26.6 times, respectively, in the past 12 years, the \r\nnumber of conference papers has declined since 2019.",
+      "A SectionHeader with content: By Type of Publication",
+      "A figure with content unknown",
+      "A PageFooter with content: Table of Contents Chapter 1 Preview "
+    ]
+  },
+  {
+    "scores": [
+      0.9289537072181702,
+      0.9259778261184692,
+      0.8615087270736694,
+      0.7924699187278748,
+      0.7610986232757568,
+      0.7330807447433472,
+      0.5451409816741943,
+      0.5208910703659058
+    ],
+    "labels": [
+      10,
+      10,
+      5,
+      7,
+      7,
+      8,
+      10,
+      5
+    ],
+    "boxes": [
+      [
+        118.18820190429688,
+        287.85498046875,
+        482.9560852050781,
+        362.6600341796875
+      ],
+      [
+        518.08740234375,
+        266.8402404785156,
+        888.0550537109375,
+        362.5024719238281
+      ],
+      [
+        917.46630859375,
+        969.3814086914062,
+        934.2049560546875,
+        978.7850952148438
+      ],
+      [
+        113.49700927734375,
+        429.5417175292969,
+        907.0847778320312,
+        732.7899169921875
+      ],
+      [
+        87.91845703125,
+        68.58609771728516,
+        309.804443359375,
+        110.26029205322266
+      ],
+      [
+        117.83645629882812,
+        265.64959716796875,
+        196.18850708007812,
+        279.64324951171875
+      ],
+      [
+        849.2096557617188,
+        744.5946655273438,
+        912.4891967773438,
+        753.7885131835938
+      ],
+      [
+        91.10566711425781,
+        969.5830078125,
+        385.83538818359375,
+        979.369873046875
+      ]
+    ],
+    "fonts": [
+      93.44685309020522,
+      98.31091970101826,
+      5.427758398241011,
+      0,
+      0,
+      27.410783976316452,
+      17.11124881926705,
+      45.78539778842103
+    ],
+    "contents": [
+      "A Text with content: Since 2010, the institution producing the greatest \r\nnumber of total AI papers has been the Chinese \r\nAcademy of Sciences (Figure 1.1.21). The next \r\ntop four are all Chinese universities: Tsinghua ",
+      "A Text with content: University, the University of the Chinese Academy \r\nof Sciences, Shanghai Jiao Tong University, \r\nand Zhejiang University.5 The total number of \r\npublications released by each of these institutions \r\nin 2021 is displayed in Figure 1.1.22.",
+      "A PageFooter with content: 44",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A SectionHeader with content: All Fields",
+      "A Text with content: Figure 1.1.21",
+      "A PageFooter with content: Table of Contents Chapter 1 Preview "
+    ]
+  },
+  {
+    "scores": [
+      0.8106658458709717,
+      0.7422605156898499,
+      0.5535909533500671,
+      0.5374446511268616
+    ],
+    "labels": [
+      5,
+      7,
+      7,
+      10
+    ],
+    "boxes": [
+      [
+        918.1030883789062,
+        969.3665161132812,
+        933.8997192382812,
+        979.1482543945312
+      ],
+      [
+        87.53062438964844,
+        68.39999389648438,
+        309.5169677734375,
+        110.11952209472656
+      ],
+      [
+        112.94326782226562,
+        283.96185302734375,
+        923.2176513671875,
+        586.3461303710938
+      ],
+      [
+        845.9592895507812,
+        601.3732299804688,
+        912.0425415039062,
+        611.6640014648438
+      ]
+    ],
+    "fonts": [
+      5.3282244411008115,
+      0,
+      0,
+      20.001401317470215
+    ],
+    "contents": [
+      "A PageFooter with content: 45",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A Text with content: Figure 1.1.22"
+    ]
+  },
+  {
+    "scores": [
+      0.9420387148857117,
+      0.9377654194831848,
+      0.8496363759040833,
+      0.8478161692619324,
+      0.818941593170166,
+      0.816542387008667,
+      0.8038125038146973,
+      0.7376279830932617,
+      0.7149767279624939,
+      0.5183125138282776
+    ],
+    "labels": [
+      10,
+      10,
+      5,
+      7,
+      8,
+      10,
+      10,
+      8,
+      7,
+      10
+    ],
+    "boxes": [
+      [
+        527.7991943359375,
+        415.47711181640625,
+        929.5538330078125,
+        532.3872680664062
+      ],
+      [
+        90.14970397949219,
+        461.8070373535156,
+        496.5791015625,
+        536.9501342773438
+      ],
+      [
+        917.5452270507812,
+        968.7080078125,
+        934.1454467773438,
+        979.1324462890625
+      ],
+      [
+        93.960205078125,
+        586.6417846679688,
+        934.18408203125,
+        907.5880737304688
+      ],
+      [
+        527.28515625,
+        393.7785339355469,
+        645.93115234375,
+        408.3030700683594
+      ],
+      [
+        88.304443359375,
+        136.50833129882812,
+        905.90234375,
+        190.8148193359375
+      ],
+      [
+        88.81967163085938,
+        202.66629028320312,
+        917.570556640625,
+        242.60995483398438
+      ],
+      [
+        90.19879150390625,
+        287.09246826171875,
+        686.69189453125,
+        373.502685546875
+      ],
+      [
+        88.32524871826172,
+        68.60160064697266,
+        310.3900451660156,
+        110.23824310302734
+      ],
+      [
+        89.99789428710938,
+        921.9962158203125,
+        871.822998046875,
+        939.8406982421875
+      ]
+    ],
+    "fonts": [
+      110.25633235044883,
+      107.53649160307405,
+      5.967171352998964,
+      0,
+      41.03042993517149,
+      73.02774769198885,
+      70.73364817733582,
+      460.206237872231,
+      0,
+      35.77247261800445
+    ],
+    "contents": [
+      "A Text with content: Among the signifcant AI machine learning systems \r\nreleased in 2022, the most common class of system \r\nwas language (Figure 1.2.1). There were 23 signifcant \r\nAI language systems released in 2022, roughly six \r\ntimes the number of the next most common system \r\ntype, multimodal systems.",
+      "A Text with content: The fgures below report trends among all machine \r\nlearning systems included in the Epoch dataset. For \r\nreference, these systems are referred to as signifcant \r\nmachine learning systems throughout the subsection.",
+      "A PageFooter with content: 49",
+      "A figure with content unknown",
+      "A SectionHeader with content: System Types",
+      "A Text with content: Epoch AI is a collective of researchers investigating and forecasting the development of advanced AI. Epoch curates a database of \r\nsignifcant AI and machine learning systems that have been released since the 1950s. There are diferent criteria under which the \r\nEpoch team decides to include particular AI systems in their database; for example, the system may have registered a state-of-the-art \r\nimprovement, been deemed to have been historically signifcant, or been highly cited.",
+      "A Text with content: This subsection uses the Epoch database to track trends in signifcant AI and machine learning systems. The latter half of the chapter \r\nincludes research done by the AI Index team that reports trends in large language and multimodal models, which are models trained on \r\nlarge amounts of data and adaptable to a variety of downstream applications.",
+      "A SectionHeader with content: 1.2 Trends in Signifcant \r\nMachine Learning Systems ",
+      "A figure with content unknown",
+      "A Text with content: 6 There were 38 total signifcant AI machine learning systems released in 2022, according to Epoch; however, one of the systems, BaGuaLu, did not have a domain classifcation \r\nand is therefore omitted from Figure 1.2.1."
+    ]
+  },
+  {
+    "scores": [
+      0.940109133720398,
+      0.9361205697059631,
+      0.9328776001930237,
+      0.8619673252105713,
+      0.8596396446228027,
+      0.8422232866287231,
+      0.8315458297729492,
+      0.8117937445640564,
+      0.7617170214653015,
+      0.5098541975021362,
+      0.5034024119377136
+    ],
+    "labels": [
+      10,
+      10,
+      10,
+      8,
+      8,
+      7,
+      5,
+      7,
+      7,
+      5,
+      2
+    ],
+    "boxes": [
+      [
+        90.53578186035156,
+        189.86453247070312,
+        475.3297119140625,
+        286.00482177734375
+      ],
+      [
+        90.53532409667969,
+        323.1756896972656,
+        481.65277099609375,
+        419.1736755371094
+      ],
+      [
+        526.6871948242188,
+        188.03076171875,
+        934.9198608398438,
+        408.75384521484375
+      ],
+      [
+        90.45169067382812,
+        302.3701171875,
+        161.70941162109375,
+        316.305908203125
+      ],
+      [
+        89.95145416259766,
+        167.79428100585938,
+        251.56716918945312,
+        182.2862548828125
+      ],
+      [
+        523.3837280273438,
+        513.032470703125,
+        944.0272827148438,
+        792.83740234375
+      ],
+      [
+        920.699951171875,
+        969.5584106445312,
+        934.2371826171875,
+        979.3068237304688
+      ],
+      [
+        92.72865295410156,
+        517.5734252929688,
+        502.39520263671875,
+        793.0949096679688
+      ],
+      [
+        87.89385223388672,
+        68.44898986816406,
+        309.65179443359375,
+        110.36073303222656
+      ],
+      [
+        256.1604919433594,
+        968.9442138671875,
+        386.0561218261719,
+        979.4549560546875
+      ],
+      [
+        90.52175903320312,
+        922.6713256835938,
+        599.9853515625,
+        930.6058959960938
+      ]
+    ],
+    "fonts": [
+      110.430447041203,
+      115.5276527051255,
+      117.02126341142825,
+      26.83872182083291,
+      48.79439000571438,
+      0,
+      4.550569798925827,
+      0,
+      0,
+      30.339988377359177,
+      28.467427440722222
+    ],
+    "contents": [
+      "A Text with content: In order to paint a picture of AI\u2019s evolving \r\ngeopolitical landscape, the AI Index research \r\nteam identifed the nationality of the authors who \r\ncontributed to the development of each signifcant \r\nmachine learning system in the Epoch dataset.7",
+      "A Text with content: Figure 1.2.3 showcases the total number of \r\nsignifcant machine learning systems attributed to \r\nresearchers from particular countries.8 A researcher \r\nis considered to have belonged to the country in \r\nwhich their institution, for example a university ",
+      "A Text with content: or AI-research frm, was headquartered. In 2022, \r\nthe United States produced the greatest number \r\nof signifcant machine learning systems with 16, \r\nfollowed by the United Kingdom (8) and China (3). \r\nMoreover, since 2002 the United States has outpaced \r\nthe United Kingdom and the European Union, as well \r\nas China, in terms of the total number of signifcant \r\nmachine learning systems produced (Figure 1.2.4). \r\nFigure 1.2.5 displays the total number of signifcant \r\nmachine learning systems produced by country since \r\n2002 for the entire world.",
+      "A SectionHeader with content: Systems",
+      "A SectionHeader with content: National Afliation",
+      "A figure with content unknown",
+      "A PageFooter with content: 51",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A PageFooter with content: Chapter 1 Preview ",
+      "A Footnote with content: 7 The methodology by which the AI Index identifed authors\u2019 nationality is outlined in greater detail in the Appendix."
+    ]
+  }
+]

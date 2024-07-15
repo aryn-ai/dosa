@@ -1,0 +1,1868 @@
+[
+  {
+    "id": "34uddzm8b2",
+    "language": "en",
+    "split": 0,
+    "count": 28,
+    "pages": [
+      {
+        "file_path": "34uddzm8b2/page1.png",
+        "objects": [
+          {
+            "id": 0,
+            "parent_id": 0,
+            "sibling_id": 0,
+            "category_id": 7,
+            "bbox": [
+              460.7712418300654,
+              36.14141414141414,
+              247.34640522875816,
+              77.95959595959596
+            ],
+            "content": "A header: City Hall 1 Dr Carlton B. Goodlett Place, Room 244 San Francisco, CA 94102-4689 Tel. No.(415) 554-7724 Fax No.(415) 554-7854 TTD/TTY No.(415) 554-5227",
+            "page_id": 1,
+            "category": 7,
+            "order": 0,
+            "context": 0,
+            "g_id": 1,
+            "g_parent_id": 0,
+            "g_sibling_id": 0
+          },
+          {
+            "id": 1,
+            "parent_id": 1,
+            "sibling_id": 1,
+            "category_id": 7,
+            "bbox": [
+              87.58169934640523,
+              64.64646464646465,
+              188.23529411764707,
+              26.262626262626256
+            ],
+            "content": "A header: SUNSHINE ORDINANCE TASK FORCE",
+            "page_id": 1,
+            "category": 7,
+            "order": 0,
+            "context": 0,
+            "g_id": 2,
+            "g_parent_id": 0,
+            "g_sibling_id": 1
+          },
+          {
+            "id": 2,
+            "parent_id": 2,
+            "sibling_id": 1,
+            "category_id": 17,
+            "bbox": [
+              288.8888888888889,
+              135.35353535353536,
+              220.91503267973854,
+              26.878787878787875
+            ],
+            "content": "A paragraph: ORDER OF DETERMINATION December 27, 2017",
+            "page_id": 1,
+            "category": 17,
+            "order": 2,
+            "context": 0,
+            "g_id": 3,
+            "g_parent_id": 0,
+            "g_sibling_id": 2
+          },
+          {
+            "id": 3,
+            "parent_id": 3,
+            "sibling_id": 2,
+            "category_id": 17,
+            "bbox": [
+              92.81045751633987,
+              177.77777777777777,
+              134.41830065359477,
+              28.72727272727272
+            ],
+            "content": "A paragraph: DATE ISSUED November 1, 2017",
+            "page_id": 1,
+            "category": 17,
+            "order": 3,
+            "context": 0,
+            "g_id": 4,
+            "g_parent_id": 0,
+            "g_sibling_id": 3
+          },
+          {
+            "id": 4,
+            "parent_id": 4,
+            "sibling_id": 3,
+            "category_id": 18,
+            "bbox": [
+              94.11764705882354,
+              220.2020202020202,
+              498.0392156862745,
+              13.131313131313135
+            ],
+            "content": "A title: CASE TITLE \u2013 Ray Hartz v. Department of Real Estate(File No. 17084)",
+            "page_id": 1,
+            "category": 18,
+            "order": 4,
+            "context": 0,
+            "g_id": 5,
+            "g_parent_id": 0,
+            "g_sibling_id": 4
+          },
+          {
+            "id": 5,
+            "parent_id": 4,
+            "sibling_id": 4,
+            "category_id": 10,
+            "bbox": [
+              317.6470588235294,
+              247.4747474747475,
+              163.39869281045753,
+              12.121212121212096
+            ],
+            "content": "A section title: FACTS OF THE CASE",
+            "page_id": 1,
+            "category": 10,
+            "order": 5,
+            "context": 0,
+            "g_id": 6,
+            "g_parent_id": 5,
+            "g_sibling_id": 5
+          },
+          {
+            "id": 6,
+            "parent_id": 5,
+            "sibling_id": 5,
+            "category_id": 17,
+            "bbox": [
+              91.50326797385621,
+              275.75757575757575,
+              615.202614379085,
+              27.272727272727252
+            ],
+            "content": "A paragraph: On July 12, 2017, the following petition/complaint was filed with the Sunshine Ordinance Task Force(SOTF):",
+            "page_id": 1,
+            "category": 17,
+            "order": 6,
+            "context": 0,
+            "g_id": 7,
+            "g_parent_id": 6,
+            "g_sibling_id": 6
+          },
+          {
+            "id": 7,
+            "parent_id": 5,
+            "sibling_id": 6,
+            "category_id": 17,
+            "bbox": [
+              138.88888888888889,
+              319.19191919191917,
+              558.8235294117646,
+              70.95959595959596
+            ],
+            "content": "A paragraph: File No. 17084: Complaint filed by Ray Hartz against John Updike and the Department of Real Estate for allegedly violating Administrative Code(Sunshine Ordinance), Sections 67.21(e), 67.25 and 67.29(a)(c), by failing to respond to an Immediate Disclosure Request in a complete manner or failing to maintain required records.",
+            "page_id": 1,
+            "category": 17,
+            "order": 7,
+            "context": 0,
+            "g_id": 8,
+            "g_parent_id": 6,
+            "g_sibling_id": 7
+          },
+          {
+            "id": 8,
+            "parent_id": 4,
+            "sibling_id": 7,
+            "category_id": 10,
+            "bbox": [
+              307.18954248366015,
+              401.010101010101,
+              232.3529411764706,
+              12.121212121212125
+            ],
+            "content": "A section title: HEARING ON THE COMPLAINT",
+            "page_id": 1,
+            "category": 10,
+            "order": 8,
+            "context": 0,
+            "g_id": 9,
+            "g_parent_id": 5,
+            "g_sibling_id": 8
+          },
+          {
+            "id": 9,
+            "parent_id": 8,
+            "sibling_id": 8,
+            "category_id": 17,
+            "bbox": [
+              94.11764705882354,
+              429.2929292929293,
+              579.0849673202614,
+              27.151515151515184
+            ],
+            "content": "A paragraph: On August 22, 2017, the Complaint Committee(Committee) acting in its capacity to hear petitions/complaints heard the matter and referred it to the SOTF for hearing.",
+            "page_id": 1,
+            "category": 17,
+            "order": 9,
+            "context": 0,
+            "g_id": 10,
+            "g_parent_id": 9,
+            "g_sibling_id": 9
+          },
+          {
+            "id": 10,
+            "parent_id": 8,
+            "sibling_id": 9,
+            "category_id": 17,
+            "bbox": [
+              137.90849673202615,
+              472.72727272727275,
+              565.359477124183,
+              222.72727272727275
+            ],
+            "content": "A paragraph: Ray Hartz(Petitioner) provided a summary of the complaint and requested the Committee to find a violation. Mr. Hartz stated that the department is legally required to maintain certain records and cannot state they have not received it. Mr. Hartz stated that the certification of compliance, as required by the lease, has not been provided and he has not received any documents showing that the Friends of the Public Library has paid rent. Mr. Hartz stated that Section 67.29 of the Sunshine Ordinance requires departments to maintain records. Claudia Gorham, Department of Real Estate(Respondent), provided a summary of the department\u2019s position. Ms. Gorham provided a timeline of the department\u2019s response and stated that the department responded in a timely and complete manner. Ms. Gorham stated that a copy of the entire lease file was provided and that the lease file contained all required records pursuant to records retention guidelines. Ms. Gorham stated that a copy of the Rent Roll detailing the rent payments received from the Friend of the Public Library can be provided, but the document was not requested pursuant to the department interpretation of the request for public records.",
+            "page_id": 1,
+            "category": 17,
+            "order": 10,
+            "context": 0,
+            "g_id": 11,
+            "g_parent_id": 9,
+            "g_sibling_id": 10
+          }
+        ]
+      },
+      {
+        "file_path": "34uddzm8b2/page2.png",
+        "objects": [
+          {
+            "id": 11,
+            "parent_id": 8,
+            "sibling_id": 10,
+            "category_id": 17,
+            "bbox": [
+              137.2549019607843,
+              72.72727272727273,
+              571.1633986928106,
+              55.55555555555556
+            ],
+            "content": "A paragraph: Chair Wolfe requested that the Department of Real Estate be prepared to explain their reason for excluding certain records, describe what is maintained in a lease file and address any other relevant issues brought up at the Complaint Committee hearing.",
+            "page_id": 2,
+            "category": 17,
+            "order": 11,
+            "context": 0,
+            "g_id": 12,
+            "g_parent_id": 9,
+            "g_sibling_id": 11
+          },
+          {
+            "id": 12,
+            "parent_id": 8,
+            "sibling_id": 11,
+            "category_id": 17,
+            "bbox": [
+              92.81045751633987,
+              142.42424242424244,
+              589.2156862745098,
+              27.272727272727252
+            ],
+            "content": "A paragraph: On November 1, 2017, the SOTF held a hearing to review the recommendation from Committee and/or to review the merits of the petition/complaint.",
+            "page_id": 2,
+            "category": 17,
+            "order": 12,
+            "context": 0,
+            "g_id": 13,
+            "g_parent_id": 9,
+            "g_sibling_id": 12
+          },
+          {
+            "id": 13,
+            "parent_id": 8,
+            "sibling_id": 12,
+            "category_id": 17,
+            "bbox": [
+              139.86928104575162,
+              184.84848484848484,
+              569.0326797385619,
+              208.0808080808081
+            ],
+            "content": "A paragraph: Ray Hartz(Petitioner), provided a summary of the complaint and requested the SOTF to find violations. Mr. Hartz stated that he wanted the Public Library and the Department of Real Estate to provide the requested documents separately for comparison purposes. Mr. Hartz stated that he has not received a copy of the lease or rent roll from the Department of Real Estate. There were no speakers on behalf of the petitioner. Director John Updike and Claudia Gorman, Department of Real Estate(Respondent), provided a summary of the department\u2019s position. Director Updike stated that the entire lease file was provided with the exception of the lease which was confirmed to have been provided by the Public Library. Director Updike describe the lease and the process for renewal by the Friends of the Public Library. Director Updike stated that the rent rolls could be created and provided but that it was not specifically requested. There were no speakers in support of the Respondent. A question and answer period followed. The Petitioner and Respondent were provided an opportunity for rebuttals.",
+            "page_id": 2,
+            "category": 17,
+            "order": 13,
+            "context": 0,
+            "g_id": 14,
+            "g_parent_id": 9,
+            "g_sibling_id": 13
+          },
+          {
+            "id": 14,
+            "parent_id": 8,
+            "sibling_id": 13,
+            "category_id": 17,
+            "bbox": [
+              138.56209150326796,
+              407.07070707070704,
+              556.5359477124183,
+              82.82828282828285
+            ],
+            "content": "A paragraph: The SOTF opined that requested documents must be provided when requested and that one cannot reference a copy of a document provided by another department as there is a possibility that the version in their possession may be different from that held by another party. The SOTF requests that the Department of Real Estate provide a copy of the lease in their possession and the rent roll.",
+            "page_id": 2,
+            "category": 17,
+            "order": 14,
+            "context": 0,
+            "g_id": 15,
+            "g_parent_id": 9,
+            "g_sibling_id": 14
+          },
+          {
+            "id": 15,
+            "parent_id": 4,
+            "sibling_id": 14,
+            "category_id": 10,
+            "bbox": [
+              218.30065359477123,
+              504.04040404040404,
+              358.1699346405229,
+              13.131313131313163
+            ],
+            "content": "A section title: FINDINGS OF FACT AND CONCLUSION OF LAW",
+            "page_id": 2,
+            "category": 10,
+            "order": 15,
+            "context": 0,
+            "g_id": 16,
+            "g_parent_id": 5,
+            "g_sibling_id": 15
+          },
+          {
+            "id": 16,
+            "parent_id": 15,
+            "sibling_id": 15,
+            "category_id": 17,
+            "bbox": [
+              92.81045751633987,
+              533.3333333333334,
+              540.8104575163399,
+              27.42424242424238
+            ],
+            "content": "A paragraph: Based on the testimony and evidence presented the SOTF found violations of Administrative Code(Sunshine Ordinance), Sections 67.21(e) and 67.25.",
+            "page_id": 2,
+            "category": 17,
+            "order": 16,
+            "context": 0,
+            "g_id": 17,
+            "g_parent_id": 16,
+            "g_sibling_id": 16
+          }
+        ]
+      },
+      {
+        "file_path": "34uddzm8b2/page3.png",
+        "objects": [
+          {
+            "id": 17,
+            "parent_id": 4,
+            "sibling_id": 16,
+            "category_id": 10,
+            "bbox": [
+              288.4052287581699,
+              72.72727272727273,
+              215.68627450980392,
+              13.13131313131312
+            ],
+            "content": "A section title: ORDER OF DETERMINATION",
+            "page_id": 3,
+            "category": 10,
+            "order": 17,
+            "context": 0,
+            "g_id": 18,
+            "g_parent_id": 5,
+            "g_sibling_id": 17
+          },
+          {
+            "id": 18,
+            "parent_id": 17,
+            "sibling_id": 17,
+            "category_id": 17,
+            "bbox": [
+              90.19607843137256,
+              101.01010101010101,
+              609.1503267973856,
+              53.53535353535352
+            ],
+            "content": "A paragraph: Member Cannata, seconded by Member J. Wolf, moved to find Director John Updike and the Department of Real Estate violated Administrative Code(Sunshine Ordinance), Sections 67.21(e) and 67.25, by failing to respond to an Immediate Disclosure Request in a timely and complete manner.",
+            "page_id": 3,
+            "category": 17,
+            "order": 18,
+            "context": 0,
+            "g_id": 19,
+            "g_parent_id": 18,
+            "g_sibling_id": 18
+          },
+          {
+            "id": 19,
+            "parent_id": 17,
+            "sibling_id": 18,
+            "category_id": 17,
+            "bbox": [
+              141.1764705882353,
+              170.7070707070707,
+              296.73202614379085,
+              13.131313131313135
+            ],
+            "content": "A paragraph: The motion PASSED by the following vote:",
+            "page_id": 3,
+            "category": 17,
+            "order": 19,
+            "context": 0,
+            "g_id": 20,
+            "g_parent_id": 18,
+            "g_sibling_id": 19
+          },
+          {
+            "id": 20,
+            "parent_id": 17,
+            "sibling_id": 19,
+            "category_id": 17,
+            "bbox": [
+              184.31372549019608,
+              198.989898989899,
+              487.4117647058824,
+              25.363636363636374
+            ],
+            "content": "A paragraph: Ayes: 8 \u2013 Eldon, J. Wolf, Maass, Cannata, Fischer, Hinze, Hyland, B. Wolfe",
+            "page_id": 3,
+            "category": 17,
+            "order": 20,
+            "context": 0,
+            "g_id": 21,
+            "g_parent_id": 18,
+            "g_sibling_id": 20
+          },
+          {
+            "id": 21,
+            "parent_id": 17,
+            "sibling_id": 20,
+            "category_id": 17,
+            "bbox": [
+              185.62091503267973,
+              226.26262626262627,
+              111.11111111111111,
+              12.121212121212125
+            ],
+            "content": "A paragraph: Noes: 0 \u2013 None",
+            "page_id": 3,
+            "category": 17,
+            "order": 21,
+            "context": 0,
+            "g_id": 22,
+            "g_parent_id": 18,
+            "g_sibling_id": 21
+          },
+          {
+            "id": 22,
+            "parent_id": 17,
+            "sibling_id": 21,
+            "category_id": 17,
+            "bbox": [
+              188.23529411764707,
+              240.40404040404042,
+              185.6209150326797,
+              12.121212121212096
+            ],
+            "content": "A paragraph: Absent: 2 \u2013 Chopra, Tesfai",
+            "page_id": 3,
+            "category": 17,
+            "order": 22,
+            "context": 0,
+            "g_id": 23,
+            "g_parent_id": 18,
+            "g_sibling_id": 22
+          },
+          {
+            "id": 23,
+            "parent_id": 17,
+            "sibling_id": 22,
+            "category_id": 17,
+            "bbox": [
+              94.11764705882354,
+              267.67676767676767,
+              585.9346405228758,
+              41.4141414141414
+            ],
+            "content": "A paragraph: The SOTF referred the matter to the Compliance and Amendments Committee to confirm that the Department of Real Estate has provided a copy of the lease and the rent roll to Mr. Hartz.",
+            "page_id": 3,
+            "category": 17,
+            "order": 23,
+            "context": 0,
+            "g_id": 24,
+            "g_parent_id": 18,
+            "g_sibling_id": 23
+          },
+          {
+            "id": 24,
+            "parent_id": 17,
+            "sibling_id": 23,
+            "category_id": 17,
+            "bbox": [
+              94.11764705882354,
+              324.24242424242425,
+              605.2287581699346,
+              54.54545454545456
+            ],
+            "content": "A paragraph: On November 11, 2017, Director John Updike, Department of Real Estate, provided the lease and a summary of the payments made vs. payments owed since the inception of the lease. Mr. Updike stated that other records related to the matter were not retained pursuant to the City Administrator\u2019s record retention policies.",
+            "page_id": 3,
+            "category": 17,
+            "order": 24,
+            "context": 0,
+            "g_id": 25,
+            "g_parent_id": 18,
+            "g_sibling_id": 24
+          },
+          {
+            "id": 25,
+            "parent_id": 4,
+            "sibling_id": 24,
+            "category_id": 17,
+            "bbox": [
+              92.81045751633987,
+              421.2121212121212,
+              134.77124183006538,
+              13.141414141414145
+            ],
+            "content": "A paragraph: Bruce Wolfe, Chair",
+            "page_id": 3,
+            "category": 17,
+            "order": 25,
+            "context": 0,
+            "g_id": 26,
+            "g_parent_id": 5,
+            "g_sibling_id": 25
+          },
+          {
+            "id": 26,
+            "parent_id": 4,
+            "sibling_id": 25,
+            "category_id": 17,
+            "bbox": [
+              94.11764705882354,
+              436.3636363636364,
+              227.45098039215685,
+              11.111111111111086
+            ],
+            "content": "A paragraph: Sunshine Ordinance Task Force",
+            "page_id": 3,
+            "category": 17,
+            "order": 26,
+            "context": 0,
+            "g_id": 27,
+            "g_parent_id": 5,
+            "g_sibling_id": 26
+          },
+          {
+            "id": 27,
+            "parent_id": 4,
+            "sibling_id": 26,
+            "category_id": 17,
+            "bbox": [
+              92.81045751633987,
+              463.6363636363636,
+              488.6928104575163,
+              28.78787878787881
+            ],
+            "content": "A paragraph: c. Ray Hartz(Petitioner/Complainant) Director John Updike, Department of Real Estate(Respondent)",
+            "page_id": 3,
+            "category": 17,
+            "order": 27,
+            "context": 0,
+            "g_id": 28,
+            "g_parent_id": 5,
+            "g_sibling_id": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "o5h7r0jxer",
+    "language": "en",
+    "split": 0,
+    "count": 62,
+    "pages": [
+      {
+        "file_path": "o5h7r0jxer/page1.png",
+        "objects": [
+          {
+            "id": 0,
+            "parent_id": 0,
+            "sibling_id": 0,
+            "category_id": 7,
+            "bbox": [
+              160.7843137254902,
+              17.171717171717173,
+              478.62745098039215,
+              17.050505050505055
+            ],
+            "content": "A header: ICAN Ch i ld D ea th Rev i ew Team Special 30 Yea r Report",
+            "page_id": 1,
+            "category": 7,
+            "order": 0,
+            "context": 0,
+            "g_id": 1,
+            "g_parent_id": 0,
+            "g_sibling_id": 0
+          },
+          {
+            "id": 1,
+            "parent_id": 1,
+            "sibling_id": 1,
+            "category_id": 9,
+            "bbox": [
+              43.13725490196079,
+              775.7575757575758,
+              19.607843137254896,
+              12.121212121212125
+            ],
+            "content": "Page number: 21",
+            "page_id": 1,
+            "category": 9,
+            "order": 0,
+            "context": 0,
+            "g_id": 2,
+            "g_parent_id": 0,
+            "g_sibling_id": 1
+          },
+          {
+            "id": 2,
+            "parent_id": 2,
+            "sibling_id": 1,
+            "category_id": 5,
+            "bbox": [
+              277.4117647058824,
+              776.989898989899,
+              479.7385620915033,
+              13.131313131313163
+            ],
+            "content": "A footer: Los Angel e s C o unty Child Death Revie w -30 Yea r Re tro spect i ve",
+            "page_id": 1,
+            "category": 5,
+            "order": 0,
+            "context": 0,
+            "g_id": 3,
+            "g_parent_id": 0,
+            "g_sibling_id": 2
+          },
+          {
+            "id": 3,
+            "parent_id": 3,
+            "sibling_id": 2,
+            "category_id": 17,
+            "bbox": [
+              196.07843137254903,
+              64.64646464646465,
+              410.45751633986924,
+              13.13131313131312
+            ],
+            "content": "A paragraph: The names have been changed but the stories are real.",
+            "page_id": 1,
+            "category": 17,
+            "order": 2,
+            "context": 0,
+            "g_id": 4,
+            "g_parent_id": 0,
+            "g_sibling_id": 3
+          },
+          {
+            "id": 4,
+            "parent_id": 4,
+            "sibling_id": 3,
+            "category_id": 17,
+            "bbox": [
+              208.11764705882354,
+              94.4949494949495,
+              385.124183006536,
+              57.575757575757606
+            ],
+            "content": "A paragraph: \u201cThis is for the kids who know that the worst kind of fear isn't the thing that makes you scream\uff0c but the one that steals your voice anc you silent\u201d Abby Normal",
+            "page_id": 1,
+            "category": 17,
+            "order": 3,
+            "context": 0,
+            "g_id": 5,
+            "g_parent_id": 0,
+            "g_sibling_id": 4
+          },
+          {
+            "id": 5,
+            "parent_id": 5,
+            "sibling_id": 4,
+            "category_id": 17,
+            "bbox": [
+              50.71895424836601,
+              167.26262626262627,
+              700.0130718954248,
+              26.676767676767668
+            ],
+            "content": "A paragraph: m m . these are the stories of 30 of the 994 children lost to fatal abuse by their parent or caretaker. In honor of these children h. wet their stories to end the silence.",
+            "page_id": 1,
+            "category": 17,
+            "order": 4,
+            "context": 0,
+            "g_id": 6,
+            "g_parent_id": 0,
+            "g_sibling_id": 5
+          },
+          {
+            "id": 6,
+            "parent_id": 6,
+            "sibling_id": 5,
+            "category_id": 10,
+            "bbox": [
+              376.1960784313726,
+              217.17171717171718,
+              47.33333333333326,
+              12.676767676767668
+            ],
+            "content": "A section title: aniel",
+            "page_id": 1,
+            "category": 10,
+            "order": 5,
+            "context": 0,
+            "g_id": 7,
+            "g_parent_id": 0,
+            "g_sibling_id": 6
+          },
+          {
+            "id": 7,
+            "parent_id": 6,
+            "sibling_id": 6,
+            "category_id": 17,
+            "bbox": [
+              44.44444444444444,
+              245.75757575757575,
+              710.7973856209151,
+              114.969696969697
+            ],
+            "content": "A paragraph: While out at dinner\uff0c two-year old Daniel's mother told Daniel's father that she no longer wanted to be in a romantic relationship with him. The father told the mother that she would be sorry. After dinner\uff0c the father returned to the family residence. At approximately 2 A.M.\uff0c the father left the home with the child. At 8\uff1a45 A.M that same morning\uff0c a highway patrol officer s s pott t e ed the father's car on the shoulder of the southbound 710-Freeway. Looking into the c car t saw the father slumped over the steering wheel\uff0c with a handgun in his lap an d a bulle t hol e ugh his head. The child was in a car seat in the back of the car\uff0c also with a bullet hole throu gh h Paramedics responded to the officer's radio call and determined that the father and child wer",
+            "page_id": 1,
+            "category": 17,
+            "order": 6,
+            "context": 0,
+            "g_id": 8,
+            "g_parent_id": 7,
+            "g_sibling_id": 7
+          },
+          {
+            "id": 8,
+            "parent_id": 8,
+            "sibling_id": 7,
+            "category_id": 10,
+            "bbox": [
+              335.9477124183006,
+              390.90909090909093,
+              128.39215686274514,
+              15.4444444444444
+            ],
+            "content": "A section title: Baby Boy.Garcia",
+            "page_id": 1,
+            "category": 10,
+            "order": 7,
+            "context": 0,
+            "g_id": 9,
+            "g_parent_id": 0,
+            "g_sibling_id": 8
+          },
+          {
+            "id": 9,
+            "parent_id": 8,
+            "sibling_id": 8,
+            "category_id": 17,
+            "bbox": [
+              42.98039215686275,
+              420.1515151515151,
+              712.1830065359478,
+              217.81818181818187
+            ],
+            "content": "A paragraph: Baby Boy Garcia\uff0c a newborn infant\uff0c was found in a trash can\uff0c tied up in a plastic bag. They often struggle economically and have no support system.",
+            "page_id": 1,
+            "category": 17,
+            "order": 8,
+            "context": 0,
+            "g_id": 10,
+            "g_parent_id": 9,
+            "g_sibling_id": 9
+          }
+        ]
+      },
+      {
+        "file_path": "o5h7r0jxer/page2.png",
+        "objects": [
+          {
+            "id": 10,
+            "parent_id": 10,
+            "sibling_id": 9,
+            "category_id": 7,
+            "bbox": [
+              163.3986928104575,
+              19.19191919191919,
+              474.5098039215686,
+              16.161616161616166
+            ],
+            "content": "A header: ICAN Ch i ld D ea th Rev i ew Team Special 30 Yea r Report",
+            "page_id": 2,
+            "category": 7,
+            "order": 0,
+            "context": 0,
+            "g_id": 11,
+            "g_parent_id": 0,
+            "g_sibling_id": 10
+          },
+          {
+            "id": 11,
+            "parent_id": 11,
+            "sibling_id": 10,
+            "category_id": 5,
+            "bbox": [
+              43.13725490196079,
+              775.7575757575758,
+              481.0457516339869,
+              15.151515151515127
+            ],
+            "content": "A footer: L o s Ange l e s County Child Death Revie w - 30 Year Retro sp ective",
+            "page_id": 2,
+            "category": 5,
+            "order": 0,
+            "context": 0,
+            "g_id": 12,
+            "g_parent_id": 0,
+            "g_sibling_id": 11
+          },
+          {
+            "id": 12,
+            "parent_id": 12,
+            "sibling_id": 11,
+            "category_id": 9,
+            "bbox": [
+              733.3333333333334,
+              775.7575757575758,
+              24.83660130718954,
+              14.141414141414202
+            ],
+            "content": "Page number: 22",
+            "page_id": 2,
+            "category": 9,
+            "order": 0,
+            "context": 0,
+            "g_id": 13,
+            "g_parent_id": 0,
+            "g_sibling_id": 12
+          },
+          {
+            "id": 13,
+            "parent_id": 13,
+            "sibling_id": 12,
+            "category_id": 10,
+            "bbox": [
+              377.77777777777777,
+              65.65656565656566,
+              47.05882352941177,
+              13.13131313131312
+            ],
+            "content": "A section title: Sylvia",
+            "page_id": 2,
+            "category": 10,
+            "order": 9,
+            "context": 0,
+            "g_id": 14,
+            "g_parent_id": 0,
+            "g_sibling_id": 13
+          },
+          {
+            "id": 14,
+            "parent_id": 13,
+            "sibling_id": 13,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              94.94949494949495,
+              707.18954248366,
+              158.58585858585857
+            ],
+            "content": "A paragraph: 4-month old Sylvia was brought to Saint Vincent's Hospital by her parents\uff0c with an alleged history of falling off a swing. She was transported to Children's Hospital due to the severity of HUrIe Sylvia's injuries included massive head trauma\uff0c and other injuries which varied from 7-10 days old 4 weeks old . Upon notification\uff0c DCFS responded to the hospital and detained Sylvia. However later died due to complications from her injuries. Sylvia's mother was 16 ears old and her father was 20-years old at the time of Sylvia's death. The parents had a history iestic conflict. The father was known to be possessive\uff0c to have a bad temper\uff0c and to have restricted the mother's contact with family members and friends. One month prior to her death\uff0c Sylvia had been taken to a private hospital by her parents due to concerns about a possible hernia\uff0c diarrhea and problems related to an asymme etri ca chest. During this visit\uff0c both the parents and a nurse observed \"a bone sticking out\uff0c\u201d and the father had inquired about a possible rib fracture. No X-rays were ever ordered.",
+            "page_id": 2,
+            "category": 17,
+            "order": 10,
+            "context": 0,
+            "g_id": 15,
+            "g_parent_id": 14,
+            "g_sibling_id": 14
+          },
+          {
+            "id": 15,
+            "parent_id": 13,
+            "sibling_id": 14,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              269.6969696969697,
+              709.8039215686274,
+              172.72727272727275
+            ],
+            "content": "A paragraph: Upon her death\uff0c the Coroner found rib fractures of varying ages\uff0c retinal hemorrhages in the left eye\uff0c as well as bilateral meningeal hemorrhages Law enforcement determined that the injuries did not match the parents story that Sylvia fell off a swing. This case highlights a common risk-factor in child fatality cases\uff0c the risk to children in the care of young parents with a history of domestic violence.",
+            "page_id": 2,
+            "category": 17,
+            "order": 11,
+            "context": 0,
+            "g_id": 16,
+            "g_parent_id": 14,
+            "g_sibling_id": 15
+          },
+          {
+            "id": 16,
+            "parent_id": 16,
+            "sibling_id": 15,
+            "category_id": 10,
+            "bbox": [
+              343.7908496732026,
+              458.5858585858586,
+              112.41830065359477,
+              13.131313131313107
+            ],
+            "content": "A section title: \u65e5Baby Girl Kiley",
+            "page_id": 2,
+            "category": 10,
+            "order": 12,
+            "context": 0,
+            "g_id": 17,
+            "g_parent_id": 0,
+            "g_sibling_id": 16
+          },
+          {
+            "id": 17,
+            "parent_id": 16,
+            "sibling_id": 16,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              486.8686868686869,
+              707.18954248366,
+              145.45454545454544
+            ],
+            "content": "A paragraph: Baby Girl Kiley\uff0c a newborn infant\uff0c was found at Los Angeles International Airport in one of the parking structures. A maintenance worker found the infant in a taped-up plastic bag with tape across the baby's mouth and nose. lt was determined that the baby was full-term and was hours old. The umbilical cord was still attached and there was no knot or clamp. Law enforcement suspected that the infant was abandoned over a Saturday night/Sunday morning. No fingerprints were found d on the tape\uff0c and there was no evidence of r itual abuse. The baby's footprints were taken but there was no aut nated index for matching. The investigator contacted local hospitals about women presenting for bleeding or delivering a placenta\uff0c but there were no leads from these contacts. There e a a r r e e 4 4 0 0 \uff0c \uff0c0 0 0 00 0 employees at LAX Airport\uff0c and 1500 cars were parked in the garage during that time period. Given the amount of airport traffic\uff0c it is possible that the infant could have been brought from anywhere. No suspects were ever ar",
+            "page_id": 2,
+            "category": 17,
+            "order": 13,
+            "context": 0,
+            "g_id": 18,
+            "g_parent_id": 17,
+            "g_sibling_id": 17
+          }
+        ]
+      },
+      {
+        "file_path": "o5h7r0jxer/page3.png",
+        "objects": [
+          {
+            "id": 18,
+            "parent_id": 18,
+            "sibling_id": 17,
+            "category_id": 7,
+            "bbox": [
+              159.47712418300654,
+              17.171717171717173,
+              481.045751633987,
+              16.161616161616163
+            ],
+            "content": "A header: ICAN Ch i ld D ea th Rev i ew Team Special 30 Yea r Report",
+            "page_id": 3,
+            "category": 7,
+            "order": 0,
+            "context": 0,
+            "g_id": 19,
+            "g_parent_id": 0,
+            "g_sibling_id": 18
+          },
+          {
+            "id": 19,
+            "parent_id": 19,
+            "sibling_id": 18,
+            "category_id": 9,
+            "bbox": [
+              43.13725490196079,
+              775.7575757575758,
+              23.529411764705884,
+              14.141414141414202
+            ],
+            "content": "Page number: 23",
+            "page_id": 3,
+            "category": 9,
+            "order": 0,
+            "context": 0,
+            "g_id": 20,
+            "g_parent_id": 0,
+            "g_sibling_id": 19
+          },
+          {
+            "id": 20,
+            "parent_id": 20,
+            "sibling_id": 19,
+            "category_id": 5,
+            "bbox": [
+              278.4313725490196,
+              775.7575757575758,
+              478.4313725490196,
+              15.151515151515127
+            ],
+            "content": "A footer: Los Angel e s C o unty Child Death Revie w -30 Yea r Re tro spect i ve",
+            "page_id": 3,
+            "category": 5,
+            "order": 0,
+            "context": 0,
+            "g_id": 21,
+            "g_parent_id": 0,
+            "g_sibling_id": 20
+          },
+          {
+            "id": 21,
+            "parent_id": 21,
+            "sibling_id": 20,
+            "category_id": 10,
+            "bbox": [
+              379.08496732026146,
+              65.65656565656566,
+              41.83006535947709,
+              13.13131313131312
+            ],
+            "content": "A section title: John",
+            "page_id": 3,
+            "category": 10,
+            "order": 14,
+            "context": 0,
+            "g_id": 22,
+            "g_parent_id": 0,
+            "g_sibling_id": 21
+          },
+          {
+            "id": 22,
+            "parent_id": 21,
+            "sibling_id": 21,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              93.93939393939394,
+              705.8823529411766,
+              188.8888888888889
+            ],
+            "content": "A paragraph: John\uff0c age 3\uff0c was suffocated to death by his father. The family hao no prior history with Child Protective Services.",
+            "page_id": 3,
+            "category": 17,
+            "order": 15,
+            "context": 0,
+            "g_id": 23,
+            "g_parent_id": 22,
+            "g_sibling_id": 22
+          },
+          {
+            "id": 23,
+            "parent_id": 23,
+            "sibling_id": 22,
+            "category_id": 10,
+            "bbox": [
+              380.3921568627451,
+              296.969696969697,
+              39.215686274509835,
+              16.16161616161611
+            ],
+            "content": "A section title: lly",
+            "page_id": 3,
+            "category": 10,
+            "order": 16,
+            "context": 0,
+            "g_id": 24,
+            "g_parent_id": 0,
+            "g_sibling_id": 23
+          },
+          {
+            "id": 24,
+            "parent_id": 23,
+            "sibling_id": 23,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              328.2828282828283,
+              708.4967320261437,
+              158.5858585858586
+            ],
+            "content": "A paragraph: 11-month old Sally died as result of burns\uff0c after pot of boiling water was spilled on her. The Coroner determined that Sally could have survived had sh e be given timely medical attention. Sally's parents failed to seek medical attention as they were afraid of FS A year prior to Sally's death\uff0c the family had contact with Child Protective Services (CPS) after 2-year-old sibling was found to have severe burn marks. At that time\uff0c CPS did not remove th Idren\uff0c although the social worker informed them that if another such incident occurred\uff0c the e children would be removed from their care. At the time of Sally's death\uff0c her 2-year-old sibling was removed from the parents and placed in foster care. However\uff0c a few days later\uff0c the Court released the sibling back to the parents when they learned that the parents did not seek medical help for Sally due to fear. . Law enforcement determined that the parents did everything to help Sally\uff0c short of taking her to the e hospital. Based on this information\uff0c Sally's mode of death was changed from homicide to an accident.",
+            "page_id": 3,
+            "category": 17,
+            "order": 17,
+            "context": 0,
+            "g_id": 25,
+            "g_parent_id": 24,
+            "g_sibling_id": 24
+          },
+          {
+            "id": 25,
+            "parent_id": 25,
+            "sibling_id": 24,
+            "category_id": 10,
+            "bbox": [
+              376.47058823529414,
+              501.4141414141414,
+              49.67320261437908,
+              14.747474747474769
+            ],
+            "content": "A section title: Bobby",
+            "page_id": 3,
+            "category": 10,
+            "order": 18,
+            "context": 0,
+            "g_id": 26,
+            "g_parent_id": 0,
+            "g_sibling_id": 25
+          },
+          {
+            "id": 26,
+            "parent_id": 25,
+            "sibling_id": 25,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              530.3030303030303,
+              707.18954248366,
+              174.74747474747483
+            ],
+            "content": "A paragraph: Bobby\uff0c age 1-year \uff0c lived with his mother and her boyfriend. An autopsy was performed and the cause of death was multiple injuries and the mode of death was homicide.",
+            "page_id": 3,
+            "category": 17,
+            "order": 19,
+            "context": 0,
+            "g_id": 27,
+            "g_parent_id": 26,
+            "g_sibling_id": 26
+          }
+        ]
+      },
+      {
+        "file_path": "o5h7r0jxer/page4.png",
+        "objects": [
+          {
+            "id": 27,
+            "parent_id": 27,
+            "sibling_id": 26,
+            "category_id": 7,
+            "bbox": [
+              163.3986928104575,
+              18.181818181818183,
+              477.124183006536,
+              16.161616161616163
+            ],
+            "content": "A header: ICAN Ch i ld D ea th Rev i ew Team Special 30 Yea r Report",
+            "page_id": 4,
+            "category": 7,
+            "order": 0,
+            "context": 0,
+            "g_id": 28,
+            "g_parent_id": 0,
+            "g_sibling_id": 27
+          },
+          {
+            "id": 28,
+            "parent_id": 28,
+            "sibling_id": 27,
+            "category_id": 5,
+            "bbox": [
+              44.44444444444444,
+              775.7575757575758,
+              479.73856209150324,
+              15.151515151515127
+            ],
+            "content": "A footer: Los Ange l e s County Chi l d De a th Revie w - 30 Ye a r Retro s pect i ve",
+            "page_id": 4,
+            "category": 5,
+            "order": 0,
+            "context": 0,
+            "g_id": 29,
+            "g_parent_id": 0,
+            "g_sibling_id": 28
+          },
+          {
+            "id": 29,
+            "parent_id": 29,
+            "sibling_id": 28,
+            "category_id": 9,
+            "bbox": [
+              733.3333333333334,
+              774.7474747474747,
+              23.529411764705856,
+              15.151515151515241
+            ],
+            "content": "Page number: 24",
+            "page_id": 4,
+            "category": 9,
+            "order": 0,
+            "context": 0,
+            "g_id": 30,
+            "g_parent_id": 0,
+            "g_sibling_id": 29
+          },
+          {
+            "id": 30,
+            "parent_id": 30,
+            "sibling_id": 29,
+            "category_id": 10,
+            "bbox": [
+              339.8692810457516,
+              65.65656565656566,
+              121.56862745098039,
+              14.141414141414131
+            ],
+            "content": "A section title: Danny and Sean",
+            "page_id": 4,
+            "category": 10,
+            "order": 20,
+            "context": 0,
+            "g_id": 31,
+            "g_parent_id": 0,
+            "g_sibling_id": 30
+          },
+          {
+            "id": 31,
+            "parent_id": 30,
+            "sibling_id": 30,
+            "category_id": 17,
+            "bbox": [
+              45.751633986928105,
+              93.93939393939394,
+              708.4967320261437,
+              102.02020202020202
+            ],
+            "content": "A paragraph: Mother called 911 and stated that she discovered the bodies of her children\uff0c 3-year-old Danny and 7-year-old Sean\uff0c after she returned home from a trip to the supermarket. She further sta att father was found slashed and stabbed to death at the top of the stairs in the family home\uff0c near whe the children were deceased in their beds. To investigators\uff0c the children n appeared to be tucked into bed with no apparent trauma. The mother later admitted to suffocating ber children with a pillow and stabbing and slashing their father with a sword. She was convic t three counts of first degree murder and is currently on death row.",
+            "page_id": 4,
+            "category": 17,
+            "order": 21,
+            "context": 0,
+            "g_id": 32,
+            "g_parent_id": 31,
+            "g_sibling_id": 31
+          },
+          {
+            "id": 32,
+            "parent_id": 32,
+            "sibling_id": 31,
+            "category_id": 10,
+            "bbox": [
+              375.16339869281046,
+              212.12121212121212,
+              50.98039215686276,
+              10.101010101010104
+            ],
+            "content": "A section title: James",
+            "page_id": 4,
+            "category": 10,
+            "order": 22,
+            "context": 0,
+            "g_id": 33,
+            "g_parent_id": 0,
+            "g_sibling_id": 32
+          },
+          {
+            "id": 33,
+            "parent_id": 32,
+            "sibling_id": 32,
+            "category_id": 17,
+            "bbox": [
+              44.44444444444444,
+              239.3939393939394,
+              711.1111111111111,
+              130.30303030303028
+            ],
+            "content": "A paragraph: One-year-old James was found unresponsive by ther and 911 was called. When the Fire Department arrived\uff0c they found that James appear re ss. He was resuscitated and taken to the hospital. James had swelling of his brain n and bruising on his torso and appeared to have been shaken to death. A few years before this incident\uff0c his mother and father were under investigation by DCFS for fractures to his older sibling\uff0c who was 2-years old at the time. The mother stated the child was injured while roller skating. DCFS referred the case to the hospital SCAN team and they determined that the injuries could not be due to roller skating . . The father was ested and is serving a life sentence. The mother was not charged\uff0c however\uff0c DCFS pursued perma placement for James's sister and she was adopted.",
+            "page_id": 4,
+            "category": 17,
+            "order": 23,
+            "context": 0,
+            "g_id": 34,
+            "g_parent_id": 33,
+            "g_sibling_id": 33
+          },
+          {
+            "id": 34,
+            "parent_id": 34,
+            "sibling_id": 33,
+            "category_id": 10,
+            "bbox": [
+              381.69934640522877,
+              385.85858585858585,
+              37.90849673202615,
+              13.131313131313163
+            ],
+            "content": "A section title: Tylei",
+            "page_id": 4,
+            "category": 10,
+            "order": 24,
+            "context": 0,
+            "g_id": 35,
+            "g_parent_id": 0,
+            "g_sibling_id": 34
+          },
+          {
+            "id": 35,
+            "parent_id": 34,
+            "sibling_id": 34,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              415.1515151515151,
+              707.18954248366,
+              172.72727272727275
+            ],
+            "content": "A paragraph: Tyler\uff0c age 6\uff0c was taken to the hospital by his father after he reportedly found him unresponsive. The father was ted for child cruelty\uff1a possible i njury/death and was awaiting trial as of this writing.",
+            "page_id": 4,
+            "category": 17,
+            "order": 25,
+            "context": 0,
+            "g_id": 36,
+            "g_parent_id": 35,
+            "g_sibling_id": 35
+          },
+          {
+            "id": 36,
+            "parent_id": 34,
+            "sibling_id": 35,
+            "category_id": 17,
+            "bbox": [
+              44.44444444444444,
+              603.030303030303,
+              709.8039215686274,
+              129.29292929292933
+            ],
+            "content": "A paragraph: This family had a long history with Child Protective Services ( (CPS) due to domestic violence\uff0c mental health\uff0c and substance abuse issues. Tyler had a younger sister\uff0c age 4\uff0c and they both had been removed from their mother as she had unresolved substance abuse issues\uff0c domestic violence incidents with her former boyfriend\uff0c and she and the children had been living in deplorable conditions. The children were removed from her care and their father obtained full custody. Tyler\u2019s sister told investigators that she had witnessed their father abuse Tyler on multiple occasions\uff0c and that she also had suffered abuse by their father. During this t ime\uff0c the children's mother had been in treatment and after Tyler was killed by his father\uff0c she was given custody of Tyler's sister. The CPS case was closed after 9-months of Family Maintenance Services with mother.",
+            "page_id": 4,
+            "category": 17,
+            "order": 26,
+            "context": 0,
+            "g_id": 37,
+            "g_parent_id": 35,
+            "g_sibling_id": 36
+          }
+        ]
+      },
+      {
+        "file_path": "o5h7r0jxer/page5.png",
+        "objects": [
+          {
+            "id": 37,
+            "parent_id": 37,
+            "sibling_id": 36,
+            "category_id": 7,
+            "bbox": [
+              160.7843137254902,
+              17.171717171717173,
+              478.43137254901967,
+              18.181818181818183
+            ],
+            "content": "A header: ICAN Ch i ld D ea th Rev i ew Team Special 30 Yea r Report",
+            "page_id": 5,
+            "category": 7,
+            "order": 0,
+            "context": 0,
+            "g_id": 38,
+            "g_parent_id": 0,
+            "g_sibling_id": 37
+          },
+          {
+            "id": 38,
+            "parent_id": 38,
+            "sibling_id": 37,
+            "category_id": 9,
+            "bbox": [
+              41.830065359477125,
+              775.7575757575758,
+              24.836601307189547,
+              14.141414141414202
+            ],
+            "content": "Page number: 2 5",
+            "page_id": 5,
+            "category": 9,
+            "order": 0,
+            "context": 0,
+            "g_id": 39,
+            "g_parent_id": 0,
+            "g_sibling_id": 38
+          },
+          {
+            "id": 39,
+            "parent_id": 39,
+            "sibling_id": 38,
+            "category_id": 5,
+            "bbox": [
+              278.4313725490196,
+              774.7474747474747,
+              479.7385620915033,
+              17.171717171717205
+            ],
+            "content": "A footer: Los Angel e s C o unty Child Death Revie w -30 Yea r Re tro spect i ve",
+            "page_id": 5,
+            "category": 5,
+            "order": 0,
+            "context": 0,
+            "g_id": 40,
+            "g_parent_id": 0,
+            "g_sibling_id": 39
+          },
+          {
+            "id": 40,
+            "parent_id": 40,
+            "sibling_id": 39,
+            "category_id": 10,
+            "bbox": [
+              295.42483660130716,
+              63.63636363636363,
+              213.0718954248366,
+              16.16161616161616
+            ],
+            "content": "A section title: Baby Girl H and Baby Boy H",
+            "page_id": 5,
+            "category": 10,
+            "order": 27,
+            "context": 0,
+            "g_id": 41,
+            "g_parent_id": 0,
+            "g_sibling_id": 40
+          },
+          {
+            "id": 41,
+            "parent_id": 40,
+            "sibling_id": 40,
+            "category_id": 17,
+            "bbox": [
+              44.44444444444444,
+              94.94949494949495,
+              709.8039215686274,
+              159.59595959595958
+            ],
+            "content": "A paragraph: Baby Gir l -H. and Baby Boy H. were stillborn twins. Their mother reported that she had be and thrown to the ground. She said that she had immediate discomfort and went to bed. Her wa at 4 hours later and she was subsequently t ransported by paramedics to the hospital. LAPD reported th they questioned the mother about the delay in her repor tin assault. LAPD indicated that they also had contacted the mother's doctors for medical information and were informed that\uff0c up until the assault\uff0c the pregnancy had been normal with no problems noted. There was no DCFS involvement with this family. Complications identified for this case i in nclu d the twins being at a greater risk of spontaneous abortion\uff0c the mother failing to notify authoritie s her assault for over 24 hours\uff0c and a 4 to 5-hour delay in membrane rupture following the ea s is sau u l r t t. The mother did not identify the perpetrator. The ICAN Child Death Review Team considered possible cultural issues concerning the reluctance of the African American community reporting jassaults to law enforcement.",
+            "page_id": 5,
+            "category": 17,
+            "order": 28,
+            "context": 0,
+            "g_id": 42,
+            "g_parent_id": 41,
+            "g_sibling_id": 41
+          },
+          {
+            "id": 42,
+            "parent_id": 42,
+            "sibling_id": 41,
+            "category_id": 10,
+            "bbox": [
+              369.93464052287584,
+              268.6868686868687,
+              61.43790849673201,
+              13.131313131313107
+            ],
+            "content": "A section title: Samuel",
+            "page_id": 5,
+            "category": 10,
+            "order": 29,
+            "context": 0,
+            "g_id": 43,
+            "g_parent_id": 0,
+            "g_sibling_id": 42
+          },
+          {
+            "id": 43,
+            "parent_id": 42,
+            "sibling_id": 42,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              296.969696969697,
+              708.4967320261437,
+              161.6161616161616
+            ],
+            "content": "A paragraph: Samuel\uff0c a 13-month old infant\uff0c \uff0chadl been born prematurely to a 25-year-old mother and a 38-year-old father. The District Attorney filed charges against the mother\uff0c including charges for murder (187PC ) ) and assault on a child under eight resulting in death (273ab PC).",
+            "page_id": 5,
+            "category": 17,
+            "order": 30,
+            "context": 0,
+            "g_id": 44,
+            "g_parent_id": 43,
+            "g_sibling_id": 43
+          },
+          {
+            "id": 44,
+            "parent_id": 44,
+            "sibling_id": 43,
+            "category_id": 10,
+            "bbox": [
+              369.93464052287584,
+              472.72727272727275,
+              61.43790849673201,
+              13.131313131313107
+            ],
+            "content": "A section title: Mitchell",
+            "page_id": 5,
+            "category": 10,
+            "order": 31,
+            "context": 0,
+            "g_id": 45,
+            "g_parent_id": 0,
+            "g_sibling_id": 44
+          },
+          {
+            "id": 45,
+            "parent_id": 44,
+            "sibling_id": 44,
+            "category_id": 17,
+            "bbox": [
+              45.751633986928105,
+              501.010101010101,
+              709.8039215686274,
+              160.60606060606068
+            ],
+            "content": "A paragraph: Mitchell\uff0c an 18-month old i nfant\uff0c was taken to the hospital due to breathing problems. The doctor diagnosed the child with pneumonia\uff0c and the mother took the child home. That evening\uff0c the paramedics were called to the house eas the child was unresponsive. The child was pronounced dead and an autopsy was done. The Coroner found the child to have multiple abrasions to his chest and stomach\uff0c a lacerated l iver\uff0c hemorrhage to his thymus and possibly a torn heart. The death was ruled a homicide. After a police investigation \uff0c no suspect could be identified. The mother admitted that she had originally taken the child to the hospital because she thought the child may have ingested cocaine at his father's house during a visit. She did not admit that information to the doctor for fear of being killed by the father\uff0c as he was a violent drug user. The mother eventually informed law enforcement that she felt her boyfriend caused the injuries when the child I was left alone with him. The District Attorney cdid not file any charges as there was no clear evidence as to who caused the injuriesS..",
+            "page_id": 5,
+            "category": 17,
+            "order": 32,
+            "context": 0,
+            "g_id": 46,
+            "g_parent_id": 45,
+            "g_sibling_id": 45
+          }
+        ]
+      },
+      {
+        "file_path": "o5h7r0jxer/page6.png",
+        "objects": [
+          {
+            "id": 46,
+            "parent_id": 46,
+            "sibling_id": 45,
+            "category_id": 7,
+            "bbox": [
+              162.09150326797385,
+              18.181818181818183,
+              477.124183006536,
+              16.161616161616163
+            ],
+            "content": "A header: ICAN Ch i ld D ea th Rev i ew Team Special 30 Yea r Report",
+            "page_id": 6,
+            "category": 7,
+            "order": 0,
+            "context": 0,
+            "g_id": 47,
+            "g_parent_id": 0,
+            "g_sibling_id": 46
+          },
+          {
+            "id": 47,
+            "parent_id": 47,
+            "sibling_id": 46,
+            "category_id": 5,
+            "bbox": [
+              44.44444444444444,
+              776.7676767676768,
+              478.43137254901956,
+              14.141414141414089
+            ],
+            "content": "A footer: Los Ange l e s County Chi l d De a th Revie w - 30 Ye a r Retro s pect i ve",
+            "page_id": 6,
+            "category": 5,
+            "order": 0,
+            "context": 0,
+            "g_id": 48,
+            "g_parent_id": 0,
+            "g_sibling_id": 47
+          },
+          {
+            "id": 48,
+            "parent_id": 48,
+            "sibling_id": 47,
+            "category_id": 9,
+            "bbox": [
+              733.3333333333334,
+              776.7676767676768,
+              23.529411764705856,
+              13.131313131313163
+            ],
+            "content": "Page number: 26",
+            "page_id": 6,
+            "category": 9,
+            "order": 0,
+            "context": 0,
+            "g_id": 49,
+            "g_parent_id": 0,
+            "g_sibling_id": 48
+          },
+          {
+            "id": 49,
+            "parent_id": 49,
+            "sibling_id": 48,
+            "category_id": 10,
+            "bbox": [
+              372.54901960784315,
+              66.66666666666667,
+              52.28758169934639,
+              10.10101010101009
+            ],
+            "content": "A section title: Santos",
+            "page_id": 6,
+            "category": 10,
+            "order": 33,
+            "context": 0,
+            "g_id": 50,
+            "g_parent_id": 0,
+            "g_sibling_id": 49
+          },
+          {
+            "id": 50,
+            "parent_id": 49,
+            "sibling_id": 49,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              93.93939393939394,
+              708.4967320261437,
+              157.57575757575756
+            ],
+            "content": "A paragraph: Sant o s\uff0c was a 10-week old infant\uff0c whose family was known to Child Protective Services (CPS) for s everal years due to severe neglect\uff0c transiency and the parent's inability to provide regular orthel children. Santos had nine siblings\uff0c all of whom had been removed from the parent's custody. The C worker involved with the family was unaware of Santos' birth as\uff0c although the hospital\uff0c AFDC worker\uff0c and the church that had been helping the parents were all aware\uff0c no one reported it to DCFS. The infant was at high-risk due to his parent's history of mental disabil i d homelessness. Despite the parents' disabilities\uff0c homelessness\uff0c and t he mothers' history with the regional center for developmental disabilities\uff0c no psychological evaluation or treatment was eve r ndertaken as part of the CPS or court- involved plan. Santos died from intracranial trauma as a r esul of shaking. Criminal action was not taken against the parents as investigators were unable to prot which parent caused the fatal injuries to the child.",
+            "page_id": 6,
+            "category": 17,
+            "order": 34,
+            "context": 0,
+            "g_id": 51,
+            "g_parent_id": 50,
+            "g_sibling_id": 50
+          },
+          {
+            "id": 51,
+            "parent_id": 51,
+            "sibling_id": 50,
+            "category_id": 10,
+            "bbox": [
+              377.77777777777777,
+              270.7070707070707,
+              47.05882352941177,
+              11.111111111111086
+            ],
+            "content": "A section title: Gisele",
+            "page_id": 6,
+            "category": 10,
+            "order": 35,
+            "context": 0,
+            "g_id": 52,
+            "g_parent_id": 0,
+            "g_sibling_id": 51
+          },
+          {
+            "id": 52,
+            "parent_id": 51,
+            "sibling_id": 51,
+            "category_id": 17,
+            "bbox": [
+              46.509803921568626,
+              299.3030303030303,
+              708.496732026144,
+              115.15151515151513
+            ],
+            "content": "A paragraph: This family was known to Child Protective S er vi c ue to allegations that the father was molesting 14-year old\uff0c Gisele. The case was closed l within one month\uff0c as Gisele's mother took appropriate steps to protect her children. The mother expelled the father TO e\uff0c secured a temporary restraining order\uff0c and started divorce proceedings. Th e m ot he r al so at unseling with Gisele. CPS handles many sexual abuse cases in a similar manner each ye a r. in this case\uff0c not only was there a history of sexual abuse\uff0c the father was a distraught\uff0c violer nt mian who subsequently broke into the family's home\uff0c shot and killed Gisele and his wife\uff0c seriously injured Gisele's 13-year-old sister\uff0c and concluded by turning the gun on himself\uff0c committing g suicide.",
+            "page_id": 6,
+            "category": 17,
+            "order": 36,
+            "context": 0,
+            "g_id": 53,
+            "g_parent_id": 52,
+            "g_sibling_id": 52
+          },
+          {
+            "id": 53,
+            "parent_id": 53,
+            "sibling_id": 52,
+            "category_id": 10,
+            "bbox": [
+              346.4052287581699,
+              428.2828282828283,
+              108.49673202614377,
+              14.141414141414145
+            ],
+            "content": "A section title: Newborn Bab",
+            "page_id": 6,
+            "category": 10,
+            "order": 37,
+            "context": 0,
+            "g_id": 54,
+            "g_parent_id": 0,
+            "g_sibling_id": 53
+          },
+          {
+            "id": 54,
+            "parent_id": 53,
+            "sibling_id": 53,
+            "category_id": 17,
+            "bbox": [
+              45.751633986928105,
+              458.5858585858586,
+              708.4967320261437,
+              289.8989898989899
+            ],
+            "content": "A paragraph: Law enforcement was called to a local hospital as aWOm man who had previoussly y given birth was at the hospital\uff0c but denied that she had given birth and had no o baby with her. An observanttinurse\uff0c \uff0cno the treating doctor\uff0c eventually notified law enforcement of the baby's",
+            "page_id": 6,
+            "category": 17,
+            "order": 38,
+            "context": 0,
+            "g_id": 55,
+            "g_parent_id": 54,
+            "g_sibling_id": 54
+          }
+        ]
+      },
+      {
+        "file_path": "o5h7r0jxer/page7.png",
+        "objects": [
+          {
+            "id": 55,
+            "parent_id": 55,
+            "sibling_id": 54,
+            "category_id": 7,
+            "bbox": [
+              162.09150326797385,
+              17.171717171717173,
+              477.124183006536,
+              18.181818181818183
+            ],
+            "content": "A header: ICAN Ch i ld D ea th Rev i ew Team Special 30 Yea r Report",
+            "page_id": 7,
+            "category": 7,
+            "order": 0,
+            "context": 0,
+            "g_id": 56,
+            "g_parent_id": 0,
+            "g_sibling_id": 55
+          },
+          {
+            "id": 56,
+            "parent_id": 56,
+            "sibling_id": 55,
+            "category_id": 9,
+            "bbox": [
+              43.13725490196079,
+              776.7676767676768,
+              22.222222222222214,
+              13.131313131313163
+            ],
+            "content": "Page number: 27",
+            "page_id": 7,
+            "category": 9,
+            "order": 0,
+            "context": 0,
+            "g_id": 57,
+            "g_parent_id": 0,
+            "g_sibling_id": 56
+          },
+          {
+            "id": 57,
+            "parent_id": 57,
+            "sibling_id": 56,
+            "category_id": 5,
+            "bbox": [
+              279.73856209150324,
+              776.7676767676768,
+              477.124183006536,
+              15.151515151515127
+            ],
+            "content": "A footer: Los Angel e s C o unty Child Death Revie w -30 Yea r Re tro spect i ve",
+            "page_id": 7,
+            "category": 5,
+            "order": 0,
+            "context": 0,
+            "g_id": 58,
+            "g_parent_id": 0,
+            "g_sibling_id": 57
+          },
+          {
+            "id": 58,
+            "parent_id": 53,
+            "sibling_id": 57,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              65.65656565656566,
+              705.8823529411766,
+              72.72727272727273
+            ],
+            "content": "A paragraph: birth. The District Attorney's office filed one count of P.C. 187\uff0c murder\uff0c against the mother. The jury was given the option to find involuntary manslaughter in this case. The defense argued that the baby died of choking on amniotic fluid moments after birth\uff0c while the Coroner's report listed the cat U th perinatal demise due to asphyxia\uff0c either by manual compression or manual strangulation. Th was subsequently convicted of manslaughter and was sentenc to four years in state prison.",
+            "page_id": 7,
+            "category": 17,
+            "order": 39,
+            "context": 0,
+            "g_id": 59,
+            "g_parent_id": 54,
+            "g_sibling_id": 58
+          },
+          {
+            "id": 59,
+            "parent_id": 59,
+            "sibling_id": 58,
+            "category_id": 10,
+            "bbox": [
+              371.24183006535947,
+              153.53535353535352,
+              58.823529411764696,
+              12.121212121212125
+            ],
+            "content": "A section title: Rhonda",
+            "page_id": 7,
+            "category": 10,
+            "order": 40,
+            "context": 0,
+            "g_id": 60,
+            "g_parent_id": 0,
+            "g_sibling_id": 59
+          },
+          {
+            "id": 60,
+            "parent_id": 59,
+            "sibling_id": 59,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              182.82828282828282,
+              705.8823529411766,
+              158.58585858585857
+            ],
+            "content": "A paragraph: 27-month-old Rhonda was unresponsive and atose state when she was brought to King/Drew Medical Center by her foster parent. The foster mother reported that Rhonda had fallen in the bathtub the previous day\uff0c and had fallen again h . e e arlie r in the day before being brought to the hospital. When questioned by hospital staff about her delay in seeking treatment for Rhonda\uff0c the foster mother admitted that she had hit her with a bath brush on her back\uff0c a and she feared that when the bruises on her back were observed\uff0c Rhonda and the other foster children in her care would be removed. Doctors diagnosed a severe head injury and operated on Rhond a to relieve pressure on her brain\uff0c but she died five days later. Rhonda's older sibling was originally placed in protective custody in 1995 due to the mother\u2019s long history of alcoholism and associated neglect of the sibling. Rhonda's sibling was subsequently placed in the care of her maternalIgrandmother. Wh was born less than two years later\uff0c she\uff0c too\uff0c was placed in the care of the grandmother.",
+            "page_id": 7,
+            "category": 17,
+            "order": 41,
+            "context": 0,
+            "g_id": 61,
+            "g_parent_id": 60,
+            "g_sibling_id": 60
+          },
+          {
+            "id": 61,
+            "parent_id": 59,
+            "sibling_id": 60,
+            "category_id": 17,
+            "bbox": [
+              47.05882352941177,
+              356.5656565656566,
+              708.4967320261437,
+              218.18181818181813
+            ],
+            "content": "A paragraph: The grandmother subsequently obtained Ilegal gua rdianship of both girls in 1997. She was sentenced to 25 years to life in state prison for the killing of Rhonda",
+            "page_id": 7,
+            "category": 17,
+            "order": 42,
+            "context": 0,
+            "g_id": 62,
+            "g_parent_id": 60,
+            "g_sibling_id": 61
+          }
+        ]
+      }
+    ]
+  }
+]

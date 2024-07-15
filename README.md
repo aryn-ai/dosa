@@ -2,14 +2,7 @@
 
 ## Introduction
 
-**Abstract.** Document Layout parsing is a crucial task for document understanding.
-Most work today focus on page object detection but ignore the rich relation information
-among those page objects in a document. In this paper, we present a multi-stage end
-to end document structure analysis system called DOSA(DOcument Structure Analyzer).
-DOSA is able to localize page objects in a document, detect relationship among these
-objects and build a semantic hierarchical tree based on the detected relationship.
-DOSA also provides a set of operators leveraging document tree structure for solving
-tricky semantic filtering and chunking problem.
+**Abstract.** Document structure analysis is fundamental to information retrieval and document understanding. In complex documents, information is encoded not only in individual page objects such as tables, headers, and text blocks, but also in the structural relations among them. We propose a novel framework, termed **DOcument Structure Analyzer (DOSA)**, for inferring relations between page objects and reconstructing document-level semantic structures. DOSA combines a transformer-based multimodal architecture with a tree-guided context-building algorithm designed to address the attention and sequence-length limitations of transformer when processing long documents. Specifically, DOSA extracts and fuses visual, textual, and layout features for each page object, refines these representations using a transformer encoder to capture contextual dependencies, and predicts hierarchical and ordering relations. To scale to long documents, DOSA processes page objects incrementally by dividing documents into chunks and sequentially performing inference, while dynamically constructing a semantic tree from previously processed chunks to guide subsequent predictions. Experimental results on multiple benchmarks demonstrate the effectiveness of the proposed approach.
 
 ## Usage
 
@@ -17,36 +10,31 @@ tricky semantic filtering and chunking problem.
 Organize data as following:
 ```
 code_root/
-└── data/
-    └── doc/
+└── dataset/
+    └── dochienet/
         ├── images/
+        │   ├── prefix1/
+        │   │   ├── page1.png
+        │   │   ├── page2.png
+        │   │   └── ...
+        │   └── ...
         └── annotations/
-        	├── train.json
-        	└── val.json
+            ├── train.json
+            ├── val.json
+            └── benchmark.json
+
 ```
 
 ### Training
 
-#### Training on single node
-
-For example, the command for training DOSA on 8 GPUs is as following:
+For example, the command for training DOSA on single GPUs is as following:
 
 ```bash
-GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 8 ./tools/train_dosa.sh
+GPUS=1 GPUS_PER_NODE=1 poetry run ./dosa/tools/run_dist_launch.sh --batch_size 2 --data_path ./dataset/dochienet --output_dir output --n_sequence 256 --semantic_model_name sentence-transformers/distiluse-base-multilingual-cased-v2 --d_semantic_in 768 --d_semantic_out 512 --num_workers 0
 ```
 
-#### Training on multiple nodes
-
-For example, the command for training DOSA on 2 nodes of each with 8 GPUs is as following:
-
-On node 1:
-
+### Evaluation
+To evaluate DOSA on DocHieNet with a single GPU run:
 ```bash
-MASTER_ADDR=<IP address of node 1> NODE_RANK=0 GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 16 ./tools/train_dosa.sh
-```
-
-On node 2:
-
-```bash
-MASTER_ADDR=<IP address of node 1> NODE_RANK=1 GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 16 ./tools/train_dosa.sh
+poetry run python -m dosa.data.dochienet.benchmark --context_window 8 --resume output/checkpoint.pth --n_sequence 256 --semantic_model_name sentence-transformers/distiluse-base-multilingual-cased-v2 --d_semantic_in 768 --d_semantic_out 512 --data_path ./dataset/dochienet
 ```

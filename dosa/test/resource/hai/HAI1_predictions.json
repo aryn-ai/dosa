@@ -1,0 +1,618 @@
+[
+  {
+    "category": [
+      10,
+      5,
+      7,
+      6,
+      8
+    ],
+    "bbox": [
+      [
+        70.53654479980469,
+        218.70970153808594,
+        593.6925659179688,
+        104.87623596191406
+      ],
+      [
+        717.7931518554688,
+        755.940673828125,
+        12.620361328125,
+        9.27362060546875
+      ],
+      [
+        68.29549407958984,
+        52.872745513916016,
+        174.10061645507812,
+        33.25880813598633
+      ],
+      [
+        514.7245483398438,
+        65.99769592285156,
+        213.3248291015625,
+        11.699630737304688
+      ],
+      [
+        69.96076202392578,
+        161.47610473632812,
+        168.44656372070312,
+        33.154510498046875
+      ]
+    ],
+    "content": [
+      "A paragraph: This chapter captures trends in AI R&D. It begins by examining AI publications, \r\nincluding journal articles, conference papers, and repositories. Next it considers data \r\non signifcant machine learning systems, including large language and multimodal \r\nmodels. Finally, the chapter concludes by looking at AI conference attendance and \r\nopen-source AI research. Although the United States and China continue to dominate \r\nAI R&D, research eforts are becoming increasingly geographically dispersed.",
+      "PageFooter:22",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023",
+      "PageHeader:Chapter 1: Research and Development",
+      "SectionHeader:Overview"
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      10,
+      10,
+      5,
+      8,
+      6,
+      8,
+      8,
+      10,
+      8,
+      7
+    ],
+    "bbox": [
+      [
+        463.9051513671875,
+        238.27276611328125,
+        241.476318359375,
+        177.77389526367188
+      ],
+      [
+        464.24188232421875,
+        514.455322265625,
+        237.16815185546875,
+        192.03021240234375
+      ],
+      [
+        94.94402313232422,
+        306.9107666015625,
+        306.93023681640625,
+        117.1373291015625
+      ],
+      [
+        94.77081298828125,
+        636.0993041992188,
+        311.3811950683594,
+        71.59405517578125
+      ],
+      [
+        717.39453125,
+        756.7635498046875,
+        12.57794189453125,
+        8.16888427734375
+      ],
+      [
+        464.0344543457031,
+        202.61878967285156,
+        191.26846313476562,
+        31.7191162109375
+      ],
+      [
+        515.3074951171875,
+        67.59690856933594,
+        212.59765625,
+        9.741844177246094
+      ],
+      [
+        464.46600341796875,
+        461.16131591796875,
+        213.08013916015625,
+        49.25927734375
+      ],
+      [
+        94.7553482055664,
+        135.1781463623047,
+        327.5000305175781,
+        32.18824768066406
+      ],
+      [
+        94.55914306640625,
+        456.9744567871094,
+        308.1331787109375,
+        92.10061645507812
+      ],
+      [
+        94.56671142578125,
+        582.0043334960938,
+        285.7757568359375,
+        50.397216796875
+      ],
+      [
+        68.88179016113281,
+        53.35329818725586,
+        173.25059509277344,
+        32.8647575378418
+      ]
+    ],
+    "content": [
+      "A paragraph: Until 2014, most signifcant machine \r\nlearning models were released by \r\nacademia. Since then, industry has taken \r\nover. In 2022, there were 32 signifcant \r\nindustry-produced machine learning \r\nmodels compared to just three produced \r\nby academia. Building state-of-the-art \r\nAI systems increasingly requires large \r\namounts of data, computer power, and \r\nmoney\u2014resources that industry actors \r\ninherently possess in greater amounts \r\ncompared to nonprofts and academia.",
+      "A paragraph: GPT-2, released in 2019, considered \r\nby many to be the frst large language \r\nmodel, had 1.5 billion parameters and \r\ncost an estimated $50,000 USD to \r\ntrain. PaLM, one of the fagship large \r\nlanguage models launched in 2022, \r\nhad 540 billion parameters and cost an \r\nestimated $8 million USD\u2014PaLM was \r\naround 360 times larger than GPT-2 and \r\ncost 160 times more. It\u2019s not just PaLM: \r\nAcross the board, large language and \r\nmultimodal models are becoming larger \r\nand pricier.",
+      "A paragraph: The number of AI research collaborations between \r\nthe United States and China increased roughly 4 \r\ntimes since 2010, and was 2.5 times greater than the \r\ncollaboration totals of the next nearest country pair, \r\nthe United Kingdom and China. However, the total \r\nnumber of U.S.-China collaborations only increased \r\nby 2.1% from 2020 to 2021, the smallest year-over\u0002year growth rate since 2010.",
+      "A paragraph: The United States is still ahead in terms of AI \r\nconference and repository citations, but those leads \r\nare slowly eroding. Still, the majority of the world\u2019s \r\nlarge language and multimodal models (54% in 2022) \r\nare produced by American institutions.",
+      "PageFooter:23",
+      "SectionHeader:Industry races ahead \r\nof academia. ",
+      "PageHeader:Chapter 1: Research and Development",
+      "SectionHeader:Large language models \r\nare getting bigger and \r\nmore expensive. ",
+      "SectionHeader:Chapter Highlights",
+      "A paragraph: AI research is on the rise, across \r\nthe board. The total number of AI publications \r\nhas more than doubled since 2010. The specifc AI \r\ntopics that continue to dominate research include \r\npattern recognition, machine learning, \r\nand computer vision.",
+      "SectionHeader:China continues to lead in total \r\nAI journal, conference, and \r\nrepository publications. ",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023"
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      10,
+      10,
+      5,
+      8,
+      8,
+      7,
+      10,
+      8,
+      7,
+      10
+    ],
+    "bbox": [
+      [
+        411.9255065917969,
+        294.5254211425781,
+        317.5598449707031,
+        25.801513671875
+      ],
+      [
+        411.813720703125,
+        355.2960510253906,
+        293.663330078125,
+        58.05767822265625
+      ],
+      [
+        70.96136474609375,
+        322.8146667480469,
+        310.004638671875,
+        74.18954467773438
+      ],
+      [
+        69.08354949951172,
+        107.03372955322266,
+        672.0143432617188,
+        52.98133087158203
+      ],
+      [
+        717.5203857421875,
+        757.1402587890625,
+        12.2418212890625,
+        7.3973388671875
+      ],
+      [
+        69.98785400390625,
+        250.9391326904297,
+        254.91473388671875,
+        29.013442993164062
+      ],
+      [
+        411.9271240234375,
+        338.4762268066406,
+        212.156982421875,
+        9.96685791015625
+      ],
+      [
+        71.1242446899414,
+        455.38592529296875,
+        656.2550659179688,
+        248.3968505859375
+      ],
+      [
+        69.6083984375,
+        169.76113891601562,
+        662.14111328125,
+        41.998382568359375
+      ],
+      [
+        70.51918029785156,
+        293.66119384765625,
+        100.10319519042969,
+        16.861480712890625
+      ],
+      [
+        68.90382385253906,
+        53.74602508544922,
+        173.28982543945312,
+        32.30592346191406
+      ],
+      [
+        70.3337173461914,
+        720.7202758789062,
+        627.7266235351562,
+        13.97393798828125
+      ]
+    ],
+    "content": [
+      "A paragraph: publication and citation data by region for AI journal \r\narticles, conference papers, repositories, and patents.",
+      "A paragraph: Figure 1.1.1 shows the number of AI publications in \r\nthe world. From 2010 to 2021, the total number of \r\nAI publications more than doubled, growing from \r\n200,000 in 2010 to almost 500,000 in 2021.",
+      "A paragraph: The fgures below capture the total number \r\nof English-language and Chinese-language AI \r\npublications globally from 2010 to 2021\u2014by type, \r\nafliation, cross-country collaboration, and cross\u0002industry collaboration. The section also breaks down ",
+      "A paragraph: This section draws on data from the Center for Security and Emerging Technology (CSET) at Georgetown University. CSET maintains a \r\nmerged corpus of scholarly literature that includes Digital Science\u2019s Dimensions, Clarivate\u2019s Web of Science, Microsoft Academic Graph, \r\nChina National Knowledge Infrastructure, arXiv, and Papers With Code. In that corpus, CSET applied a classifer to identify English\u0002language publications related to the development or application of AI and ML since 2010. For this year\u2019s report, CSET also used select \r\nChinese AI keywords to identify Chinese-language AI papers; CSET did not deploy this method for previous iterations of the AI Index report.1",
+      "PageFooter:24",
+      "SectionHeader:1.1 Publications",
+      "SectionHeader:Total Number of AI Publications",
+      "Picture:496.01\r\n2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021\r\n0\r\n100\r\n200\r\n300\r\n400\r\n500\r\nNumber of AI Publications (in Thousands)",
+      "A paragraph: In last year\u2019s edition of the report, publication trends were reported up to the year 2021. However, given that there is a signifcant lag in the \r\ncollection of publication metadata, and that in some cases it takes until the middle of any given year to fully capture the previous year\u2019s \r\npublications, in this year\u2019s report, the AI Index team elected to examine publication trends only through 2021, which we, along with CSET, \r\nare confdent yields a more fully representative report.",
+      "SectionHeader:Overview",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023",
+      "A paragraph: 1 See the Appendix for more information on CSET\u2019s methodology. For more on the challenge of defning AI and correctly capturing relevant bibliometric data, see the AI Index team\u2019s \r\ndiscussion in the paper \u201cMeasurement in AI Policy: Opportunities and Challenges.\u201d"
+    ]
+  },
+  {
+    "category": [
+      10,
+      5,
+      7,
+      10,
+      8,
+      7,
+      5
+    ],
+    "bbox": [
+      [
+        70.62842559814453,
+        146.55169677734375,
+        317.12255859375,
+        59.98793029785156
+      ],
+      [
+        717.4957275390625,
+        756.6830444335938,
+        12.291748046875,
+        8.42559814453125
+      ],
+      [
+        70.7938461303711,
+        255.93917846679688,
+        647.9519653320312,
+        254.69476318359375
+      ],
+      [
+        410.8918151855469,
+        130.83164978027344,
+        315.9186096191406,
+        75.2015380859375
+      ],
+      [
+        70.3670883178711,
+        129.58921813964844,
+        149.16604614257812,
+        12.420700073242188
+      ],
+      [
+        68.42542266845703,
+        53.193695068359375,
+        173.281982421875,
+        32.90858459472656
+      ],
+      [
+        70.74894714355469,
+        756.188720703125,
+        230.6444549560547,
+        9.30145263671875
+      ]
+    ],
+    "content": [
+      "A paragraph: Figure 1.1.2 shows the types of AI publications released \r\nglobally over time. In 2021, 60% of all published AI \r\ndocuments were journal articles, 17% were conference \r\npapers, and 13% were repository submissions. Books, ",
+      "PageFooter:25",
+      "Picture:2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021\r\n0\r\n30\r\n60\r\n90\r\n120\r\n150\r\n180\r\n210\r\n240\r\n270\r\n300\r\nNumber of AI Publications (in Thousands)\r\n2.76, Book\r\n5.82, Unknown\r\n13.77, Book Chapter\r\n29.88, Thesis\r\n65.21, Repository\r\n85.09, Conference\r\n293.48, Journal\r\ny gg gy, | p\r\nFi11",
+      "A paragraph: book chapters, theses, and unknown document types \r\nmade up the remaining 10% of publications. While \r\njournal and repository publications have grown 3 \r\nand 26.6 times, respectively, in the past 12 years, the \r\nnumber of conference papers has declined since 2019.",
+      "SectionHeader:By Type of Publication",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023",
+      "PageFooter:Table of Contents Chapter 1 Preview "
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      5,
+      7,
+      7,
+      8,
+      10,
+      6,
+      5
+    ],
+    "bbox": [
+      [
+        92.24124145507812,
+        224.87232971191406,
+        284.9427185058594,
+        58.42051696777344
+      ],
+      [
+        404.74591064453125,
+        208.46310424804688,
+        288.85833740234375,
+        74.70150756835938
+      ],
+      [
+        716.6409301757812,
+        757.2984008789062,
+        13.28155517578125,
+        7.2955322265625
+      ],
+      [
+        89.14544677734375,
+        337.4344482421875,
+        619.6266479492188,
+        234.74725341796875
+      ],
+      [
+        68.62248992919922,
+        53.591060638427734,
+        173.41598510742188,
+        32.52376174926758
+      ],
+      [
+        91.96577453613281,
+        207.57699584960938,
+        61.288970947265625,
+        10.869171142578125
+      ],
+      [
+        663.38232421875,
+        581.6651611328125,
+        49.47271728515625,
+        7.24835205078125
+      ],
+      [
+        514.5670166015625,
+        67.6273193359375,
+        212.682861328125,
+        21.266319274902344
+      ],
+      [
+        71.12142944335938,
+        757.396240234375,
+        230.32418823242188,
+        7.67974853515625
+      ]
+    ],
+    "content": [
+      "A paragraph: Since 2010, the institution producing the greatest \r\nnumber of total AI papers has been the Chinese \r\nAcademy of Sciences (Figure 1.1.21). The next \r\ntop four are all Chinese universities: Tsinghua ",
+      "A paragraph: University, the University of the Chinese Academy \r\nof Sciences, Shanghai Jiao Tong University, \r\nand Zhejiang University.5 The total number of \r\npublications released by each of these institutions \r\nin 2021 is displayed in Figure 1.1.22.",
+      "PageFooter:44",
+      "Picture:2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021\r\n10\r\n9\r\n8\r\n7\r\n6\r\n5\r\n4\r\n3\r\n2\r\n1\r\nRank\r\n1, Chinese Academy of Sciences\r\n2, Tsinghua University\r\n3, University of Chinese Academy of Sciences\r\n4, Shanghai Jiao Tong University\r\n5, Zhejiang University\r\n6, Harbin Institute of Technology\r\n7, Beihang University\r\n8, University of Electronic Science and Technology of China\r\n9, Peking University\r\n10, Massachusetts Institute of Technology",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023",
+      "SectionHeader:All Fields",
+      "A paragraph: Figure 1.1.21",
+      "PageHeader:1.1 Publications\r\nChapter 1: Research and Development",
+      "PageFooter:Table of Contents Chapter 1 Preview "
+    ]
+  },
+  {
+    "category": [
+      5,
+      7,
+      7,
+      10
+    ],
+    "bbox": [
+      [
+        717.2410278320312,
+        757.2745971679688,
+        12.4561767578125,
+        7.67889404296875
+      ],
+      [
+        68.30709838867188,
+        53.458702087402344,
+        173.49148559570312,
+        32.497528076171875
+      ],
+      [
+        89.03689575195312,
+        224.71580505371094,
+        631.677734375,
+        233.3478546142578
+      ],
+      [
+        660.8167114257812,
+        469.7660827636719,
+        51.59356689453125,
+        8.122161865234375
+      ]
+    ],
+    "content": [
+      "PageFooter:45",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023",
+      "Picture:1,745\r\n1,893\r\n1,951\r\n1,970\r\n2,016\r\n2,590\r\n2,703\r\n2,904\r\n3,373\r\n5,099\r\n0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 4,500 5,000\r\nMassachusetts Institute of\r\nTechnology\r\nPeking University\r\nUniversity of Electronic Science\r\nand Technology of China\r\nBeihang University\r\nHarbin Institute of Technology\r\nZhejiang University\r\nShanghai Jiao Tong University\r\nUniversity of Chinese Academy\r\nof Sciences\r\nTsinghua University\r\nChinese Academy of Sciences\r\nNumber of AI Publications",
+      "A paragraph: Figure 1.1.22"
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      7,
+      5,
+      10,
+      10,
+      8,
+      8,
+      7,
+      10
+    ],
+    "bbox": [
+      [
+        412.30780029296875,
+        324.5731506347656,
+        313.865478515625,
+        91.33718872070312
+      ],
+      [
+        70.38888549804688,
+        360.81634521484375,
+        317.24224853515625,
+        58.617828369140625
+      ],
+      [
+        73.35260009765625,
+        458.66717529296875,
+        655.5921630859375,
+        250.8365478515625
+      ],
+      [
+        716.6683959960938,
+        756.7059326171875,
+        13.18182373046875,
+        8.1309814453125
+      ],
+      [
+        68.94404602050781,
+        106.56304168701172,
+        638.5924682617188,
+        42.55432891845703
+      ],
+      [
+        69.40357971191406,
+        158.25270080566406,
+        647.3353271484375,
+        31.301834106445312
+      ],
+      [
+        411.8644714355469,
+        307.74713134765625,
+        92.7159423828125,
+        11.183013916015625
+      ],
+      [
+        70.41394805908203,
+        224.33767700195312,
+        465.96588134765625,
+        67.31692504882812
+      ],
+      [
+        68.90331268310547,
+        53.58924865722656,
+        173.57955932617188,
+        32.458030700683594
+      ],
+      [
+        70.32646942138672,
+        720.240478515625,
+        610.7669677734375,
+        14.09246826171875
+      ]
+    ],
+    "content": [
+      "A paragraph: Among the signifcant AI machine learning systems \r\nreleased in 2022, the most common class of system \r\nwas language (Figure 1.2.1). There were 23 signifcant \r\nAI language systems released in 2022, roughly six \r\ntimes the number of the next most common system \r\ntype, multimodal systems.",
+      "A paragraph: The fgures below report trends among all machine \r\nlearning systems included in the Epoch dataset. For \r\nreference, these systems are referred to as signifcant \r\nmachine learning systems throughout the subsection.",
+      "Picture:1\r\n1\r\n1\r\n2\r\n2\r\n3\r\n4\r\n23\r\n0 2 4 6 8 10 12 14 16 18 20 22 24\r\nGames\r\nOther\r\nText-to-Video\r\nSpeech\r\nVision\r\nDrawing\r\nMultimodal\r\nLanguage\r\nNumber of Signi\u01c7cant Machine Learning Systems\r\nFigure 1.2.16",
+      "PageFooter:49",
+      "A paragraph: Epoch AI is a collective of researchers investigating and forecasting the development of advanced AI. Epoch curates a database of \r\nsignifcant AI and machine learning systems that have been released since the 1950s. There are diferent criteria under which the \r\nEpoch team decides to include particular AI systems in their database; for example, the system may have registered a state-of-the-art \r\nimprovement, been deemed to have been historically signifcant, or been highly cited.",
+      "A paragraph: This subsection uses the Epoch database to track trends in signifcant AI and machine learning systems. The latter half of the chapter \r\nincludes research done by the AI Index team that reports trends in large language and multimodal models, which are models trained on \r\nlarge amounts of data and adaptable to a variety of downstream applications.",
+      "SectionHeader:System Types",
+      "SectionHeader:1.2 Trends in Signifcant \r\nMachine Learning Systems ",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023",
+      "A paragraph: 6 There were 38 total signifcant AI machine learning systems released in 2022, according to Epoch; however, one of the systems, BaGuaLu, did not have a domain classifcation \r\nand is therefore omitted from Figure 1.2.1."
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      10,
+      8,
+      8,
+      7,
+      5,
+      7,
+      7,
+      5
+    ],
+    "bbox": [
+      [
+        70.7429428100586,
+        148.4770965576172,
+        300.31451416015625,
+        74.91267395019531
+      ],
+      [
+        70.66998291015625,
+        252.6125946044922,
+        305.4093933105469,
+        74.86305236816406
+      ],
+      [
+        411.4662780761719,
+        147.02699279785156,
+        318.5093688964844,
+        172.2648468017578
+      ],
+      [
+        70.26504516601562,
+        131.26080322265625,
+        126.19076538085938,
+        11.109161376953125
+      ],
+      [
+        70.63690185546875,
+        236.47792053222656,
+        55.70668029785156,
+        10.43328857421875
+      ],
+      [
+        408.8694152832031,
+        400.80633544921875,
+        328.5404968261719,
+        218.58319091796875
+      ],
+      [
+        719.2996215820312,
+        757.4418334960938,
+        10.5595703125,
+        7.59967041015625
+      ],
+      [
+        72.65857696533203,
+        404.4669189453125,
+        319.9315185546875,
+        215.00469970703125
+      ],
+      [
+        68.60322570800781,
+        53.564334869384766,
+        173.36387634277344,
+        32.635868072509766
+      ],
+      [
+        200.0683135986328,
+        756.9910888671875,
+        101.52323913574219,
+        8.13177490234375
+      ]
+    ],
+    "content": [
+      "A paragraph: In order to paint a picture of AI\u2019s evolving \r\ngeopolitical landscape, the AI Index research \r\nteam identifed the nationality of the authors who \r\ncontributed to the development of each signifcant \r\nmachine learning system in the Epoch dataset.7",
+      "A paragraph: Figure 1.2.3 showcases the total number of \r\nsignifcant machine learning systems attributed to \r\nresearchers from particular countries.8 A researcher \r\nis considered to have belonged to the country in \r\nwhich their institution, for example a university ",
+      "A paragraph: or AI-research frm, was headquartered. In 2022, \r\nthe United States produced the greatest number \r\nof signifcant machine learning systems with 16, \r\nfollowed by the United Kingdom (8) and China (3). \r\nMoreover, since 2002 the United States has outpaced \r\nthe United Kingdom and the European Union, as well \r\nas China, in terms of the total number of signifcant \r\nmachine learning systems produced (Figure 1.2.4). \r\nFigure 1.2.5 displays the total number of signifcant \r\nmachine learning systems produced by country since \r\n2002 for the entire world.",
+      "SectionHeader:National Afliation",
+      "SectionHeader:Systems",
+      "Picture:20022004200620082010201220142016201820202022\r\n0\r\n5\r\n10\r\n15\r\n20\r\n25\r\n30\r\nNumber of Significant Machine Learning Systems\r\n3, China\r\n12, European Union and\r\nUnited Kingdom\r\n16, United States\r\nFigure 1.2.4",
+      "PageFooter:51",
+      "Picture:1\r\n1\r\n1\r\n1\r\n1\r\n2\r\n2\r\n3\r\n8\r\n16\r\n0 2 4 6 8 10 12 14 16\r\nSingapore\r\nRussia\r\nIsrael\r\nIndia\r\nFrance\r\nGermany\r\nCanada\r\nChina\r\nUnited Kingdom\r\nUnited States\r\nNumber of Signi\u01c7cant Machine Learning Systems\r\nFigure 1.2.3 ",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023",
+      "PageFooter:Chapter 1 Preview "
+    ]
+  }
+]

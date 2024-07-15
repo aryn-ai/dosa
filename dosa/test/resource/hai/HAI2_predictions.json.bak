@@ -1,0 +1,1282 @@
+[
+  {
+    "scores": [
+      0.9120991826057434,
+      0.8355674147605896,
+      0.7534101009368896,
+      0.6383872628211975,
+      0.5545638799667358,
+      0.5142456889152527
+    ],
+    "labels": [
+      10,
+      5,
+      7,
+      8,
+      6,
+      5
+    ],
+    "boxes": [
+      [
+        90.97042846679688,
+        280.0115051269531,
+        877.1529541015625,
+        414.0927429199219
+      ],
+      [
+        918.8369140625,
+        968.34912109375,
+        933.9971923828125,
+        979.88671875
+      ],
+      [
+        87.90033721923828,
+        67.5841064453125,
+        309.9234313964844,
+        110.20675659179688
+      ],
+      [
+        88.86920166015625,
+        208.18389892578125,
+        304.3128662109375,
+        249.58822631835938
+      ],
+      [
+        688.2351684570312,
+        85.4409408569336,
+        930.5866088867188,
+        98.93842315673828
+      ],
+      [
+        91.15992736816406,
+        968.505859375,
+        388.07177734375,
+        979.2979736328125
+      ]
+    ],
+    "fonts": [
+      158.27676601848614,
+      6.0314893660874205,
+      0,
+      234.74473741361382,
+      55.44295385647249,
+      25.033645386210992
+    ],
+    "contents": [
+      "A Text with content: This year\u2019s technical performance chapter features analysis of the technical progress in \r\nAI during 2022. Building on previous reports, this chapter chronicles advancement in \r\ncomputer vision, language, speech, reinforcement learning, and hardware. Moreover, \r\nthis year this chapter features an analysis on the environmental impact of AI, a discussion \r\nof the ways in which AI has furthered scientifc progress, and a timeline-style overview \r\nof some of the most signifcant recent AI developments.",
+      "A PageFooter with content: 72",
+      "A figure with content unknown",
+      "A SectionHeader with content: Overview",
+      "A PageHeader with content: Chapter 2: Technical Performance",
+      "A PageFooter with content: Table of Contents Chapter 2 Preview \r\nChapter 2 Preview"
+    ]
+  },
+  {
+    "scores": [
+      0.9325779676437378,
+      0.9294425249099731,
+      0.9259947538375854,
+      0.9212465882301331,
+      0.8753820657730103,
+      0.8444096446037292,
+      0.8394851088523865,
+      0.8064701557159424,
+      0.7896677851676941,
+      0.7615371942520142,
+      0.7503019571304321,
+      0.7439463138580322,
+      0.7386313080787659,
+      0.6945977210998535,
+      0.6807488203048706,
+      0.6677212119102478,
+      0.6436644792556763,
+      0.6074064373970032
+    ],
+    "labels": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      5,
+      10,
+      10,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      6,
+      7,
+      8,
+      8
+    ],
+    "boxes": [
+      [
+        115.5806884765625,
+        775.7243041992188,
+        477.239013671875,
+        926.4154663085938
+      ],
+      [
+        115.70236206054688,
+        538.580078125,
+        455.5539855957031,
+        670.7041015625
+      ],
+      [
+        543.9000244140625,
+        814.6438598632812,
+        908.1429443359375,
+        927.4109497070312
+      ],
+      [
+        543.617431640625,
+        288.9603271484375,
+        900.310546875,
+        420.53143310546875
+      ],
+      [
+        115.961181640625,
+        289.01800537109375,
+        450.74273681640625,
+        440.11334228515625
+      ],
+      [
+        918.8239135742188,
+        968.5404052734375,
+        933.4052124023438,
+        979.7542724609375
+      ],
+      [
+        543.9221801757812,
+        505.54608154296875,
+        850.1006469726562,
+        579.3106079101562
+      ],
+      [
+        543.9117431640625,
+        645.8025512695312,
+        867.371337890625,
+        740.1100463867188
+      ],
+      [
+        115.09773254394531,
+        493.216796875,
+        342.3056640625,
+        535.2899169921875
+      ],
+      [
+        114.91830444335938,
+        728.0557250976562,
+        473.4781799316406,
+        771.8699340820312
+      ],
+      [
+        109.47834777832031,
+        166.05223083496094,
+        529.534912109375,
+        209.4539031982422
+      ],
+      [
+        542.3059692382812,
+        242.2580108642578,
+        842.2312622070312,
+        285.1158447265625
+      ],
+      [
+        544.8624267578125,
+        792.5337524414062,
+        833.25048828125,
+        811.0125122070312
+      ],
+      [
+        114.7005615234375,
+        243.23377990722656,
+        426.9696044921875,
+        285.1528625488281
+      ],
+      [
+        688.7257080078125,
+        85.99261474609375,
+        930.4637451171875,
+        98.68486022949219
+      ],
+      [
+        88.65020751953125,
+        67.90486907958984,
+        310.24224853515625,
+        110.2258071899414
+      ],
+      [
+        543.6735229492188,
+        461.5706481933594,
+        852.5515747070312,
+        501.6824645996094
+      ],
+      [
+        544.5477294921875,
+        621.97998046875,
+        870.5601806640625,
+        641.7657470703125
+      ]
+    ],
+    "fonts": [
+      106.44279943400761,
+      95.74107435657017,
+      99.21404366130415,
+      86.9083475160102,
+      91.63755773894651,
+      5.638370637235971,
+      95.69961689450479,
+      98.40214242026691,
+      97.54435300365166,
+      126.69368804883092,
+      379.8157787321252,
+      112.75568751892762,
+      88.81756180276474,
+      114.82484051421807,
+      52.003364570628285,
+      0,
+      112.63327003663237,
+      105.7443650506559
+    ],
+    "contents": [
+      "A Text with content: New research suggests that AI systems can \r\nhave serious environmental impacts. According \r\nto Luccioni et al., 2022, BLOOM\u2019s training run \r\nemitted 25 times more carbon than a single air \r\ntraveler on a one-way trip from New York to \r\nSan Francisco. Still, new reinforcement learning \r\nmodels like BCOOLER show that AI systems \r\ncan be used to optimize energy usage.",
+      "A Text with content: Traditionally AI systems have performed well \r\non narrow tasks but have struggled across \r\nbroader tasks. Recently released models \r\nchallenge that trend; BEiT-3, PaLI, and \r\nGato, among others, are single AI systems \r\nincreasingly capable of navigating multiple \r\ntasks (for example, vision, language).",
+      "A Text with content: Nvidia used an AI reinforcement learning agent \r\nto improve the design of the chips that power AI \r\nsystems. Similarly, Google recently used one of \r\nits language models, PaLM, to suggest ways to \r\nimprove the very same model. Self-improving AI \r\nlearning will accelerate AI progress.",
+      "A Text with content: 2022 saw the release of text-to-image models \r\nlike DALL-E 2 and Stable Difusion, text-to\u0002video systems like Make-A-Video, and chatbots \r\nlike ChatGPT. Still, these systems can be \r\nprone to hallucination, confdently outputting \r\nincoherent or untrue responses, making it hard \r\nto rely on them for critical applications.",
+      "A Text with content: AI continued to post state-of-the-art results, \r\nbut year-over-year improvement on many \r\nbenchmarks continues to be marginal. \r\nMoreover, the speed at which benchmark \r\nsaturation is being reached is increasing. \r\nHowever, new, more comprehensive \r\nbenchmarking suites such as BIG-bench and \r\nHELM are being released.",
+      "A PageFooter with content: 73",
+      "A Text with content: Language models continued to improve \r\ntheir generative capabilities, but new \r\nresearch suggests that they still struggle \r\nwith complex planning tasks.",
+      "A Text with content: \u2026 AI? AI models are starting to rapidly \r\naccelerate scientifc progress and in 2022 \r\nwere used to aid hydrogen fusion, improve \r\nthe efciency of matrix manipulation, and \r\ngenerate new antibodies.",
+      "A SectionHeader with content: AI systems become \r\nmore fexible. ",
+      "A SectionHeader with content: AI is both helping and harming \r\nthe environment. ",
+      "A SectionHeader with content: Chapter Highlights",
+      "A SectionHeader with content: Generative AI breaks into \r\nthe public consciousness. ",
+      "A SectionHeader with content: AI starts to build better AI. ",
+      "A SectionHeader with content: Performance saturation on \r\ntraditional benchmarks.",
+      "A PageHeader with content: Chapter 2: Technical Performance",
+      "A figure with content unknown",
+      "A SectionHeader with content: Capable language models \r\nstill struggle with reasoning. ",
+      "A SectionHeader with content: The world\u2019s best new scientist "
+    ]
+  },
+  {
+    "scores": [
+      0.8647577166557312,
+      0.8405383229255676,
+      0.8361294865608215,
+      0.7994999885559082,
+      0.7952272295951843,
+      0.7591001987457275,
+      0.7194600701332092,
+      0.7166776657104492,
+      0.6526673436164856,
+      0.63963782787323,
+      0.6340886354446411,
+      0.5448205471038818,
+      0.5328701138496399,
+      0.5070027112960815
+    ],
+    "labels": [
+      5,
+      9,
+      10,
+      7,
+      7,
+      10,
+      7,
+      8,
+      10,
+      10,
+      8,
+      6,
+      1,
+      5
+    ],
+    "boxes": [
+      [
+        919.2769775390625,
+        969.1112060546875,
+        933.90771484375,
+        979.1082763671875
+      ],
+      [
+        157.2188720703125,
+        776.518310546875,
+        936.3575439453125,
+        863.5054931640625
+      ],
+      [
+        157.6621856689453,
+        326.3034973144531,
+        595.8511962890625,
+        423.3229064941406
+      ],
+      [
+        645.3465576171875,
+        305.3780212402344,
+        934.47119140625,
+        432.8200988769531
+      ],
+      [
+        644.7198486328125,
+        487.1302490234375,
+        934.77587890625,
+        614.822021484375
+      ],
+      [
+        89.19552612304688,
+        135.80348205566406,
+        909.9368896484375,
+        162.1375274658203
+      ],
+      [
+        88.4696273803711,
+        68.33780670166016,
+        310.03662109375,
+        110.03571319580078
+      ],
+      [
+        157.9315185546875,
+        304.8984680175781,
+        429.9354248046875,
+        319.8888854980469
+      ],
+      [
+        157.16427612304688,
+        701.60888671875,
+        894.283935546875,
+        757.267822265625
+      ],
+      [
+        157.24740600585938,
+        525.97216796875,
+        596.5689697265625,
+        622.99267578125
+      ],
+      [
+        89.311767578125,
+        231.85232543945312,
+        855.8707885742188,
+        272.73004150390625
+      ],
+      [
+        687.7237548828125,
+        86.49420166015625,
+        930.182861328125,
+        113.09756469726562
+      ],
+      [
+        873.7840576171875,
+        620.7487182617188,
+        933.79931640625,
+        630.1386108398438
+      ],
+      [
+        91.13771057128906,
+        968.6431884765625,
+        387.689208984375,
+        979.377685546875
+      ]
+    ],
+    "fonts": [
+      5.043603777885438,
+      0,
+      96.62008845317177,
+      0,
+      0,
+      70.63215796428494,
+      0,
+      70.30089846561695,
+      113.96471003945916,
+      107.90683849408657,
+      489.6122188581794,
+      52.017964761433824,
+      15.653800918824142,
+      50.52906652241354
+    ],
+    "contents": [
+      "A PageFooter with content: 74",
+      "A table with content unknown",
+      "A Text with content: AlphaCode, an AI system that writes computer programs \r\nat a competitive level, achieves a rank within the top 54% \r\nof participants in a human programming competition. This \r\nrepresents an improvement on the more complex problem\u0002solving tasks with which AI has traditionally struggled.",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A Text with content: The technical performance chapter begins with an overview of some of the most signifcant technical developments in AI during 2022, \r\nas selected by the AI Index Steering Committee.",
+      "A figure with content unknown",
+      "A SectionHeader with content: DeepMind Releases AlphaCode ",
+      "A Text with content: An international research collective launches IndicNLG, a collection of datasets for benchmarking \r\nnatural language generation for 11 Indic languages. The creation of IndicNLG increases the \r\npotential for AI systems to generate language in more diverse, non-English linguistic settings.",
+      "A Text with content: Nuclear fusion is a potential source of clean, limitless \r\nenergy, but producing such energy in tokamaks is difcult \r\ndue to a lack of experimental data. DeepMind simulated \r\noptimal tokamak management, an example of how AI can \r\naccelerate science and combat climate change.",
+      "A SectionHeader with content: 2.1 What\u2019s New in 2022: A Timeline",
+      "A PageHeader with content: 2.1 What\u2019s New in 2022: A Timeline\r\nChapter 2: Technical Performance",
+      "A Caption with content: Figure 2.1.2",
+      "A PageFooter with content: Table of Contents Chapter 2 Preview "
+    ]
+  },
+  {
+    "scores": [
+      0.913709819316864,
+      0.8602250814437866,
+      0.8553274869918823,
+      0.8069661855697632,
+      0.7981489300727844,
+      0.7625303268432617,
+      0.7607927322387695,
+      0.7602782249450684,
+      0.6760669946670532,
+      0.6432145833969116,
+      0.6262380480766296,
+      0.6257326602935791,
+      0.5587193369865417,
+      0.509329080581665
+    ],
+    "labels": [
+      10,
+      10,
+      5,
+      8,
+      8,
+      7,
+      8,
+      10,
+      10,
+      7,
+      8,
+      7,
+      1,
+      5
+    ],
+    "boxes": [
+      [
+        157.50418090820312,
+        769.8002319335938,
+        511.8509216308594,
+        885.9898071289062
+      ],
+      [
+        156.47352600097656,
+        571.0416259765625,
+        555.7037353515625,
+        626.515869140625
+      ],
+      [
+        918.868896484375,
+        969.512939453125,
+        933.36474609375,
+        979.477294921875
+      ],
+      [
+        157.06166076660156,
+        549.5618286132812,
+        388.3206787109375,
+        563.7433471679688
+      ],
+      [
+        157.64151000976562,
+        747.1224975585938,
+        382.2926330566406,
+        761.6862182617188
+      ],
+      [
+        576.5275268554688,
+        734.7607421875,
+        935.1184692382812,
+        921.9091796875
+      ],
+      [
+        157.28622436523438,
+        356.8916931152344,
+        353.2772521972656,
+        370.8935852050781
+      ],
+      [
+        156.98684692382812,
+        377.8296813964844,
+        481.0498352050781,
+        495.1391296386719
+      ],
+      [
+        157.0659942626953,
+        188.346435546875,
+        516.0410766601562,
+        264.19049072265625
+      ],
+      [
+        769.0558471679688,
+        545.9215087890625,
+        935.1771850585938,
+        708.3046875
+      ],
+      [
+        156.81765747070312,
+        167.7732696533203,
+        437.8818054199219,
+        180.93128967285156
+      ],
+      [
+        88.00300598144531,
+        68.06805419921875,
+        309.77386474609375,
+        110.44691467285156
+      ],
+      [
+        872.9002685546875,
+        926.9083251953125,
+        932.551025390625,
+        936.5738525390625
+      ],
+      [
+        91.05635070800781,
+        968.9337158203125,
+        387.623046875,
+        979.2772216796875
+      ]
+    ],
+    "fonts": [
+      105.56768532412556,
+      99.76123293672964,
+      4.980751666529425,
+      60.733408405859436,
+      62.91838868650106,
+      0,
+      54.88490444563329,
+      97.47602654099465,
+      100.09605130913106,
+      0,
+      61.637461424805224,
+      0,
+      16.015445035364895,
+      48.6911009444249
+    ],
+    "contents": [
+      "A Text with content: Gato is a new reinforcement learning agent \r\ncapable of doing a wide range of tasks such \r\nas robotic manipulation, game playing, image \r\ncaptioning, and natural language generation. \r\nThe release of such models suggests that AI \r\nsystems are becoming better at generalization.",
+      "A Text with content: DALL-E 2, a text-to-image AI system that can create \r\nrealistic art and images from textual descriptions, is \r\nreleased to the public, igniting a generative AI craze.",
+      "A PageFooter with content: 75",
+      "A SectionHeader with content: OpenAI Releases DALL-E 2",
+      "A SectionHeader with content: DeepMind Launches Gato",
+      "A figure with content unknown",
+      "A SectionHeader with content: Google Releases PaLM",
+      "A Text with content: Google\u2019s AI team trains one of the world\u2019s \r\nlargest language models, PaLM. Made up \r\nof 540 billion parameters, PaLM reinforces \r\nthe belief that researchers can improve \r\nperformance on large language models by \r\nsimply training them on more data.",
+      "A Text with content: Make-A-Scene is a text-to-image AI model that \r\nenables users to generate images through text. \r\nMake-A-Scene is one of many text-to-image \r\nmodels released in 2022.",
+      "A figure with content unknown",
+      "A SectionHeader with content: Meta AI Releases Make-A-Scene ",
+      "A figure with content unknown",
+      "A Caption with content: Figure 2.1.7",
+      "A PageFooter with content: Table of Contents Chapter 2 Preview "
+    ]
+  },
+  {
+    "scores": [
+      0.9452316761016846,
+      0.9364652037620544,
+      0.8987157344818115,
+      0.8178439140319824,
+      0.8122873306274414,
+      0.789640486240387,
+      0.7508366107940674,
+      0.7023208737373352,
+      0.5845300555229187,
+      0.5503934621810913,
+      0.5412259101867676,
+      0.5081007480621338
+    ],
+    "labels": [
+      10,
+      10,
+      10,
+      10,
+      8,
+      5,
+      7,
+      7,
+      8,
+      6,
+      8,
+      5
+    ],
+    "boxes": [
+      [
+        90.70722961425781,
+        408.0251159667969,
+        475.6776123046875,
+        587.4605712890625
+      ],
+      [
+        90.54339599609375,
+        603.6124267578125,
+        483.66650390625,
+        741.687744140625
+      ],
+      [
+        90.77473449707031,
+        339.3666076660156,
+        452.76629638671875,
+        374.0404357910156
+      ],
+      [
+        88.92153930664062,
+        135.3538818359375,
+        927.115966796875,
+        205.0406494140625
+      ],
+      [
+        90.57406616210938,
+        386.2809753417969,
+        175.18893432617188,
+        401.5006408691406
+      ],
+      [
+        920.0762329101562,
+        968.985107421875,
+        934.1619262695312,
+        979.18994140625
+      ],
+      [
+        88.4496841430664,
+        68.20904541015625,
+        310.3020324707031,
+        109.8765869140625
+      ],
+      [
+        530.1438598632812,
+        348.9695129394531,
+        935.7499389648438,
+        608.3846435546875
+      ],
+      [
+        89.60275268554688,
+        244.51817321777344,
+        734.2835693359375,
+        286.93414306640625
+      ],
+      [
+        687.5732421875,
+        85.94830322265625,
+        930.2945556640625,
+        112.97096252441406
+      ],
+      [
+        90.87745666503906,
+        308.7934875488281,
+        364.234130859375,
+        334.5176696777344
+      ],
+      [
+        91.15882873535156,
+        968.36181640625,
+        387.987548828125,
+        979.1666259765625
+      ]
+    ],
+    "fonts": [
+      123.79450878789264,
+      106.2242620258561,
+      87.16411944209702,
+      77.88141367172202,
+      33.88973663413995,
+      4.956626285766734,
+      0,
+      0,
+      497.1774923824536,
+      61.87712603162552,
+      143.5076912883099,
+      50.90758405717474
+    ],
+    "contents": [
+      "A Text with content: ImageNet is one of the most widely used \r\nbenchmarks for image classifcation. This dataset \r\nincludes over 14 million images across 20,000 \r\ndiferent object categories such as \u201cstrawberry\u201d or \r\n\u201cballoon.\u201d Performance on ImageNet is measured \r\nthrough various accuracy metrics. Top-1 accuracy \r\nmeasures the degree to which the top prediction \r\ngenerated by an image classifcation model for a \r\ngiven image actually matches the image\u2019s label.",
+      "A Text with content: As of 2022, the best image classifcation system on \r\nImageNet has a top-1 accuracy rate of 91.0% (Figure \r\n2.2.2). Although the current image classifcation \r\ncapabilities of state-of-the-art systems is 27.7 \r\npercentage points better than a decade ago, last \r\nyear saw a very marginal 0.1 percentage point \r\nimprovement in classifcation accuracy.",
+      "A Text with content: Image classifcation is the ability of machines to \r\ncategorize objects in images (Figure 2.2.1).",
+      "A Text with content: Computer vision is the subfeld of AI that teaches machines to understand images and videos. Computer vision technologies have a \r\nvariety of important real-world applications, such as autonomous driving, crowd surveillance, sports analytics, and video-game creation.\r\nThis section tracks progress in computer vision across several diferent task domains which include: (1) image classifcation, (2) \r\nface detection and recognition, (3) deepfake detection, (4) human pose estimation, (5) semantic segmentation, (6) medical image \r\nsegmentation, (7) object detection, (8) image generation, and (9) visual reasoning.",
+      "A SectionHeader with content: ImageNet",
+      "A PageFooter with content: 81",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A SectionHeader with content: 2.2 Computer Vision\u2014Image",
+      "A PageHeader with content: 2.2 Computer Vision\u2014Image\r\nChapter 2: Technical Performance",
+      "A SectionHeader with content: Image Classifcation",
+      "A PageFooter with content: Table of Contents Chapter 2 Preview "
+    ]
+  },
+  {
+    "scores": [
+      0.8880094885826111,
+      0.8561918139457703,
+      0.8517208695411682,
+      0.834308385848999,
+      0.7616623044013977,
+      0.5250942707061768,
+      0.5114421248435974
+    ],
+    "labels": [
+      10,
+      5,
+      7,
+      7,
+      7,
+      5,
+      10
+    ],
+    "boxes": [
+      [
+        90.87677001953125,
+        602.08740234375,
+        487.40167236328125,
+        719.4842529296875
+      ],
+      [
+        918.0543823242188,
+        968.5608520507812,
+        933.7959594726562,
+        979.4400024414062
+      ],
+      [
+        92.38189697265625,
+        165.6842803955078,
+        922.0075073242188,
+        510.03582763671875
+      ],
+      [
+        523.3946533203125,
+        582.0467529296875,
+        936.5682373046875,
+        812.602294921875
+      ],
+      [
+        87.7750473022461,
+        67.76969146728516,
+        309.82537841796875,
+        110.20226287841797
+      ],
+      [
+        90.92813110351562,
+        968.3977661132812,
+        387.75244140625,
+        979.1980590820312
+      ],
+      [
+        870.2203979492188,
+        511.44219970703125,
+        935.0751342773438,
+        521.6589965820312
+      ]
+    ],
+    "fonts": [
+      102.08503226765937,
+      5.905344316671634,
+      0,
+      0,
+      0,
+      50.885547801852226,
+      20.079020225640498
+    ],
+    "contents": [
+      "A Text with content: Facial detection and recognition is the ability of AI \r\nsystems to identify faces or individuals in images \r\nor videos (Figure 2.2.3). Currently, many facial \r\nrecognition systems are able to successfully identify \r\nclose to 100% of faces, even on challenging datasets \r\n(Figure 2.2.4).",
+      "A PageFooter with content: 82",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A PageFooter with content: Table of Contents Chapter 2 Preview ",
+      "A Text with content: Figure 2.2.2"
+    ]
+  },
+  {
+    "scores": [
+      0.9244291186332703,
+      0.9237452149391174,
+      0.8796743750572205,
+      0.8658095598220825,
+      0.7439664006233215,
+      0.7370272278785706,
+      0.522023618221283,
+      0.5198875665664673
+    ],
+    "labels": [
+      10,
+      10,
+      10,
+      5,
+      7,
+      7,
+      5,
+      8
+    ],
+    "boxes": [
+      [
+        527.0238037109375,
+        600.185791015625,
+        920.9468994140625,
+        675.885986328125
+      ],
+      [
+        527.2384643554688,
+        692.1968383789062,
+        917.0183715820312,
+        768.2230834960938
+      ],
+      [
+        90.46661376953125,
+        658.385986328125,
+        486.47528076171875,
+        796.74267578125
+      ],
+      [
+        917.883056640625,
+        968.703125,
+        933.6552734375,
+        979.4481201171875
+      ],
+      [
+        88.09838104248047,
+        67.91201782226562,
+        310.2794494628906,
+        109.9056396484375
+      ],
+      [
+        91.79412841796875,
+        164.41769409179688,
+        931.6280517578125,
+        511.8717346191406
+      ],
+      [
+        91.24726867675781,
+        968.3600463867188,
+        388.10333251953125,
+        979.3534545898438
+      ],
+      [
+        90.47897338867188,
+        597.1810913085938,
+        457.1830139160156,
+        652.3532104492188
+      ]
+    ],
+    "fonts": [
+      99.40018427610399,
+      100.11318502892311,
+      115.10598352895815,
+      5.843875602401536,
+      0,
+      0,
+      51.800950593595935,
+      100.65591548917007
+    ],
+    "contents": [
+      "A Text with content: others. Facial detection capacity is measured by the \r\nfalse non-match rate (FNMR), otherwise known as \r\nerror rate, which is the rate at which a model fails to \r\nmatch the face in an image to that of a person.",
+      "A Text with content: As of 2022, the top-performing models on all of the \r\nFRVT datasets, with the exception of WILD Photos, \r\neach posted an error rate below 1%, and as low as a \r\n0.06% error rate on the VISA Photos dataset.",
+      "A Text with content: Progress on facial recognition can be tracked \r\nthrough the National Institute of Standards and \r\nTechnology\u2019s Face Recognition Vendor Test. This \r\ntest tracks how well diferent facial recognition \r\nalgorithms perform on various homeland security \r\ntasks, such as identifcation of child trafcking \r\nvictims and cross-verifcation of visa images, among ",
+      "A PageFooter with content: 83",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A PageFooter with content: Table of Contents Chapter 2 Preview ",
+      "A SectionHeader with content: National Institute of Standards and \r\nTechnology Face Recognition Vendor Test \r\n(FRVT)"
+    ]
+  },
+  {
+    "scores": [
+      0.8702546954154968,
+      0.8640354871749878,
+      0.857744038105011,
+      0.8394122123718262,
+      0.8201054930686951,
+      0.8002800941467285,
+      0.799574077129364,
+      0.7932593822479248,
+      0.5627531409263611,
+      0.5423176884651184,
+      0.500887393951416
+    ],
+    "labels": [
+      5,
+      10,
+      8,
+      10,
+      10,
+      7,
+      7,
+      7,
+      8,
+      1,
+      5
+    ],
+    "boxes": [
+      [
+        917.4985961914062,
+        968.655029296875,
+        933.4379272460938,
+        979.3551025390625
+      ],
+      [
+        90.20341491699219,
+        204.7029266357422,
+        469.75628662109375,
+        260.48455810546875
+      ],
+      [
+        89.7498779296875,
+        167.48573303222656,
+        327.0086975097656,
+        190.12904357910156
+      ],
+      [
+        90.67237854003906,
+        293.1763610839844,
+        467.03668212890625,
+        411.4440612792969
+      ],
+      [
+        90.51347351074219,
+        427.86712646484375,
+        480.28082275390625,
+        503.6495361328125
+      ],
+      [
+        87.91104125976562,
+        67.97770690917969,
+        309.8708801269531,
+        110.25350952148438
+      ],
+      [
+        92.6585693359375,
+        544.1580810546875,
+        931.9715576171875,
+        908.5531005859375
+      ],
+      [
+        519.8135986328125,
+        194.75704956054688,
+        934.2960205078125,
+        453.7429504394531
+      ],
+      [
+        90.91561889648438,
+        273.3844299316406,
+        416.39013671875,
+        287.1442565917969
+      ],
+      [
+        866.55224609375,
+        463.0082092285156,
+        933.5223388671875,
+        472.8327941894531
+      ],
+      [
+        91.05995178222656,
+        968.45361328125,
+        387.890380859375,
+        979.392822265625
+      ]
+    ],
+    "fonts": [
+      5.881103783332068,
+      95.3697225796153,
+      116.78967677688469,
+      112.40338540673163,
+      111.88450354372617,
+      0,
+      0,
+      0,
+      72.23343463761792,
+      17.782523413364952,
+      51.541112644390935
+    ],
+    "contents": [
+      "A PageFooter with content: 88",
+      "A Text with content: The challenge of identifying and localizing objects \r\nwithin an image or video is known as object \r\ndetection (Figure 2.2.13).",
+      "A SectionHeader with content: Object Detection",
+      "A Text with content: Microsoft\u2019s Common Objects in Context (COCO)\r\nobject detection dataset has over 80 object \r\ncategories in 328,000 images. Several accuracy \r\nmetrics are used to measure progress on COCO. \r\nThis section considers mean average precision \r\n(mAP50).",
+      "A Text with content: Since 2015, state-of-the-art detectors have \r\nimproved by 26 percentage points. The top model \r\nin 2022, EVA, was the result of a Chinese academic \r\nresearch collaboration.",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A figure with content unknown",
+      "A SectionHeader with content: Common Objects in Context (COCO)",
+      "A Caption with content: Figure 2.2.13",
+      "A PageFooter with content: Table of Contents Chapter 2 Preview "
+    ]
+  },
+  {
+    "scores": [
+      0.9181795716285706,
+      0.8844276666641235,
+      0.8485180139541626,
+      0.7638596892356873,
+      0.7109867930412292,
+      0.6978399157524109,
+      0.6339100003242493,
+      0.622482180595398,
+      0.6127937436103821,
+      0.6109094619750977,
+      0.5743679404258728,
+      0.568867027759552,
+      0.5679355263710022,
+      0.5519235134124756,
+      0.54795902967453,
+      0.542078971862793,
+      0.5354617238044739,
+      0.5138660669326782,
+      0.512852132320404,
+      0.5066331624984741,
+      0.5049235224723816
+    ],
+    "labels": [
+      10,
+      10,
+      5,
+      10,
+      7,
+      8,
+      7,
+      1,
+      1,
+      1,
+      8,
+      1,
+      7,
+      1,
+      8,
+      1,
+      1,
+      7,
+      1,
+      6,
+      7
+    ],
+    "boxes": [
+      [
+        118.42753601074219,
+        263.39520263671875,
+        431.653076171875,
+        359.80194091796875
+      ],
+      [
+        118.44359588623047,
+        524.9259643554688,
+        363.39013671875,
+        891.5099487304688
+      ],
+      [
+        917.3365478515625,
+        968.9051513671875,
+        933.21875,
+        978.8607177734375
+      ],
+      [
+        497.1388854980469,
+        279.3307800292969,
+        844.23193359375,
+        313.3166809082031
+      ],
+      [
+        88.31712341308594,
+        68.25366973876953,
+        310.15875244140625,
+        110.0978012084961
+      ],
+      [
+        497.427734375,
+        265.3265686035156,
+        761.411865234375,
+        277.9997253417969
+      ],
+      [
+        653.955810546875,
+        678.340576171875,
+        910.9384765625,
+        878.546630859375
+      ],
+      [
+        840.5107421875,
+        887.701904296875,
+        907.4595947265625,
+        897.3292236328125
+      ],
+      [
+        325.2650451660156,
+        451.2554931640625,
+        349.9723205566406,
+        460.65484619140625
+      ],
+      [
+        385.351318359375,
+        659.1096801757812,
+        446.7313232421875,
+        668.4443969726562
+      ],
+      [
+        117.91104125976562,
+        212.515380859375,
+        749.263916015625,
+        236.5673828125
+      ],
+      [
+        651.6405639648438,
+        888.5820922851562,
+        725.7169799804688,
+        897.5296020507812
+      ],
+      [
+        383.6638488769531,
+        558.506591796875,
+        509.5595397949219,
+        656.0416259765625
+      ],
+      [
+        410.6029357910156,
+        460.8233337402344,
+        435.2495422363281,
+        469.8550720214844
+      ],
+      [
+        118.4965591430664,
+        193.82073974609375,
+        287.82391357421875,
+        208.01687622070312
+      ],
+      [
+        250.3340301513672,
+        447.270751953125,
+        275.4122314453125,
+        456.54541015625
+      ],
+      [
+        816.8358154296875,
+        485.2530212402344,
+        915.4300537109375,
+        509.0007019042969
+      ],
+      [
+        383.879638671875,
+        677.0745239257812,
+        510.590087890625,
+        768.7410278320312
+      ],
+      [
+        385.6938781738281,
+        888.0363159179688,
+        483.5926208496094,
+        897.4378051757812
+      ],
+      [
+        687.960205078125,
+        86.2246322631836,
+        930.145263671875,
+        113.35167694091797
+      ],
+      [
+        388.72283935546875,
+        372.0585021972656,
+        457.16412353515625,
+        459.5157775878906
+      ]
+    ],
+    "fonts": [
+      114.38277527771778,
+      96.0358063072285,
+      5.452286833319171,
+      40.123367103190496,
+      0,
+      54.844463390160776,
+      0,
+      17.419945474814725,
+      8.294014419295959,
+      16.370427502053122,
+      202.4706743565202,
+      17.913498802764998,
+      0,
+      7.950060676251138,
+      47.13322024292532,
+      8.020405012086547,
+      30.8076906055212,
+      0,
+      21.40451110743506,
+      61.97891419577711,
+      0
+    ],
+    "contents": [
+      "A Text with content: Figure 2.2.17 tracks the progress of facial \r\nimage generation over time, with the fnal \r\nimage being generated by Difusion-GAN, \r\nthe model that posted the 2022 state-of\u0002the-art score on STL-10.",
+      "A Text with content: In the last year, text-to-image \r\ngeneration broke into the public \r\nconsciousness with the release \r\nof models such as OpenAI\u2019s \r\nDALL-E 2, Stability AI\u2019s Stable \r\nDifusion, Midjourney\u2019s \r\nMidjourney, Meta\u2019s Make-A\u0002Scene, and Google\u2019s Imagen. \r\nWith these systems, users can \r\ngenerate images based on \r\na text prompt. Figure 2.2.18 \r\njuxtaposes the images generated \r\nby DALL-E 2, Stable Difusion, \r\nand Midjourney, three publicly \r\naccessible AI text-to-image \r\nsystems, for the same prompt: \u201ca \r\npanda playing a piano on a warm \r\nevening in Paris.\u201d",
+      "A PageFooter with content: 90",
+      "A Text with content: Source: Goodfellow et al., 2014; Radford et al., 2016; Liu and Tuzel, 2016; \r\nKarras et al., 2018; Karras et al., 2019; Goodfellow, 2019; Karras et al., 2020; \r\nVahdat et al., 2021; Wang et al., 2022.",
+      "A figure with content unknown",
+      "A SectionHeader with content: GAN Progress on Face Generation",
+      "A figure with content unknown",
+      "A Caption with content: Figure 2.2.18",
+      "A Caption with content: 2017",
+      "A Caption with content: a. DALL-E 2",
+      "A SectionHeader with content: A Closer Look at Progress in Image Generation",
+      "A Caption with content: c. Midjourney",
+      "A figure with content unknown",
+      "A Caption with content: 2018",
+      "A SectionHeader with content: Narrative Highlight: ",
+      "A Caption with content: 2016 ",
+      "A Caption with content: Figure 2.2.17\r\n2022",
+      "A figure with content unknown",
+      "A Caption with content: b. Stable Difusion ",
+      "A PageHeader with content: 2.1 Computer Vision\u2013Image\r\nChapter 2: Technical Performance",
+      "A figure with content unknown"
+    ]
+  },
+  {
+    "scores": [
+      0.846686840057373,
+      0.8253524899482727,
+      0.8223947882652283,
+      0.750660240650177,
+      0.5351820588111877
+    ],
+    "labels": [
+      5,
+      7,
+      10,
+      7,
+      6
+    ],
+    "boxes": [
+      [
+        920.0225219726562,
+        968.82421875,
+        934.1732788085938,
+        978.8685302734375
+      ],
+      [
+        120.27175903320312,
+        400.37786865234375,
+        914.08251953125,
+        709.1600952148438
+      ],
+      [
+        118.22012329101562,
+        262.7786560058594,
+        800.6328125,
+        339.5345153808594
+      ],
+      [
+        87.9779281616211,
+        67.87098693847656,
+        309.9677734375,
+        109.95828247070312
+      ],
+      [
+        687.1956787109375,
+        86.05582427978516,
+        929.8660888671875,
+        113.29076385498047
+      ]
+    ],
+    "fonts": [
+      4.901193446640311,
+      0,
+      114.86660615929908,
+      0,
+      62.35013167257859
+    ],
+    "contents": [
+      "A PageFooter with content: 91",
+      "A figure with content unknown",
+      "A Text with content: Of all the recently released text-to-image generators, Google\u2019s Imagen performs best on the \r\nCOCO benchmark (Figure 2.2.19)2. This year, the Google researchers who created Imagen \r\nalso released a more difcult text-to-image benchmark, DrawBench, designed to challenge \r\nincreasingly capable text-to-image models.",
+      "A figure with content unknown",
+      "A PageHeader with content: 2.1 Computer Vision\u2013Image\r\nChapter 2: Technical Performance"
+    ]
+  }
+]

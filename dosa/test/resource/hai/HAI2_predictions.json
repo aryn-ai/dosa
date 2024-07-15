@@ -1,0 +1,1026 @@
+[
+  {
+    "category": [
+      10,
+      5,
+      7,
+      8,
+      6,
+      5
+    ],
+    "bbox": [
+      [
+        71.02415466308594,
+        218.66641235351562,
+        614.296875,
+        104.80441284179688
+      ],
+      [
+        717.9642944335938,
+        756.4153442382812,
+        11.83135986328125,
+        8.94268798828125
+      ],
+      [
+        68.62576293945312,
+        52.94933319091797,
+        173.5656280517578,
+        33.036293029785156
+      ],
+      [
+        69.4036865234375,
+        163.07186889648438,
+        168.3630828857422,
+        31.62548828125
+      ],
+      [
+        537.716796875,
+        66.64622497558594,
+        189.281982421875,
+        10.736701965332031
+      ],
+      [
+        71.16716003417969,
+        756.4747314453125,
+        232.0044403076172,
+        8.59954833984375
+      ]
+    ],
+    "content": [
+      "A paragraph: This year\u2019s technical performance chapter features analysis of the technical progress in \r\nAI during 2022. Building on previous reports, this chapter chronicles advancement in \r\ncomputer vision, language, speech, reinforcement learning, and hardware. Moreover, \r\nthis year this chapter features an analysis on the environmental impact of AI, a discussion \r\nof the ways in which AI has furthered scientifc progress, and a timeline-style overview \r\nof some of the most signifcant recent AI developments.",
+      "PageFooter:72",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023",
+      "SectionHeader:Overview",
+      "PageHeader:Chapter 2: Technical Performance",
+      "PageFooter:Table of Contents Chapter 2 Preview \r\nChapter 2 Preview"
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      5,
+      10,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      6,
+      7,
+      8,
+      8
+    ],
+    "bbox": [
+      [
+        90.27992248535156,
+        606.0353393554688,
+        282.3475341796875,
+        117.6513671875
+      ],
+      [
+        90.41695404052734,
+        420.79254150390625,
+        265.53173828125,
+        103.1668701171875
+      ],
+      [
+        424.8679504394531,
+        636.4208984375,
+        284.5208435058594,
+        88.07525634765625
+      ],
+      [
+        424.7016296386719,
+        225.82638549804688,
+        278.5985412597656,
+        102.68582153320312
+      ],
+      [
+        90.52452850341797,
+        225.86868286132812,
+        261.4507751464844,
+        117.89566040039062
+      ],
+      [
+        424.8251953125,
+        395.0359191894531,
+        239.2882080078125,
+        57.515594482421875
+      ],
+      [
+        717.8694458007812,
+        756.6690063476562,
+        11.421142578125,
+        8.63238525390625
+      ],
+      [
+        424.7391662597656,
+        504.6180114746094,
+        252.82717895507812,
+        73.56619262695312
+      ],
+      [
+        90.0045394897461,
+        385.3988342285156,
+        177.52044677734375,
+        32.766143798828125
+      ],
+      [
+        89.83895874023438,
+        568.8333129882812,
+        279.9683532714844,
+        34.0784912109375
+      ],
+      [
+        423.5849304199219,
+        189.361083984375,
+        234.27285766601562,
+        33.31440734863281
+      ],
+      [
+        85.70304870605469,
+        129.81613159179688,
+        328.0164794921875,
+        33.678070068359375
+      ],
+      [
+        425.78173828125,
+        619.2094116210938,
+        225.23583984375,
+        14.23687744140625
+      ],
+      [
+        89.64226531982422,
+        190.07537841796875,
+        243.84912109375,
+        32.63410949707031
+      ],
+      [
+        538.1053466796875,
+        67.16926574707031,
+        188.8353271484375,
+        10.000312805175781
+      ],
+      [
+        69.20692443847656,
+        53.13031005859375,
+        173.25694274902344,
+        32.87847137451172
+      ],
+      [
+        424.7318115234375,
+        360.68853759765625,
+        241.1749267578125,
+        31.161041259765625
+      ],
+      [
+        425.41790771484375,
+        486.0003967285156,
+        254.739013671875,
+        15.230926513671875
+      ]
+    ],
+    "content": [
+      "A paragraph: New research suggests that AI systems can \r\nhave serious environmental impacts. According \r\nto Luccioni et al., 2022, BLOOM\u2019s training run \r\nemitted 25 times more carbon than a single air \r\ntraveler on a one-way trip from New York to \r\nSan Francisco. Still, new reinforcement learning \r\nmodels like BCOOLER show that AI systems \r\ncan be used to optimize energy usage.",
+      "A paragraph: Traditionally AI systems have performed well \r\non narrow tasks but have struggled across \r\nbroader tasks. Recently released models \r\nchallenge that trend; BEiT-3, PaLI, and \r\nGato, among others, are single AI systems \r\nincreasingly capable of navigating multiple \r\ntasks (for example, vision, language).",
+      "A paragraph: Nvidia used an AI reinforcement learning agent \r\nto improve the design of the chips that power AI \r\nsystems. Similarly, Google recently used one of \r\nits language models, PaLM, to suggest ways to \r\nimprove the very same model. Self-improving AI \r\nlearning will accelerate AI progress.",
+      "A paragraph: 2022 saw the release of text-to-image models \r\nlike DALL-E 2 and Stable Difusion, text-to\u0002video systems like Make-A-Video, and chatbots \r\nlike ChatGPT. Still, these systems can be \r\nprone to hallucination, confdently outputting \r\nincoherent or untrue responses, making it hard \r\nto rely on them for critical applications.",
+      "A paragraph: AI continued to post state-of-the-art results, \r\nbut year-over-year improvement on many \r\nbenchmarks continues to be marginal. \r\nMoreover, the speed at which benchmark \r\nsaturation is being reached is increasing. \r\nHowever, new, more comprehensive \r\nbenchmarking suites such as BIG-bench and \r\nHELM are being released.",
+      "A paragraph: Language models continued to improve \r\ntheir generative capabilities, but new \r\nresearch suggests that they still struggle \r\nwith complex planning tasks.",
+      "PageFooter:73",
+      "A paragraph: \u2026 AI? AI models are starting to rapidly \r\naccelerate scientifc progress and in 2022 \r\nwere used to aid hydrogen fusion, improve \r\nthe efciency of matrix manipulation, and \r\ngenerate new antibodies.",
+      "SectionHeader:AI systems become \r\nmore fexible. ",
+      "SectionHeader:AI is both helping and harming \r\nthe environment. ",
+      "SectionHeader:Generative AI breaks into \r\nthe public consciousness. ",
+      "SectionHeader:Chapter Highlights",
+      "SectionHeader:AI starts to build better AI. ",
+      "SectionHeader:Performance saturation on \r\ntraditional benchmarks.",
+      "PageHeader:Chapter 2: Technical Performance",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023",
+      "SectionHeader:Capable language models \r\nstill struggle with reasoning. ",
+      "SectionHeader:The world\u2019s best new scientist "
+    ]
+  },
+  {
+    "category": [
+      5,
+      9,
+      10,
+      7,
+      7,
+      10,
+      8,
+      7,
+      10,
+      10,
+      8,
+      6,
+      5,
+      1
+    ],
+    "bbox": [
+      [
+        718.2661743164062,
+        757.12548828125,
+        11.380126953125,
+        7.74066162109375
+      ],
+      [
+        122.81260681152344,
+        606.6488037109375,
+        608.7756958007812,
+        67.97265625
+      ],
+      [
+        123.1181411743164,
+        255.00479125976562,
+        342.1107177734375,
+        75.69403076171875
+      ],
+      [
+        504.2158203125,
+        238.51123046875,
+        225.86480712890625,
+        99.61209106445312
+      ],
+      [
+        503.8091125488281,
+        380.5578918457031,
+        226.49459838867188,
+        99.70053100585938
+      ],
+      [
+        69.65391540527344,
+        106.0884017944336,
+        641.0714721679688,
+        20.59056854248047
+      ],
+      [
+        123.382568359375,
+        238.22979736328125,
+        212.44601440429688,
+        11.675506591796875
+      ],
+      [
+        68.99108123779297,
+        53.450904846191406,
+        173.25845336914062,
+        32.40040588378906
+      ],
+      [
+        122.7396011352539,
+        548.4293212890625,
+        575.8501586914062,
+        43.12677001953125
+      ],
+      [
+        122.84069061279297,
+        410.98004150390625,
+        343.12652587890625,
+        75.63665771484375
+      ],
+      [
+        69.7305679321289,
+        181.30599975585938,
+        598.906494140625,
+        31.702072143554688
+      ],
+      [
+        537.2946166992188,
+        67.5307846069336,
+        189.458740234375,
+        20.80614471435547
+      ],
+      [
+        71.10309600830078,
+        756.7259521484375,
+        231.68966674804688,
+        8.33489990234375
+      ],
+      [
+        682.5989990234375,
+        484.91815185546875,
+        46.95526123046875,
+        7.262725830078125
+      ]
+    ],
+    "content": [
+      "PageFooter:74",
+      "Table:",
+      "A paragraph: AlphaCode, an AI system that writes computer programs \r\nat a competitive level, achieves a rank within the top 54% \r\nof participants in a human programming competition. This \r\nrepresents an improvement on the more complex problem\u0002solving tasks with which AI has traditionally struggled.",
+      "Picture:",
+      "Picture:",
+      "A paragraph: The technical performance chapter begins with an overview of some of the most signifcant technical developments in AI during 2022, \r\nas selected by the AI Index Steering Committee.",
+      "SectionHeader:DeepMind Releases AlphaCode ",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023\r\nArtifcial Intelligence\r\nIndex Report 2023",
+      "A paragraph: An international research collective launches IndicNLG, a collection of datasets for benchmarking \r\nnatural language generation for 11 Indic languages. The creation of IndicNLG increases the \r\npotential for AI systems to generate language in more diverse, non-English linguistic settings.",
+      "A paragraph: Nuclear fusion is a potential source of clean, limitless \r\nenergy, but producing such energy in tokamaks is difcult \r\ndue to a lack of experimental data. DeepMind simulated \r\noptimal tokamak management, an example of how AI can \r\naccelerate science and combat climate change.",
+      "SectionHeader:2.1 What\u2019s New in 2022: A Timeline",
+      "PageHeader:2.1 What\u2019s New in 2022: A Timeline\r\nChapter 2: Technical Performance",
+      "PageFooter:Table of Contents Chapter 2 Preview ",
+      "Caption:Figure 2.1.2"
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      5,
+      8,
+      8,
+      10,
+      8,
+      7,
+      10,
+      8,
+      7,
+      1,
+      7,
+      5,
+      1,
+      7
+    ],
+    "bbox": [
+      [
+        122.95173645019531,
+        601.4555053710938,
+        276.9727783203125,
+        90.737060546875
+      ],
+      [
+        122.33064270019531,
+        446.0249938964844,
+        311.5650634765625,
+        43.483154296875
+      ],
+      [
+        717.9464111328125,
+        757.4208984375,
+        11.2669677734375,
+        7.76019287109375
+      ],
+      [
+        122.8455810546875,
+        429.4241027832031,
+        180.39849853515625,
+        10.84307861328125
+      ],
+      [
+        123.25492858886719,
+        583.6263427734375,
+        175.4057159423828,
+        11.3270263671875
+      ],
+      [
+        122.64070129394531,
+        295.0967102050781,
+        253.05592346191406,
+        91.6826171875
+      ],
+      [
+        122.98318481445312,
+        278.86505126953125,
+        152.97186279296875,
+        10.87847900390625
+      ],
+      [
+        450.4063720703125,
+        573.9356689453125,
+        280.2403564453125,
+        146.1217041015625
+      ],
+      [
+        122.63187408447266,
+        147.190185546875,
+        280.4835510253906,
+        59.23634338378906
+      ],
+      [
+        122.49095153808594,
+        130.94525146484375,
+        219.6089630126953,
+        10.423583984375
+      ],
+      [
+        611.4453125,
+        426.6884765625,
+        118.686767578125,
+        126.03948974609375
+      ],
+      [
+        681.9223022460938,
+        724.0040283203125,
+        46.6629638671875,
+        7.72607421875
+      ],
+      [
+        68.73072052001953,
+        53.13155746459961,
+        173.34744262695312,
+        33.110286712646484
+      ],
+      [
+        71.13081359863281,
+        756.8467407226562,
+        231.58863830566406,
+        8.15789794921875
+      ],
+      [
+        681.1455078125,
+        546.0888061523438,
+        47.32476806640625,
+        7.2147216796875
+      ],
+      [
+        68.74179077148438,
+        53.75888442993164,
+        46.959815979003906,
+        31.785808563232422
+      ]
+    ],
+    "content": [
+      "A paragraph: Gato is a new reinforcement learning agent \r\ncapable of doing a wide range of tasks such \r\nas robotic manipulation, game playing, image \r\ncaptioning, and natural language generation. \r\nThe release of such models suggests that AI \r\nsystems are becoming better at generalization.",
+      "A paragraph: DALL-E 2, a text-to-image AI system that can create \r\nrealistic art and images from textual descriptions, is \r\nreleased to the public, igniting a generative AI craze.",
+      "PageFooter:75",
+      "SectionHeader:OpenAI Releases DALL-E 2",
+      "SectionHeader:DeepMind Launches Gato",
+      "A paragraph: Google\u2019s AI team trains one of the world\u2019s \r\nlargest language models, PaLM. Made up \r\nof 540 billion parameters, PaLM reinforces \r\nthe belief that researchers can improve \r\nperformance on large language models by \r\nsimply training them on more data.",
+      "SectionHeader:Google Releases PaLM",
+      "Picture:",
+      "A paragraph: Make-A-Scene is a text-to-image AI model that \r\nenables users to generate images through text. \r\nMake-A-Scene is one of many text-to-image \r\nmodels released in 2022.",
+      "SectionHeader:Meta AI Releases Make-A-Scene ",
+      "Picture:Figure 2.1.6",
+      "Caption:Figure 2.1.7",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023\r\nArtifcial Intelligence\r\nIndex Report 2023 ",
+      "PageFooter:Table of Contents Chapter 2 Preview ",
+      "Caption:Figure 2.1.6",
+      "Picture:"
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      10,
+      10,
+      8,
+      5,
+      7,
+      7,
+      6,
+      8,
+      8,
+      5
+    ],
+    "bbox": [
+      [
+        70.8105239868164,
+        318.7015075683594,
+        300.8319396972656,
+        140.28668212890625
+      ],
+      [
+        70.68067932128906,
+        471.5450439453125,
+        307.29443359375,
+        107.89630126953125
+      ],
+      [
+        70.82070922851562,
+        265.1153869628906,
+        283.0011291503906,
+        27.1043701171875
+      ],
+      [
+        69.49899291992188,
+        105.66410827636719,
+        654.90234375,
+        54.667877197265625
+      ],
+      [
+        70.71913146972656,
+        301.6869812011719,
+        66.23344421386719,
+        12.01800537109375
+      ],
+      [
+        718.8141479492188,
+        756.7955322265625,
+        11.11163330078125,
+        8.11480712890625
+      ],
+      [
+        69.02486419677734,
+        53.30776596069336,
+        173.40521240234375,
+        32.39651870727539
+      ],
+      [
+        414.19793701171875,
+        272.5263366699219,
+        316.7841796875,
+        202.94515991210938
+      ],
+      [
+        537.2164306640625,
+        67.05966186523438,
+        189.64508056640625,
+        21.270965576171875
+      ],
+      [
+        70.05717468261719,
+        191.16258239746094,
+        503.55511474609375,
+        33.00758361816406
+      ],
+      [
+        71.02837371826172,
+        241.15101623535156,
+        213.57461547851562,
+        20.139602661132812
+      ],
+      [
+        71.29049682617188,
+        756.39892578125,
+        231.74456787109375,
+        8.554443359375
+      ]
+    ],
+    "content": [
+      "A paragraph: ImageNet is one of the most widely used \r\nbenchmarks for image classifcation. This dataset \r\nincludes over 14 million images across 20,000 \r\ndiferent object categories such as \u201cstrawberry\u201d or \r\n\u201cballoon.\u201d Performance on ImageNet is measured \r\nthrough various accuracy metrics. Top-1 accuracy \r\nmeasures the degree to which the top prediction \r\ngenerated by an image classifcation model for a \r\ngiven image actually matches the image\u2019s label.",
+      "A paragraph: As of 2022, the best image classifcation system on \r\nImageNet has a top-1 accuracy rate of 91.0% (Figure \r\n2.2.2). Although the current image classifcation \r\ncapabilities of state-of-the-art systems is 27.7 \r\npercentage points better than a decade ago, last \r\nyear saw a very marginal 0.1 percentage point \r\nimprovement in classifcation accuracy.",
+      "A paragraph: Image classifcation is the ability of machines to \r\ncategorize objects in images (Figure 2.2.1).",
+      "A paragraph: Computer vision is the subfeld of AI that teaches machines to understand images and videos. Computer vision technologies have a \r\nvariety of important real-world applications, such as autonomous driving, crowd surveillance, sports analytics, and video-game creation.\r\nThis section tracks progress in computer vision across several diferent task domains which include: (1) image classifcation, (2) \r\nface detection and recognition, (3) deepfake detection, (4) human pose estimation, (5) semantic segmentation, (6) medical image \r\nsegmentation, (7) object detection, (8) image generation, and (9) visual reasoning.",
+      "SectionHeader:ImageNet",
+      "PageFooter:81",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023\r\nf",
+      "Picture:",
+      "PageHeader:2.2 Computer Vision\u2014Image\r\nChapter 2: Technical Performance",
+      "SectionHeader:2.2 Computer Vision\u2014Image",
+      "SectionHeader:Image Classifcation",
+      "PageFooter:Table of Contents Chapter 2 Preview "
+    ]
+  },
+  {
+    "category": [
+      10,
+      5,
+      7,
+      7,
+      7,
+      5,
+      1
+    ],
+    "bbox": [
+      [
+        70.9591064453125,
+        470.2417907714844,
+        309.990966796875,
+        91.87466430664062
+      ],
+      [
+        717.2492065429688,
+        756.507568359375,
+        12.37237548828125,
+        8.57568359375
+      ],
+      [
+        72.06721496582031,
+        129.29421997070312,
+        648.531982421875,
+        269.2056884765625
+      ],
+      [
+        408.7984619140625,
+        454.6463928222656,
+        322.837158203125,
+        180.20974731445312
+      ],
+      [
+        68.52450561523438,
+        53.07538604736328,
+        173.5561065673828,
+        32.92169189453125
+      ],
+      [
+        71.00936126708984,
+        756.4087524414062,
+        231.86148071289062,
+        8.56512451171875
+      ],
+      [
+        676.8208618164062,
+        642.5529174804688,
+        52.92242431640625,
+        8.23114013671875
+      ]
+    ],
+    "content": [
+      "A paragraph: Facial detection and recognition is the ability of AI \r\nsystems to identify faces or individuals in images \r\nor videos (Figure 2.2.3). Currently, many facial \r\nrecognition systems are able to successfully identify \r\nclose to 100% of faces, even on challenging datasets \r\n(Figure 2.2.4).",
+      "PageFooter:82",
+      "Picture:2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022\r\n65%\r\n70%\r\n75%\r\n80%\r\n85%\r\n90%\r\nTop-1 Accuracy (%)\r\n88.50%, Without Extra Training Data\r\n91.00%, With Extra Training Data\r\nImageNet Challenge: Top-1 Accuracy\r\nSource: Papers With Code, 2022; arXiv, 2022 | Chart: 2023 AI Index Report",
+      "Picture:",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023\r\nf",
+      "PageFooter:Table of Contents Chapter 2 Preview ",
+      "Caption:Figure 2.2.3"
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      10,
+      5,
+      7,
+      7,
+      5,
+      8
+    ],
+    "bbox": [
+      [
+        411.8597106933594,
+        540.9769897460938,
+        304.3376159667969,
+        59.1689453125
+      ],
+      [
+        411.6793212890625,
+        469.0535888671875,
+        307.63775634765625,
+        58.97332763671875
+      ],
+      [
+        70.62374114990234,
+        514.370849609375,
+        309.17486572265625,
+        108.0145263671875
+      ],
+      [
+        717.0472412109375,
+        756.7181396484375,
+        12.3984375,
+        8.4522705078125
+      ],
+      [
+        71.68907928466797,
+        127.80635070800781,
+        655.9856567382812,
+        273.1541748046875
+      ],
+      [
+        68.76095581054688,
+        53.209964752197266,
+        173.6157989501953,
+        32.54738998413086
+      ],
+      [
+        71.27783203125,
+        756.4553833007812,
+        231.80416870117188,
+        8.62054443359375
+      ],
+      [
+        70.68708801269531,
+        466.6285095214844,
+        286.43109130859375,
+        42.940887451171875
+      ]
+    ],
+    "content": [
+      "A paragraph: As of 2022, the top-performing models on all of the \r\nFRVT datasets, with the exception of WILD Photos, \r\neach posted an error rate below 1%, and as low as a \r\n0.06% error rate on the VISA Photos dataset.",
+      "A paragraph: others. Facial detection capacity is measured by the \r\nfalse non-match rate (FNMR), otherwise known as \r\nerror rate, which is the rate at which a model fails to \r\nmatch the face in an image to that of a person.",
+      "A paragraph: Progress on facial recognition can be tracked \r\nthrough the National Institute of Standards and \r\nTechnology\u2019s Face Recognition Vendor Test. This \r\ntest tracks how well diferent facial recognition \r\nalgorithms perform on various homeland security \r\ntasks, such as identifcation of child trafcking \r\nvictims and cross-verifcation of visa images, among ",
+      "PageFooter:83",
+      "Picture:2017 2018 2019 2020 2021 2022\r\n0.0005\r\n0.0010\r\n0.0020\r\n0.0050\r\n0.0100\r\n0.0200\r\n0.0500\r\n0.1000\r\n0.2000\r\n0.5000\r\n1.0000\r\nFalse Non-Match Rate: FMNR (Log-Scale)\r\n0.0006, VISA Photos @ FMR = 1e-6\r\n0.0016, VISABORDER Photos @ FMR = 1e-6\r\n0.0019, MUGSHOT Photos \u2265 12 YRS @ FMR = 1e-5\r\n0.0021, MUGSHOT Photos @ FMR = 1e-5\r\n0.0032, BORDER Photos @ FMR = 1e-6\r\n0.0297, WILD Photos @ FMR = 1e-5\r\nNational Institute of Standards and Technology (NIST) Face Recognition Vendor Test (FRVT):\r\nSource: National Institute of Standards and Technology, 2022 | Chart: 2023 AI Index Report\r\nVeri\u01c7cation Accuracy by Dataset",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023\r\nArtifcial Intelligence\r\nIndex Report 2023 ",
+      "PageFooter:Table of Contents Chapter 2 Preview ",
+      "SectionHeader:National Institute of Standards and \r\nTechnology Face Recognition Vendor Test \r\n(FRVT)"
+    ]
+  },
+  {
+    "category": [
+      5,
+      8,
+      10,
+      10,
+      7,
+      7,
+      7,
+      10,
+      8,
+      5,
+      1
+    ],
+    "bbox": [
+      [
+        716.7374877929688,
+        756.611328125,
+        12.5675048828125,
+        8.5263671875
+      ],
+      [
+        70.12519073486328,
+        130.74472045898438,
+        185.28347778320312,
+        17.759292602539062
+      ],
+      [
+        70.41191101074219,
+        159.93911743164062,
+        296.64837646484375,
+        43.568084716796875
+      ],
+      [
+        70.75286102294922,
+        228.97036743164062,
+        294.0334777832031,
+        92.41336059570312
+      ],
+      [
+        72.41873931884766,
+        425.5171203613281,
+        655.5289306640625,
+        284.2131652832031
+      ],
+      [
+        68.6143569946289,
+        53.220855712890625,
+        173.4554443359375,
+        32.76544952392578
+      ],
+      [
+        406.06561279296875,
+        152.36050415039062,
+        323.8094482421875,
+        201.94058227539062
+      ],
+      [
+        70.61341094970703,
+        334.140625,
+        304.52099609375,
+        59.39117431640625
+      ],
+      [
+        70.98107147216797,
+        213.61549377441406,
+        254.1551513671875,
+        10.66845703125
+      ],
+      [
+        71.1665267944336,
+        756.5586547851562,
+        231.67364501953125,
+        8.53131103515625
+      ],
+      [
+        676.95556640625,
+        361.7062683105469,
+        52.41729736328125,
+        7.706024169921875
+      ]
+    ],
+    "content": [
+      "PageFooter:88",
+      "SectionHeader:Object Detection",
+      "A paragraph: The challenge of identifying and localizing objects \r\nwithin an image or video is known as object \r\ndetection (Figure 2.2.13).",
+      "A paragraph: Microsoft\u2019s Common Objects in Context (COCO)\r\nobject detection dataset has over 80 object \r\ncategories in 328,000 images. Several accuracy \r\nmetrics are used to measure progress on COCO. \r\nThis section considers mean average precision \r\n(mAP50).",
+      "Picture:2015 2016 2017 2018 2019 2020 2021 2022\r\n60%\r\n70%\r\n80%\r\nMean Average Precision (mAP50)\r\n81.90%\r\nCOCO: Mean Average Precision (mAP50)\r\nSource: Papers With Code, 2022; arXiv, 2022 | Chart: 2023 AI Index Report\r\nFigure 2.2.14",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023\r\nf",
+      "Picture:",
+      "A paragraph: Since 2015, state-of-the-art detectors have \r\nimproved by 26 percentage points. The top model \r\nin 2022, EVA, was the result of a Chinese academic \r\nresearch collaboration.",
+      "SectionHeader:Common Objects in Context (COCO)",
+      "PageFooter:Table of Contents Chapter 2 Preview ",
+      "Caption:Figure 2.2.13"
+    ]
+  },
+  {
+    "category": [
+      10,
+      10,
+      5,
+      10,
+      8,
+      7,
+      7,
+      1,
+      1,
+      1,
+      7,
+      8,
+      1,
+      1,
+      1,
+      8,
+      6,
+      1,
+      1,
+      5
+    ],
+    "bbox": [
+      [
+        92.48085021972656,
+        205.6357421875,
+        244.6775360107422,
+        75.4833984375
+      ],
+      [
+        92.39750671386719,
+        410.0558776855469,
+        191.36427307128906,
+        286.4462585449219
+      ],
+      [
+        716.6776123046875,
+        756.8805541992188,
+        12.48724365234375,
+        7.78741455078125
+      ],
+      [
+        388.30584716796875,
+        218.15029907226562,
+        271.246826171875,
+        26.744659423828125
+      ],
+      [
+        388.5982971191406,
+        207.20858764648438,
+        206.24649047851562,
+        9.952682495117188
+      ],
+      [
+        68.91866302490234,
+        53.33496856689453,
+        173.522705078125,
+        32.59935760498047
+      ],
+      [
+        510.8014221191406,
+        529.880126953125,
+        200.88748168945312,
+        156.35845947265625
+      ],
+      [
+        301.00811767578125,
+        514.963134765625,
+        48.08673095703125,
+        7.18792724609375
+      ],
+      [
+        254.04196166992188,
+        352.30023193359375,
+        19.431304931640625,
+        7.616424560546875
+      ],
+      [
+        656.6309204101562,
+        693.501708984375,
+        52.3448486328125,
+        7.58685302734375
+      ],
+      [
+        299.79107666015625,
+        436.3221740722656,
+        98.34097290039062,
+        76.08786010742188
+      ],
+      [
+        92.06707763671875,
+        165.97085571289062,
+        493.2708740234375,
+        18.807235717773438
+      ],
+      [
+        509.09320068359375,
+        694.1144409179688,
+        57.90869140625,
+        7.1463623046875
+      ],
+      [
+        195.4670867919922,
+        349.2527770996094,
+        19.874053955078125,
+        7.421142578125
+      ],
+      [
+        320.7677001953125,
+        359.8740539550781,
+        19.544342041015625,
+        7.277587890625
+      ],
+      [
+        92.54656219482422,
+        151.369140625,
+        132.17263793945312,
+        11.193038940429688
+      ],
+      [
+        537.4636840820312,
+        67.23678588867188,
+        189.23846435546875,
+        21.34941864013672
+      ],
+      [
+        637.8912353515625,
+        379.009765625,
+        77.415771484375,
+        18.699462890625
+      ],
+      [
+        301.26654052734375,
+        693.7215576171875,
+        76.58352661132812,
+        7.484619140625
+      ],
+      [
+        71.28304290771484,
+        756.6846313476562,
+        231.4189453125,
+        8.22735595703125
+      ]
+    ],
+    "content": [
+      "A paragraph: Figure 2.2.17 tracks the progress of facial \r\nimage generation over time, with the fnal \r\nimage being generated by Difusion-GAN, \r\nthe model that posted the 2022 state-of\u0002the-art score on STL-10.",
+      "A paragraph: In the last year, text-to-image \r\ngeneration broke into the public \r\nconsciousness with the release \r\nof models such as OpenAI\u2019s \r\nDALL-E 2, Stability AI\u2019s Stable \r\nDifusion, Midjourney\u2019s \r\nMidjourney, Meta\u2019s Make-A\u0002Scene, and Google\u2019s Imagen. \r\nWith these systems, users can \r\ngenerate images based on \r\na text prompt. Figure 2.2.18 \r\njuxtaposes the images generated \r\nby DALL-E 2, Stable Difusion, \r\nand Midjourney, three publicly \r\naccessible AI text-to-image \r\nsystems, for the same prompt: \u201ca \r\npanda playing a piano on a warm \r\nevening in Paris.\u201d",
+      "PageFooter:90",
+      "A paragraph: Source: Goodfellow et al., 2014; Radford et al., 2016; Liu and Tuzel, 2016; \r\nKarras et al., 2018; Karras et al., 2019; Goodfellow, 2019; Karras et al., 2020; \r\nVahdat et al., 2021; Wang et al., 2022.",
+      "SectionHeader:GAN Progress on Face Generation",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023\r\nf",
+      "Picture:",
+      "Caption:a. DALL-E 2",
+      "Caption:2017",
+      "Caption:Figure 2.2.18",
+      "Picture:",
+      "SectionHeader:A Closer Look at Progress in Image Generation",
+      "Caption:c. Midjourney",
+      "Caption:2016 ",
+      "Caption:2018",
+      "SectionHeader:Narrative Highlight: ",
+      "PageHeader:2.1 Computer Vision\u2013Image\r\nChapter 2: Technical Performance",
+      "Caption:Figure 2.2.17\r\n2022",
+      "Caption:b. Stable Difusion ",
+      "PageFooter:Table of Contents Chapter 2 Preview "
+    ]
+  },
+  {
+    "category": [
+      5,
+      7,
+      10,
+      7,
+      6,
+      5
+    ],
+    "bbox": [
+      [
+        718.7116088867188,
+        756.510986328125,
+        11.2880859375,
+        8.2218017578125
+      ],
+      [
+        94.34919738769531,
+        313.6458435058594,
+        619.7655639648438,
+        239.58126831054688
+      ],
+      [
+        92.12200927734375,
+        205.15390014648438,
+        533.7672729492188,
+        60.13916015625
+      ],
+      [
+        68.63495635986328,
+        53.074806213378906,
+        173.59988403320312,
+        32.679786682128906
+      ],
+      [
+        536.6907348632812,
+        67.08492279052734,
+        189.80316162109375,
+        21.433380126953125
+      ],
+      [
+        70.92054748535156,
+        756.5509033203125,
+        232.1942596435547,
+        8.39324951171875
+      ]
+    ],
+    "content": [
+      "PageFooter:91",
+      "Picture:35.49\r\n32.64\r\n21.42 20.79\r\n17.89\r\n12.24\r\n9.33 8.12\r\n10.39\r\n7.55 7.27\r\nAttnGAN\r\nDM-GAN\r\nDF-GAN\r\nDM-GAN + CL\r\nDALL-E\r\nGLIDE\r\nXMC-GAN\r\nLAFITE\r\nDALL-E 2\r\nMake-A-Scene\r\nImagen\r\n 2017 2019 2020 2021 2022\r\n0\r\n10\r\n20\r\n30\r\nTrained on COCO-FID\r\nNot Trained on COCO-FID\r\nModel\r\nCOCO Fr\u00e9chet Inception Distance (FID) Score\r\nSource: Saharia et al., 2022 | Chart: 2023 AI Index Report",
+      "A paragraph: Of all the recently released text-to-image generators, Google\u2019s Imagen performs best on the \r\nCOCO benchmark (Figure 2.2.19)2. This year, the Google researchers who created Imagen \r\nalso released a more difcult text-to-image benchmark, DrawBench, designed to challenge \r\nincreasingly capable text-to-image models.",
+      "Picture:Artifcial Intelligence\r\nIndex Report 2023\r\nf",
+      "PageHeader:2.1 Computer Vision\u2013Image\r\nChapter 2: Technical Performance",
+      "PageFooter:Table of Contents Chapter 2 Preview "
+    ]
+  }
+]

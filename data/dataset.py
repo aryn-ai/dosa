@@ -195,21 +195,24 @@ class DOSADataset(Dataset):
             should exclude all page metadata like header, footer and footnote.
             {
                 "annotations": [
-                    "doc_id": 1,
-                    "annotations": [
-                        {
-                            'gid': 1,
-                            'page_id': 0,
-                            'parent_id': -1,
-                            'in_doc_id': 0,
-                            'in_page_id': 0,
-                            'bbox': [159, 150, 276, 10],
-                            'category': 3,
-                            'content': ['EXPLORING THE “RUBIK’S'],
-                            'image_id': 1
-                        },
-                        ...
-                    ]
+                    {
+                        "doc_id": 1,
+                        "in_doc_annotations": [
+                            {
+                                'gid': 1,
+                                'page_id': 0,
+                                'parent_id': -1,
+                                'in_doc_id': 0,
+                                'in_page_id': 0,
+                                'bbox': [159, 150, 276, 10],
+                                'category': 3,
+                                'content': ['EXPLORING THE “RUBIK’S'],
+                                'image_id': 1
+                            },
+                            ...
+                        ]
+                    },
+                    ...
                 ],
                 "categories": [
                     {

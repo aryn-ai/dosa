@@ -31,7 +31,7 @@ def test_train():
     parser = argparse.ArgumentParser("DOSA", parents=[get_args_parser()])
     args, unknown = parser.parse_known_args()
     args.epochs = 2
-    args.n_sequence = 128
+    args.n_sequence = 64
     args.data_path = f"{TEST_DIR}/resource/hrdoc"
     with tempfile.TemporaryDirectory() as output_dir:
         args.output_dir = output_dir

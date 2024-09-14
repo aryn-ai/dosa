@@ -98,7 +98,9 @@ class DOSADataset(Dataset):
         for page in ann["pages"]:
             parent.extend([po["parent_id"] for po in page["objects"]])
             sibling.extend([po["sibling_id"] for po in page["objects"]])
-            continuation.extend([po["continuation_id"] for po in page["objects"]])
+            continuation.extend(
+                [po["continuation_id"] for po in page["objects"]]
+            )
 
         target = {
             "parent": torch.tensor(parent, dtype=torch.long),

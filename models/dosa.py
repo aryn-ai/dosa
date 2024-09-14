@@ -71,7 +71,7 @@ class PostProcess(torch.nn.Module):
             of relation we infer, of shape [batch_size, n_sequence, n_sequence]
         :param masks of shape, a boolean Tensor of shape
             [batch_size, n_sequence]
-        :return: a dict of result per sample, each sample is a dict:
+        :return: a list of result per sample, each sample is a dict:
             {
                 "parent": {"labels": xx, "scores": xx},
                 "sibling": {"labels": xx, "scores": xx},
@@ -96,10 +96,20 @@ class PostProcess(torch.nn.Module):
 
 
 class DOSACriterion(torch.nn.Module):
-    def __init__(self, n_sequence: int, loss_weight: dict[str, int]):
+    def __init__(
+        self,
+        n_sequence: int,
+        loss_weight: dict[str, int],
+        continuation_eos: float,
+    ):
         super().__init__()
         self._n_sequence = n_sequence
-        self.loss_weight = loss_weight
+        self._loss_weight = loss_weight
+        self._continuation_eos = continuation_eos
+
+    @property
+    def loss_weight(self):
+        return self._loss_weight
 
     @staticmethod
     def _focal_loss(
@@ -154,8 +164,13 @@ class DOSACriterion(torch.nn.Module):
 
         return masked_loss
 
-    @staticmethod
-    def loss_relation(logits: Tensor, targets: Tensor, masks: Tensor):
+    def weighted_mask_ce(
+        self,
+        logits: Tensor,
+        targets: Tensor,
+        masks: Tensor,
+        eos: bool = False,
+    ):
         # sequence is of variable length, we process each sample individually
         # and sum together across the batch
         loss = []
@@ -163,8 +178,16 @@ class DOSACriterion(torch.nn.Module):
             n_t = masks.shape[-1] - sm.sum()
             lt = sl[:n_t, :n_t]
             tt = st[:n_t]
-            loss.append(F.cross_entropy(lt.transpose(0, 1), tt))
-
+            # loss.append(F.cross_entropy(lt.transpose(0, 1), tt))
+            if eos:
+                ce = F.cross_entropy(lt.transpose(0, 1), tt, reduction="none")
+                condition = (
+                    torch.arange(0, st.shape[-1], dtype=lt.dtype)[:n_t] == tt
+                )
+                tw = torch.where(condition, self._continuation_eos, 1.0)
+                loss.append((ce * tw).mean())
+            else:
+                loss.append(F.cross_entropy(lt.transpose(0, 1), tt))
         loss_ce = torch.stack(loss).mean()
         return loss_ce
 
@@ -174,8 +197,9 @@ class DOSACriterion(torch.nn.Module):
         targets: dict[str, Tensor],
         masks: Tensor,
     ):
-        # TODO, right now it's only relation detection, we should be able to
-        #   bring in page object classification enhancement loss
+        # TODO
+        #   1. bring in page object classification enhancement loss
+        #   2. considering weighted mask focal loss
         """
         :param logits: a list of relation logits, each is of shape
             [batch_size, n_sequence, n_sequence]
@@ -185,6 +209,14 @@ class DOSACriterion(torch.nn.Module):
         :return: a scalar Tensor value for loss of a batch
         """
         loss = {}
+
+        # loss relation
         for name, logit in logits.items():
-            loss[name] = self.loss_relation(logit, targets[name], masks)
+            weight = self._loss_weight[name]
+            loss[name] = (
+                self.weighted_mask_ce(
+                    logit, targets[name], masks, name == "continuation"
+                )
+                * weight
+            )
         return loss

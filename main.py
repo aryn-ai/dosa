@@ -180,6 +180,17 @@ def get_args_parser():
         type=str,
     )
 
+    # Loss coefficients
+    parser.add_argument("--parent_loss", default=1, type=float)
+    parser.add_argument("--sibling_loss", default=1, type=float)
+    parser.add_argument("--continuation_loss", default=1, type=float)
+    parser.add_argument(
+        "--continuation_eos",
+        default=0.1,
+        type=float,
+        help="Relative classification weight for self continuation object",
+    )
+
     # Train
     parser.add_argument("--data_path", default="./dataset/hrdoc/", type=str)
     parser.add_argument(
@@ -263,8 +274,14 @@ def build_dosa(args):
 
 
 def build_criterion(args):
-    loss_weight = {"parent": 1, "sibling": 1, "continuation": 1}
-    criterion = DOSACriterion(args.n_sequence, loss_weight)
+    loss_weight = {
+        "parent": args.parent_loss,
+        "sibling": args.sibling_loss,
+        "continuation": args.continuation_loss,
+    }
+    criterion = DOSACriterion(
+        args.n_sequence, loss_weight, args.continuation_eos
+    )
     return criterion
 
 

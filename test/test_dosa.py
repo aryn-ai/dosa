@@ -61,28 +61,48 @@ def test_postprocess():
 
 
 def test_dosa_criterion():
+    torch.manual_seed(0)
     logits = {
-        "parent": torch.rand(3, 256, 256, requires_grad=True),
-        "sibling": torch.rand(3, 256, 256, requires_grad=True),
-        "continuation": torch.rand(3, 256, 256, requires_grad=True),
+        "parent": torch.rand(3, 16, 16, requires_grad=True),
+        "sibling": torch.rand(3, 16, 16, requires_grad=True),
+        "continuation": torch.rand(3, 16, 16, requires_grad=True),
     }
     targets = {
-        "parent": torch.randint(0, 200, (3, 256)),
-        "sibling": torch.randint(0, 200, (3, 256)),
-        "continuation": torch.randint(0, 200, (3, 256)),
+        "parent": torch.stack(
+            [
+                torch.randint(0, 8, (16,)),
+                torch.randint(0, 12, (16,)),
+                torch.randint(0, 16, (16,)),
+            ]
+        ),
+        "sibling": torch.stack(
+            [
+                torch.randint(0, 8, (16,)),
+                torch.randint(0, 12, (16,)),
+                torch.randint(0, 16, (16,)),
+            ]
+        ),
+        "continuation": torch.stack(
+            [
+                torch.randint(0, 8, (16,)),
+                torch.randint(0, 12, (16,)),
+                torch.randint(0, 16, (16,)),
+            ]
+        ),
     }
     # construct variable length of sequences
     masks = torch.stack(
         [
-            torch.arange(256) > 200,
-            torch.arange(256) > 200,
-            torch.arange(256) > 200,
+            torch.arange(16) >= 8,
+            torch.arange(16) >= 12,
+            torch.arange(16) >= 16,
         ]
     )
 
     criterion = DOSACriterion(
-        256, {"parent": 1, "sibling": 1, "continuation": 1}
+        16, {"parent": 1, "sibling": 1, "continuation": 1}, 0.1
     )
     loss = criterion(logits, targets, masks)
     total = torch.stack(list(loss.values())).sum()
+    assert torch.isclose(total, torch.tensor(7.198613166809082))
     total.backward()

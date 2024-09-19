@@ -19,6 +19,7 @@ from torch.utils.data import (
     DistributedSampler,
 )
 
+from data.evaluator import DosaEvaluator
 from models import (
     LinearProjection,
     Fuse,
@@ -41,7 +42,7 @@ def get_args_parser():
     # Hyper
     parser = argparse.ArgumentParser("Set transformer detector", add_help=False)
     # TODO, potentially learning rate for different layers
-    parser.add_argument("--lr", default=1e-4, type=float)
+    parser.add_argument("--lr", default=2e-4, type=float)
     parser.add_argument("--batch_size", default=2, type=int)
     parser.add_argument("--weight_decay", default=1e-4, type=float)
     parser.add_argument("--epochs", default=50, type=int)
@@ -185,7 +186,7 @@ def get_args_parser():
     parser.add_argument("--sibling_loss", default=1, type=float)
     parser.add_argument("--continuation_loss", default=1, type=float)
     parser.add_argument(
-        "--continuation_eos",
+        "--sco",
         default=0.1,
         type=float,
         help="Relative classification weight for self continuation object",
@@ -199,7 +200,7 @@ def get_args_parser():
         help="path where to save, empty for no saving",
     )
     parser.add_argument(
-        "--device", default="cpu", help="device to use for training / testing"
+        "--device", default="cuda", help="device to use for training / testing"
     )
     parser.add_argument("--seed", default=42, type=int)
     parser.add_argument("--resume", default="", help="resume from checkpoint")
@@ -279,9 +280,7 @@ def build_criterion(args):
         "sibling": args.sibling_loss,
         "continuation": args.continuation_loss,
     }
-    criterion = DOSACriterion(
-        args.n_sequence, loss_weight, args.continuation_eos
-    )
+    criterion = DOSACriterion(args.n_sequence, loss_weight, args.sco)
     return criterion
 
 
@@ -369,12 +368,14 @@ def train_one_epoch(
 
 
 @torch.no_grad()
-def evaluate(model, criterion, data_loader, device):
+def evaluate_one_epoch(model, criterion, postprocessor, data_loader, device):
     model.eval()
     criterion.eval()
 
     metric_logger = MetricLogger(delimiter="  ")
     header = "Test:"
+
+    evaluator = DosaEvaluator(device)
 
     for samples, targets in metric_logger.log_every(data_loader, 10, header):
         samples = {k: v.to(device) for k, v in samples.items()}
@@ -393,8 +394,14 @@ def evaluate(model, criterion, data_loader, device):
         loss_value = sum(loss_reduced_scaled.values()).item()
         metric_logger.update(loss=loss_value, **loss_reduced_scaled)
 
+        results = postprocessor(outputs, samples["masks"])
+        evaluator.update(results, targets, samples["masks"])
+
     # gather the stats from all processes
     metric_logger.synchronize_between_processes()
+    evaluator.synchronize_between_processes()
+    evaluator.summarize()
+
     print("Averaged stats:", metric_logger)
     stats = {k: meter.global_avg for k, meter in metric_logger.meters.items()}
     return stats
@@ -443,8 +450,10 @@ def train(args):
     # load model
     model = build_dosa(args)
     criterion = build_criterion(args)
+    postprocessor = PostProcess()
     model.to(device)
     criterion.to(device)
+    postprocessor.to(device)
 
     model_without_ddp = model
     n_parameters = sum(p.numel() for p in model.parameters() if p.requires_grad)
@@ -544,7 +553,7 @@ def train(args):
         lr_scheduler.step()
         if args.output_dir:
             checkpoint_paths = [output_dir / "checkpoint.pth"]
-            # extra checkpoint before LR drop and every 100 epochs
+            # extra checkpoint before LR drop and every 5 epochs
             if (epoch + 1) % args.lr_drop == 0 or (epoch + 1) % 5 == 0:
                 checkpoint_paths.append(
                     output_dir / f"checkpoint{epoch:04}.pth"
@@ -561,7 +570,9 @@ def train(args):
                     checkpoint_path,
                 )
 
-        test_stats = evaluate(model, criterion, data_loader_val, device)
+        test_stats = evaluate_one_epoch(
+            model, criterion, postprocessor, data_loader_val, device
+        )
 
         log_stats = {
             **{f"train_{k}": v for k, v in train_stats.items()},
@@ -586,4 +597,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if args.output_dir:
         Path(args.output_dir).mkdir(parents=True, exist_ok=True)
+    else:
+        raise ValueError("Missing argument output_dir in training")
     train(args)

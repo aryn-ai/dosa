@@ -14,8 +14,13 @@ def build_dataset(image_set, args):
         root.exists()
     ), f"provided path {root} to custom dataset does not exist"
 
+    extractor = FPNFeatureMapExtractor(batch_size=args.visual_batch_size)
+    embedder = SentenceTransformerEmbeder(batch_size=args.semantic_batch_size)
     preprocessor = PreProcessor(
-        args.n_sequence, FPNFeatureMapExtractor(), SentenceTransformerEmbeder()
+        args.n_sequence,
+        extractor,
+        embedder,
+        device=args.device,
     )
 
     training = "train.json"

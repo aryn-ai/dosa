@@ -168,8 +168,8 @@ class MetricLogger(object):
                     "[{0" + space_fmt + "}/{1}]",
                     "eta: {eta}",
                     "{meters}",
-                    "time: {time}",
-                    "data: {data}",
+                    "iter time: {time}",
+                    "data time: {data}",
                     "max mem: {memory:.0f}",
                 ]
             )
@@ -180,8 +180,8 @@ class MetricLogger(object):
                     "[{0" + space_fmt + "}/{1}]",
                     "eta: {eta}",
                     "{meters}",
-                    "time: {time}",
-                    "data: {data}",
+                    "iter time: {time}",
+                    "data time: {data}",
                 ]
             )
         MB = 1024.0 * 1024.0

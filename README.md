@@ -32,7 +32,7 @@ code_root/
 For example, the command for training DOSA on 8 GPUs is as following:
 
 ```bash
-GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 8 ./tools/train_dosa.sh
+GPUS=8 GPUS_PER_NODE=8 ./tools/run_dist_launch.sh
 ```
 
 #### Training on multiple nodes
@@ -42,11 +42,11 @@ For example, the command for training DOSA on 2 nodes of each with 8 GPUs is as 
 On node 1:
 
 ```bash
-MASTER_ADDR=<IP address of node 1> NODE_RANK=0 GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 16 ./tools/train_dosa.sh
+MASTER_ADDR=<IP address of node 1> NODE_RANK=0 GPUS=16 GPUS_PER_NODE=8 ./tools/run_dist_launch.sh
 ```
 
 On node 2:
 
 ```bash
-MASTER_ADDR=<IP address of node 1> NODE_RANK=1 GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 16 ./tools/train_dosa.sh
+MASTER_ADDR=<IP address of node 1> NODE_RANK=1 GPUS=16 GPUS_PER_NODE=8 ./tools/run_dist_launch.sh
 ```

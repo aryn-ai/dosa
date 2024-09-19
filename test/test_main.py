@@ -9,6 +9,7 @@ from test.loader import ObjectDetectionLoader
 def test_infer():
     parser = argparse.ArgumentParser("DOSA", parents=[get_args_parser()])
     args, unknown = parser.parse_known_args()
+    args.device = "cpu"
     preprocessor, model, postprocessor = init_model(args)
 
     doc_objects = [
@@ -33,6 +34,7 @@ def test_train():
     args.epochs = 2
     args.n_sequence = 64
     args.data_path = f"{TEST_DIR}/resource/hrdoc"
+    args.device = "cpu"
     with tempfile.TemporaryDirectory() as output_dir:
         args.output_dir = output_dir
         train(args)

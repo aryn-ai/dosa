@@ -41,7 +41,7 @@ def test_postprocess():
         "sibling": torch.rand(3, 16, 16),
         "continuation": torch.rand(3, 16, 16),
     }
-    lengths = torch.randint(1, 16, (3,))
+    lengths = torch.tensor([8, 3, 16])
     masks = torch.stack(
         [
             torch.arange(16) >= lengths[0],
@@ -104,5 +104,5 @@ def test_dosa_criterion():
     )
     loss = criterion(logits, targets, masks)
     total = torch.stack(list(loss.values())).sum()
-    assert torch.isclose(total, torch.tensor(7.198613166809082))
+    assert torch.isclose(total, torch.tensor(26.9486))
     total.backward()

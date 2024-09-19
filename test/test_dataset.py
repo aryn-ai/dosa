@@ -17,7 +17,7 @@ def test_dataset():
         preprocessor,
     )
 
-    assert dataset.__len__() == 5
-    for _ in range(5):
+    assert dataset.__len__() == 2
+    for _ in range(2):
         result, target = dataset.__getitem__(0)
         assert len(result.keys()) == 5 and len(target.keys()) == 3

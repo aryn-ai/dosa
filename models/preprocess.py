@@ -90,12 +90,10 @@ class SemanticEmbeder(torch.nn.Module):
     def forward(
         self,
         doc_contents: list[list[str]],
-        embedding_batch_size: int = 1,
     ) -> list[Tensor]:
         """
         :param doc_contents: a list of content per page, contents in each page
             is a list of string
-        :param embedding_batch_size: batch size for embedding
         :return: list of Tensor per page
         """
         pass
@@ -182,19 +180,37 @@ class PreProcessor(torch.nn.Module):
         assert 0 <= padding < 256, f"Invalid sequence length {padding}"
 
         visuals = torch.concat(
-            [visuals, torch.zeros([padding, *visuals.shape[1:]])],
+            [
+                visuals,
+                torch.zeros([padding, *visuals.shape[1:]], device=self._device),
+            ],
             dim=0,
         )
         semantics = torch.concat(
-            [semantics, torch.zeros([padding, *semantics.shape[1:]])],
+            [
+                semantics,
+                torch.zeros(
+                    [padding, *semantics.shape[1:]], device=self._device
+                ),
+            ],
             dim=0,
         )
         dimensions = torch.concat(
-            [dimensions, torch.zeros([padding, *dimensions.shape[1:]])],
+            [
+                dimensions,
+                torch.zeros(
+                    [padding, *dimensions.shape[1:]], device=self._device
+                ),
+            ],
             dim=0,
         )
         positions = torch.concat(
-            [positions, torch.zeros([padding, *positions.shape[1:]])],
+            [
+                positions,
+                torch.zeros(
+                    [padding, *positions.shape[1:]], device=self._device
+                ),
+            ],
             dim=0,
         )
         masks = torch.arange(self._n_sequence, device=self._device) >= length

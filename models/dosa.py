@@ -64,11 +64,12 @@ class DOSA(torch.nn.Module):
 
 class PostProcess(torch.nn.Module):
     @torch.no_grad()
-    def forward(self, inputs: dict[str, Tensor], masks: Tensor):
+    def forward(self, outputs: dict[str, Tensor], masks: Tensor):
         """
         The forward expects relation logits output from DOSA
-        :param inputs: a dict of relation logits, each corresponds to one class
-            of relation we infer, of shape [batch_size, n_sequence, n_sequence]
+        :param outputs: a dict of relation logits, each corresponds to one class
+            of relation output from model dosa, of shape
+            [batch_size, n_sequence, n_sequence]
         :param masks of shape, a boolean Tensor of shape
             [batch_size, n_sequence]
         :return: a list of result per sample, each sample is a dict:
@@ -79,7 +80,7 @@ class PostProcess(torch.nn.Module):
             }
         """
         results = []
-        for name, logits in inputs.items():
+        for name, logits in outputs.items():
             result = []
             for logit, mask in zip(logits, masks):
                 # truncate the tensor to non-padding token only
@@ -100,12 +101,12 @@ class DOSACriterion(torch.nn.Module):
         self,
         n_sequence: int,
         loss_weight: dict[str, int],
-        continuation_eos: float,
+        sco: float,
     ):
         super().__init__()
         self._n_sequence = n_sequence
         self._loss_weight = loss_weight
-        self._continuation_eos = continuation_eos
+        self._sco = sco
 
     @property
     def loss_weight(self):
@@ -164,36 +165,40 @@ class DOSACriterion(torch.nn.Module):
 
         return masked_loss
 
+    @staticmethod
     def weighted_mask_ce(
-        self,
         logits: Tensor,
         targets: Tensor,
         masks: Tensor,
-        eos: bool = False,
+        eos: float = None,
     ):
+        """This handles self relation imbalance issue"""
         # sequence is of variable length, we process each sample individually
         # and sum together across the batch
         loss = []
-        for sl, st, sm in zip(logits, targets, masks):
-            n_t = masks.shape[-1] - sm.sum()
-            lt = sl[:n_t, :n_t]
-            tt = st[:n_t]
+        for logit, target, mask in zip(logits, targets, masks):
+            n_truncated = masks.shape[-1] - mask.sum()
+            lt = logit[:n_truncated, :n_truncated]
+            tt = target[:n_truncated]
             # loss.append(F.cross_entropy(lt.transpose(0, 1), tt))
             if eos:
-                ce = F.cross_entropy(lt.transpose(0, 1), tt, reduction="none")
+                ce = F.cross_entropy(lt, tt, reduction="none")
                 condition = (
-                    torch.arange(0, st.shape[-1], dtype=lt.dtype)[:n_t] == tt
+                    torch.arange(
+                        0, target.shape[-1], dtype=lt.dtype, device=masks.device
+                    )[:n_truncated]
+                    == tt
                 )
-                tw = torch.where(condition, self._continuation_eos, 1.0)
+                tw = torch.where(condition, eos, 1.0 / eos)
                 loss.append((ce * tw).mean())
             else:
-                loss.append(F.cross_entropy(lt.transpose(0, 1), tt))
+                loss.append(F.cross_entropy(lt, tt))
         loss_ce = torch.stack(loss).mean()
         return loss_ce
 
     def forward(
         self,
-        logits: dict[str, Tensor],
+        outputs: dict[str, Tensor],
         targets: dict[str, Tensor],
         masks: Tensor,
     ):
@@ -201,22 +206,30 @@ class DOSACriterion(torch.nn.Module):
         #   1. bring in page object classification enhancement loss
         #   2. considering weighted mask focal loss
         """
-        :param logits: a list of relation logits, each is of shape
+        :param outputs: a dict of relation logits output from dosa corresponding
+            to parent, sibling and continuation, each is of shape
             [batch_size, n_sequence, n_sequence]
-        :param targets: a list of targets, each is of shape
-            [batch_size, n_sequence]
+        :param targets: a dict of targets corresponding to parent, sibling and
+            continuation, each is of shape [batch_size, n_sequence]
         :param masks: mask, boolean Tensor of shape [batch_size, n_sequence]
         :return: a scalar Tensor value for loss of a batch
         """
-        loss = {}
-
-        # loss relation
-        for name, logit in logits.items():
-            weight = self._loss_weight[name]
-            loss[name] = (
-                self.weighted_mask_ce(
-                    logit, targets[name], masks, name == "continuation"
-                )
-                * weight
+        loss = {
+            "parent": self.weighted_mask_ce(
+                outputs["parent"], targets["parent"], masks
             )
+            * self._loss_weight["parent"],
+            "sibling": self.weighted_mask_ce(
+                outputs["sibling"], targets["sibling"], masks
+            )
+            * self._loss_weight["sibling"],
+            "continuation": self.weighted_mask_ce(
+                outputs["continuation"],
+                targets["continuation"],
+                masks,
+                self._sco,
+            )
+            * self._loss_weight["continuation"],
+        }
+
         return loss

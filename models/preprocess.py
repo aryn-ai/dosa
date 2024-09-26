@@ -130,6 +130,7 @@ class SentenceTransformerEmbeder(SemanticEmbeder):
 
 
 class PreProcessor(torch.nn.Module):
+    # TODO, offload the device to each function call?
     def __init__(
         self,
         n_sequence: int,
@@ -177,7 +178,9 @@ class PreProcessor(torch.nn.Module):
         # pad visuals and semantics to max sequence and generate masks
         length = visuals.size(0)
         padding = self._n_sequence - length
-        assert 0 <= padding < 256, f"Invalid sequence length {padding}"
+        assert (
+            0 <= padding < self._n_sequence
+        ), f"Invalid sequence length {padding}"
 
         visuals = torch.concat(
             [
@@ -220,12 +223,12 @@ class PreProcessor(torch.nn.Module):
     @torch.no_grad()
     def forward(self, objects):
         """
-        :param objects: page object info, including:
-            a list of images containing related page object
-            a list of content corresponding to those related page objects
-            a list of bounding boxes tensor per page
-            a list of labels tensor per page
-            a list of fonts tensor per page
+        :param objects: a list of pages, each page is dictionary containing:
+            image: the image containing page objects
+            boxes: bounding boxes tensor per page
+            labels: labels tensor per page
+            contents: content tensor corresponding to each page object
+            fonts: fonts tensor for each page object per page
         :return: a dict of 4 tensors:
             visual embedding of shape n_sequence x CWH
             semantic embedding of shape n_sequence x d_embedding

@@ -1,7 +1,7 @@
 import argparse
-import tempfile
 
-from main import get_args_parser, init_model, infer, train
+from args import get_args_parser
+from infer import init_model, infer
 from test.config import TEST_DIR
 from test.loader import ObjectDetectionLoader
 
@@ -10,6 +10,7 @@ def test_infer():
     parser = argparse.ArgumentParser("DOSA", parents=[get_args_parser()])
     args, unknown = parser.parse_known_args()
     args.device = "cpu"
+    args.resume = (TEST_DIR / "resource/weights/checkpoint.pth").as_posix()
     preprocessor, model, postprocessor = init_model(args)
 
     doc_objects = [
@@ -26,15 +27,3 @@ def test_infer():
     result = infer(preprocessor, model, postprocessor, list(doc_objects))
     assert len(result[0]["parent"]["labels"]) == 69
     assert len(result[1]["parent"]["labels"]) == 116
-
-
-def test_train():
-    parser = argparse.ArgumentParser("DOSA", parents=[get_args_parser()])
-    args, unknown = parser.parse_known_args()
-    args.epochs = 2
-    args.n_sequence = 64
-    args.data_path = f"{TEST_DIR}/resource/hrdoc"
-    args.device = "cpu"
-    with tempfile.TemporaryDirectory() as output_dir:
-        args.output_dir = output_dir
-        train(args)

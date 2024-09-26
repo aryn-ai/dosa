@@ -17,4 +17,4 @@ torchrun \
     --master_addr ${MASTER_ADDR} \
     --master_port ${MASTER_PORT} \
     --nproc_per_node ${GPUS_PER_NODE} \
-    main.py ${RUN_OPTIONS}
+    train.py ${RUN_OPTIONS}

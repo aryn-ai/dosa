@@ -11,6 +11,8 @@ class DosaEvaluator(object):
     single relation type and average over them.
     """
 
+    # TODO, add TED as one more tree edit distance
+    #   also, plotting the evaluation result
     def __init__(self, device):
         self.parent = 0.0
         self.sibling = 0.0
@@ -27,8 +29,6 @@ class DosaEvaluator(object):
             sibling = targets["sibling"][sid][:truncated]
             continuation = targets["continuation"][sid][:truncated]
 
-            # TODO, should compute the precision each sample and average
-            #   over the whole
             self.parent += (
                 prediction["parent"]["labels"] == parent
             ).sum() / truncated
@@ -49,6 +49,7 @@ class DosaEvaluator(object):
             dtype=torch.float64,
             device=self.device,
         )
+        # TODO, this barrier is duplicated?
         dist.barrier()
         dist.all_reduce(t)
         t = t.tolist()

@@ -46,7 +46,7 @@ class DOSA(torch.nn.Module):
         """
         visuals, semantics, measurement, category, positions, masks = samples
         visuals, semantics = self._backbone(visuals, semantics)
-        fused_features = self._fuse(visuals, semantics, measurement, category)
+        fused_features = self._fuse(visuals, semantics, category)
         position_encodings = self._position(positions)
         enhanced = self._transformer(
             src=fused_features,

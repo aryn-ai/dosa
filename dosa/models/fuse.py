@@ -31,7 +31,6 @@ class Fuse(nn.Module):
         self,
         visual: LinearProjection,
         semantic: LinearProjection,
-        measurement: LinearProjection,
         category: LinearProjection,
         d_fused: int,
         d_hidden: int,
@@ -42,7 +41,6 @@ class Fuse(nn.Module):
         super().__init__()
         self._visual = visual
         self._semantic = semantic
-        self._measurement = measurement
         self._category = category
 
         self._linear1 = nn.Linear(d_fused, d_hidden)
@@ -56,7 +54,6 @@ class Fuse(nn.Module):
         self,
         visual: Tensor,
         semantic: Tensor,
-        measurement: Tensor,
         category: Tensor,
     ) -> Tensor:
         """
@@ -75,14 +72,12 @@ class Fuse(nn.Module):
         """
         visual_features = self._visual(visual)
         semantic_features = self._semantic(semantic)
-        measurement_features = self._measurement(measurement)
         category_features = self._category(category)
 
         fused = torch.concat(
             [
                 visual_features,
                 semantic_features,
-                measurement_features,
                 category_features,
             ],
             dim=2,

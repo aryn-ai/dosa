@@ -31,22 +31,17 @@ def build_dosa(args):
     semantic = LinearProjection(
         d_in=args.d_semantic_in, d_out=args.d_semantic_out
     )
-    measurement = LinearProjection(
-        d_in=args.d_measurement_in, d_out=args.d_measurement_out
-    )
     category = LinearProjection(
         d_in=args.d_category_in, d_out=args.d_category_out
     )
     d_fused = (
         args.d_visual_out
         + args.d_semantic_out
-        + args.d_measurement_out
         + args.d_category_out
     )
     fuse = Fuse(
         visual=visual,
         semantic=semantic,
-        measurement=measurement,
         category=category,
         d_fused=d_fused,
         d_hidden=args.d_fuse_hidden,
